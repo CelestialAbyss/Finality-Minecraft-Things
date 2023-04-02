@@ -1,0 +1,1 @@
+recipes.remove(<item:mob_grinding_utils:fan>);
