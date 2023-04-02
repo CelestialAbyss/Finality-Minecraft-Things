@@ -1,4 +1,4 @@
-// Removed mysticalagriculture furnace recipes.
+// Removed mysticalagriculture furnace recipes
 recipes.remove(<item:mysticalagriculture:inferium_furnace>);
 recipes.remove(<item:mysticalagriculture:prudentium_furnace>);
 recipes.remove(<item:mysticalagriculture:tertium_furnace>);
