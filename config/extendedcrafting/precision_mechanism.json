@@ -1,0 +1,10 @@
+{
+    "name": "Precision Mechanism",
+    "colors": [
+      "a7a7a7",
+      "f8ca67"
+    ],
+    "ingredient": {
+      "item": "create:precision_mechanism"
+    }
+  }

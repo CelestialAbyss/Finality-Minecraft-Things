@@ -1,0 +1,10 @@
+{
+  "name": "Gunpowder",
+  "colors": [
+    "888888",
+    "3d3d3d"
+  ],
+  "ingredient": {
+    "item": "minecraft:gunpowder"
+  }
+}

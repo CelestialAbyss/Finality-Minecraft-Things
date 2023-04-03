@@ -1,0 +1,10 @@
+{
+    "name": "Cyan Concrete",
+    "colors": [
+      "2dc2c2",
+      "146e7e"
+    ],
+    "ingredient": {
+      "item": "minecraft:cyan_concrete"
+    }
+  }
