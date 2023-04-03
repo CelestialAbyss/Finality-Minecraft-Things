@@ -1,4 +1,8 @@
 import mods.createtweaker.CompactingRecipe;
+
+<recipetype:create:compacting>.addRecipe("renewable_diamond", <constant:create:heat_condition:superheated>, [<item:minecraft:diamond>], [<item:minecraft:coal_block> * 9], [<fluid:minecraft:lava> * 1000], 1200);
+
+/* Legacy JSON recipe for renewable diamond
 <recipetype:create:compacting>.addJsonRecipe("diamond", {
   "type": "create:compacting",
   "ingredients": [
@@ -43,3 +47,4 @@ import mods.createtweaker.CompactingRecipe;
   "heatRequirement": "superheated"
 }
 );
+*/
