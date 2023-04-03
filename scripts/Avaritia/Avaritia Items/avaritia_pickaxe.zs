@@ -1,0 +1,11 @@
+mods.extendedcrafting.TableCrafting.addShaped("8d1c1c0d-0719-45d8-be53-38e889a7e2c5", 0, <item:avaritia:infinity_pickaxe>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_catalyst>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>], 
+	[<item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:neutronium_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>], 
+	[<item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);

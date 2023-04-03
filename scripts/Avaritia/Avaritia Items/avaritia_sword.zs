@@ -1,0 +1,11 @@
+mods.extendedcrafting.TableCrafting.addShaped("4ff6e67c-fcac-4e51-b821-e929fcd2fd3c", 0, <item:avaritia:infinity_sword>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:crystal_matrix_ingot>, <item:minecraft:air>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:avaritia:crystal_matrix_block>, <item:avaritia:infinity_ingot>, <item:avaritia:infinity_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:avaritia:crystal_matrix_block>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutronium_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:crystal_matrix_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:avaritia:infinity_catalyst>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);

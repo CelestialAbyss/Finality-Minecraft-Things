@@ -1,0 +1,11 @@
+mods.extendedcrafting.TableCrafting.addShaped("be089bc3-ca63-4edd-8e17-c488c63a51ac", 0, <item:avaritia:skullfire_sword>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:blaze_powder>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:blaze_powder>, <item:minecraft:netherite_ingot>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:blaze_powder>, <item:minecraft:netherite_ingot>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:blaze_powder>, <item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:bone>, <item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:blaze_powder>, <item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:bone>, <item:avaritia:crystal_matrix_ingot>, <item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:oak_log>, <item:minecraft:bone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:oak_log>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:bone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:nether_star>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
