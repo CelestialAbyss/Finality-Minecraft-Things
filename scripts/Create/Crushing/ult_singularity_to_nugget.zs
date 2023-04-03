@@ -1,6 +1,6 @@
 import mods.createtweaker.CrushingRecipe;
 // Forgot to add processing time ;-;
-<recipetype:create:crushing>.addRecipe("ultimate_nugget", [<item:extendedcrafting:the_ultimate_nugget>, <item:extendedcrafting:the_ultimate_nugget> % 50, <item:extendedcrafting:the_ultimate_nugget> % 25], <item:extendedcrafting:ultimate_singularity>, 1200);
+<recipetype:create:crushing>.addRecipe("ultimate_nugget", [<item:extendedcrafting:the_ultimate_nugget>, <item:extendedcrafting:the_ultimate_nugget> % 25], <item:extendedcrafting:ultimate_singularity>, 1200);
 
 /* Legacy JSON
 <recipetype:create:crushing>.addJsonRecipe("ultimate_nugget", {
