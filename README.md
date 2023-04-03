@@ -1,4 +1,4 @@
-# Hi there!
+# 𝌤 Singularity 𝌤
 This is where I will keep my ZenScript and JSON recipe scripts for use with CraftTweaker and CreateTweaker exclusively for my modpack Singularity. 
 
 <a href="https://"><img src="https://img.shields.io/badge/Available_for-1.18.2%2C_1.19.2-2ea44f" alt="Available for - 1.18.2, 1.19.2"></a> <a href="https://"><img src="https://img.shields.io/badge/Liscense-MIT-blueviolet" alt="Liscense - MIT"></a>
