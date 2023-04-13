@@ -1,5 +1,5 @@
 # <p align="center" dir="auto">𝌤 Finality 𝌤</p>
-<p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available_for-1.18.2%2C_1.19.2-2ea44f" alt="Available for - 1.18.2, 1.19.2"></a> <a href="https://"><img src="https://img.shields.io/badge/Liscense-MIT-blueviolet" alt="Liscense - MIT"></a></p>
+<p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available_for-1.19.2%2C_1.18.2-2ea44f" alt="Available for - 1.19.2, 1.18.2"></a> <a href="https://"><img src="https://img.shields.io/badge/Liscense-MIT-blueviolet" alt="Liscense - MIT"></a></p>
 
 This is where I will keep my ZenScript and JSON recipe scripts for use with CraftTweaker and CreateTweaker which are both dependencies to be able to use all the scripts here. For those who are better suited with JSON only, then please feel free to rewrite into pure JSON and use OpenLoader.
 
