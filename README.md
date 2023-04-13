@@ -1,6 +1,8 @@
 # <p align="center" dir="auto">𝌤 Finality 𝌤</p>
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available%20for-1.19.2%E2%94%831.18.2-orange"></a> <a href="https://"><img src="https://img.shields.io/badge/Liscense-MIT-blueviolet"></a></p>
 
+<a href="https://github.com/CelestialAbyss/Create-Customized" title="github.com/CelestialAbyss/Create-Customized" rel="nofollow">I have moved my Create custom recipes here, if you are looking for those.</a>
+
 This is where I will keep my ZenScript and JSON recipe scripts for use with CraftTweaker and CreateTweaker which are both dependencies to be able to use all the scripts here. For those who are better suited with JSON only, then please feel free to rewrite into pure JSON and use OpenLoader.
 
 There is also code for modifying the vanilla Create recipes and material utilization with renewable materials. I aim to make the renewable recipes as realistic as possible considering the composition of elements as well.
