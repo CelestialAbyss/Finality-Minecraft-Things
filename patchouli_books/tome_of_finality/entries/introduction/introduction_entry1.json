@@ -1,0 +1,25 @@
+{
+    "name": "Tutorial",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:introduction_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If you have not done so already: To access FTB Quests, open your inventory by pressing E and clicking the book on the very top left corner of the game window. $(br2)With that out of the way, I would also highly recommend not wearing the Ring of the Seven Curses until you are ready to suffer."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:cursed_ring",
+            "text": "Read the tooltip very carefully. This ring becomes permanently attached to you. $(br2)There is also another accessory that you arrived with, it's called the Enigmatic Amulet. $(br2)Continue on to the next page."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Now, prepare yourself by getting some wood by punching down some trees before night hits. $(br2)Let's just say the night has become significantly more dangerous."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:enigmatic_amulet",
+            "text": "There is no gravestone mod. Instead, you will have this amulet which transforms into a vessel that stores your items upon death. $(br2)Be careful though, if you die again before re-acquiring the vessel, it will shatter and drop your items."
+        }
+    ]
+}
