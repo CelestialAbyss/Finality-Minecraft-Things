@@ -2,7 +2,7 @@ import mods.create.SequencedAssemblyManager;
 // Creativerite Ingot assembly
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_creativerite_ingot")
                                                       .transitionTo(<item:create:unprocessed_obsidian_sheet>)
-                                                      .require(<item:minecraft:netherite_ingot>)
+                                                      .require(<item:upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot>)
                                                       .loops(16)
                                                       .addOutput(<item:upgradednetherite_creative:creative_upgraded_netherite_ingot> * 1, 120)
                                                       .addOutput(<item:extendedcrafting:ultimate_singularity>, 8)
@@ -13,7 +13,7 @@ import mods.create.SequencedAssemblyManager;
                                                       .addOutput(<item:mysticalagriculture:prosperity_shard>, 1)
                                                       .addOutput(<item:minecraft:netherite_block>, 1)
                                                       .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 500))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:extendedcrafting:ultimate_singularity>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:extendedcrafting:the_ultimate_catalyst>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:create:unprocessed_obsidian_sheet>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:create:unprocessed_obsidian_sheet>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:create:unprocessed_obsidian_sheet>))

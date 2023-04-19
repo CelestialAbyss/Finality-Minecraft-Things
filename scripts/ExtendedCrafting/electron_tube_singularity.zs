@@ -1,0 +1,6 @@
+<recipetype:create:mechanical_crafting>.addRecipe("electron_tube_singularity", (<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electron_tube"}) * 1), [
+    [<item:minecraft:diamond>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:diamond>,], 
+    [<item:minecraft:diamond>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:nether_star>, <item:minecraft:iron_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:diamond>,], 
+    [<item:minecraft:diamond>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:nether_star>, <item:minecraft:iron_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:diamond>,],
+    [<item:minecraft:diamond>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:diamond>,]
+    ]);

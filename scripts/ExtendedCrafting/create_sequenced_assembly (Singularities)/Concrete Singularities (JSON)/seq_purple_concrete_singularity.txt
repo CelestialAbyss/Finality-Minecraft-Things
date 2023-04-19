@@ -1,0 +1,71 @@
+import mods.createtweaker.IAssemblyRecipe;
+// White Concrete
+<recipetype:create:sequenced_assembly>.addJsonRecipe("purple_concrete_singularity", {
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:purple_concrete"
+  },
+  "loops": 256,
+  "results": [
+    {
+    "type": "forge:nbt",
+    "item": "extendedcrafting:singularity",
+      "nbt": {
+      "Id": "extendedcrafting:concrete_purple"
+      }
+    },
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:purple_concrete_powder"
+        },
+        {
+          "item": "minecraft:purple_concrete_powder"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "extendedcrafting:ultimate_singularity"
+  }
+}
+);

@@ -54,5 +54,3 @@
 ((<item:minecraft:netherite_leggings>.maxDamage = 1024));
 ((<item:minecraft:netherite_boots>.maxDamage = 1024));
 ((<item:minecraft:netherite_hoe>.maxDamage = 1024));
-
-((<item:upgradednetherite:netherite_shield>.maxDamage = 1024));

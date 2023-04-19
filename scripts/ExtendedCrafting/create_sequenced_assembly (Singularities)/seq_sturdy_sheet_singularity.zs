@@ -1,0 +1,12 @@
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_sturdy_sheet_singularity")
+                                                      .transitionTo(<item:extendedcrafting:singularity>)
+                                                      .require(<item:create:sturdy_sheet>)
+                                                      .loops(16)
+                                                      .addOutput(<item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:sturdy_sheet"}) * 1, 100)
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 25))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:sturdy_sheet>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.require(<item:extendedcrafting:singularity>))
+                                                      );
