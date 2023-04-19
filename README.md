@@ -1,6 +1,6 @@
 # <p align="center" dir="auto"><a href="https://"><img src="https://i.imgur.com/nMSU04Q.png"></a></p>
 
-### <p align="center" dir="auto"> Hey! This is the 1.19.2 version. </p>
+### <p align="center" dir="auto"> Hey! This is the 1.18.2 version. </p>
 ### <p align="center" dir="auto">𝌤 Pushing Create to its limits. 𝌤</p>
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/1.19.2%20Modpack%20variant%20status-In%20progress-b1a0ff"></a> <a href="https://"><img src="https://img.shields.io/badge/1.18.2%20Modpack%20variant%20status-In%20progress-b1a0ff"></a></p>
 
