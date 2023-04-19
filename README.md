@@ -2,7 +2,7 @@
 
 ### <p align="center" dir="auto"> Hey! This is the 1.18.2 version. </p>
 ### <p align="center" dir="auto">𝌤 Pushing Create to its limits. 𝌤</p>
-<p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/1.19.2%20Modpack%20variant%20status-In%20progress-b1a0ff"></a> <a href="https://"><img src="https://img.shields.io/badge/1.18.2%20Modpack%20variant%20status-In%20progress-b1a0ff"></a></p>
+<p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/1.19.2%20Modpack%20variant%20status-In%20progress-EB459E"></a> <a href="https://"><img src="https://img.shields.io/badge/1.18.2%20Modpack%20variant%20status-In%20progress-8847ff"></a></p>
 
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available%20for-1.19.2%E2%94%831.18.2-orange"></a> <a href="https://"><img alt="Discord" src="https://img.shields.io/discord/734146194397200424?color=%235865F2&label=Discord&logo=discord&logoColor=%23FFFFFF"></a> <a href="https://"><img src="https://img.shields.io/badge/Liscense-MIT-blueviolet"></a></p>
 
