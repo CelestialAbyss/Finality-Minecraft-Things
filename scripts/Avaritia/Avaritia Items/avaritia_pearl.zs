@@ -1,3 +1,4 @@
+recipes.removeByName("avaritia:endest_pearl");
 mods.extendedcrafting.TableCrafting.addShaped("2e8441cd-cc32-4b9b-874c-927958e37b66", 0, <item:avaritia:endest_pearl>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:ender_pearl>, <item:minecraft:ender_pearl>, <item:minecraft:ender_pearl>, <item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:air>], 
