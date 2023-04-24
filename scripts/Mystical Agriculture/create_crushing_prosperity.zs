@@ -17,5 +17,4 @@ import mods.createtweaker.CrushingRecipe;
       "item": "mysticalagriculture:prosperity_seed_base"
     },
   ]
-}
-);
+});

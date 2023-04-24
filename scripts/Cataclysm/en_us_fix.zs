@@ -31,7 +31,6 @@
     tooltip.insert(3, "§6Entities that collide with a wall are stunned from the impact and take additional damage.");
     tooltip.insert(4, "§5CelestialAbyss: If any green text (not the weapon stats) shows up below, then something has changed in the item's tooltip.");
 });
-
 <item:cataclysm:void_scatter_arrow>.modifyTooltip((item, tooltip, flags) => {
     tooltip.insert(1, "§6This arrow explodes on impact, creating many fragments in the process.");
     tooltip.insert(2, "§5CelestialAbyss: If any green text (not the weapon stats) shows up below, then something has changed in the item's tooltip.");
