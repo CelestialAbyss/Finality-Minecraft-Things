@@ -1,0 +1,11 @@
+onEvent('recipes', event => {
+    event.remove({mod:'avaritia'})
+    event.remove({output: 'mysticalagriculture:inferium_furnace'})
+    event.remove({output: 'mysticalagriculture:prudentium_furnace'})
+    event.remove({output: 'mysticalagriculture:tertium_furnace'})
+    event.remove({output: 'mysticalagriculture:imperium_furnace'})
+    event.remove({output: 'mysticalagriculture:supremium_furnace'})
+    event.remove({output: 'projecte:dm_furnace'})
+    event.remove({output: 'projecte:rm+furnace'})
+    event.remove({output: 'mob_grinding_utils:fan'})
+})

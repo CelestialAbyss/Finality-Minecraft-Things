@@ -1,1 +1,0 @@
-mods.avaritia.ExtremeCrafting.remove("infinity_catalyst");
