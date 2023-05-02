@@ -1,0 +1,16 @@
+{
+    "name": "Mechanical Power",
+    "icon": "create:stressometer",
+    "category": "patchouli:momentum_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Everything in Create utilizes a different unit of power called $(3)su$(), which is short for $(3)stress units$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:sturdy_sheet",
+            "text": "Primarily used for making Create Logistics train related things.$(br2)The recipe involves a Spout pouring lava on the first step, then two Mechanical Presses to forge the Sturdy Sheets."
+        }
+    ]
+}

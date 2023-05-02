@@ -1,4 +1,8 @@
 onEvent('item.modification', event => {
+    // shields
+    event.modify('upgradednetherite:netherite_shield', item => {
+        item.maxDamage = 1024
+    })
     // tools
     // gold netherite
     event.modify('upgradednetherite:gold_upgraded_netherite_upgraded_netherite_sword', item => {

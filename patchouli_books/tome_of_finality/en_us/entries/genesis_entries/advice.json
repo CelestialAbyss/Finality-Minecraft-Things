@@ -1,0 +1,22 @@
+{
+    "name": "Advice for Players",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:genesis_category",
+    "priority": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "- If you have not already, press F3 then H to enable advanced tooltips. There is NO NEED to install Mod Name Tooltip or anything similar.$(br2)- The search bar of Just Enough Items (JEI) can be quickly accessed from the inventory by pressing two keys: Ctrl + F"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "- Quark adds hotbar swapping from your inventory when you press Z then 1, 2 or 3.$(br2)- Don't engage in losing battles! Always come prepared, even if potion crafting is a bit of a long process.$(br2)- Iron, copper, gold and diamonds are easily obtainable AND renewable with the presence of Mystical Agriculture. USE THEM!"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:wand_of_symmetry",
+            "text": "Use Create's Wand of Symmetry to make excavating in the Nether for Ancient Debris blocks easier! You can break 8 blocks around the mirror horizontally with the Octagonal setting or dig a single tunnel with the Mirror on the Z / X axis options!"
+        }
+    ]
+}

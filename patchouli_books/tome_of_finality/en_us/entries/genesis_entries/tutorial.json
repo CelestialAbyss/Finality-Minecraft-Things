@@ -1,0 +1,35 @@
+{
+    "name": "Humble Beginnings",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:genesis_category",
+    "priority": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If you are new to using Patchouli, here are some key things you should know as a beginner:$(br2)+ Italicized entry names are important entry names and will always remain on the top.$(br2)+ Patchouli also has holographic building guides that you can place in your world for building assistance."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "There are also many mod developers who have written their own Patchouli books in this modpack. PLEASE use them! I simply can't document everything from a mod as complex as Mystical Agriculture or Create through FTB Quests.$(br2)Although I technically did document most of Create in FTB Quests, it was still quite the task.$(br2)Please turn to the next page for more information."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If you have not done so already: To access FTB Quests, open your inventory by pressing E and clicking the book on the very top left corner of the game window. $(br2)With that out of the way, I would also highly recommend not wearing the Ring of the Seven Curses until you are actually ready to suffer. However, you may choose to wear it to turn up the difficulty 10x."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:cursed_ring",
+            "text": "Read the tooltip very carefully. This ring becomes permanently attached to you. $(br2)There is also another accessory that you arrived with, it's called the Enigmatic Amulet. $(br2)Continue on to the next page."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Now, prepare yourself by getting some wood by punching down some trees before night hits. $(br2)Let's just say the night has become significantly more dangerous and I can safely say you might need to be more... prepared."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "enigmaticlegacy:enigmatic_amulet",
+            "text": "There is no gravestone mod. Instead, you will have this amulet which transforms into a vessel that stores your items upon death. $(br2)Be careful though, if you die again before re-acquiring the vessel, it will shatter and drop your items."
+        }
+    ]
+}
