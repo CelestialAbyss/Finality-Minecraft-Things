@@ -1,4 +1,0 @@
-recipes.removeByName("endrem:exotic_eye");
-mods.extendedcrafting.CombinationCrafting.addRecipe("66796942-63a7-4dd2-bf98-2072d0f5f74e", <item:endrem:exotic_eye>, 100000, [
-	<item:minecraft:ender_eye>, <item:minecraft:glow_ink_sac>, <item:minecraft:fire_coral>, <item:minecraft:glow_ink_sac>, <item:minecraft:conduit>, <item:minecraft:glow_ink_sac>, <item:minecraft:bubble_coral>, <item:minecraft:glow_ink_sac>, <item:minecraft:conduit>, <item:minecraft:glow_ink_sac>, <item:minecraft:tube_coral>, <item:minecraft:glow_ink_sac>, <item:minecraft:conduit>, <item:minecraft:glow_ink_sac>,  <item:minecraft:horn_coral>, <item:minecraft:glow_ink_sac>, <item:minecraft:conduit>
-]);

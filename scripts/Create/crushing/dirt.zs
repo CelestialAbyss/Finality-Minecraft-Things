@@ -1,1 +1,0 @@
-<recipetype:create:crushing>.addRecipe("gravel_to_dirt", [<item:minecraft:dirt>], <item:minecraft:gravel>, 200);
