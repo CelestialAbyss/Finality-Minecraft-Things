@@ -1,9 +1,44 @@
 onEvent('recipes', event => {
     event.remove({id: 'minecraft:beacon'})
     event.remove({id: 'tconstruct:common/glass/vanilla/beacon'})
+    event.remove({id: 'minecraft:end_crystal'})
+    event.remove({id: 'tconstruct:common/glass/vanilla/end_crystal'})
     event.remove({id: 'extendedcrafting:black_iron_ingot'})
+    // worldshaper
+    event.recipes.createMechanicalCrafting('create:handheld_worldshaper', [
+      'CPUSSS',
+      'II'
+    ], {
+      C: 'extendedcrafting:the_ultimate_catalyst',
+      S: 'create:sturdy_sheet',
+      U: 'extendedcrafting:ultimate_singularity',
+      P: 'create:precision_mechanism',
+      I: 'extendedcrafting:the_ultimate_ingot'
+    }).id('finality:create_worldshaper')
+    // end crystal recipe
+    event.custom({
+      type: 'extendedcrafting:combination',
+      powerCost: 100000,
+      input: {
+          item: 'minecraft:ender_eye'
+      },
+      ingredients: [
+          Ingredient.of('#forge:glass/grayless').toJson(),
+          Ingredient.of('#forge:glass/grayless').toJson(),
+          Ingredient.of('#forge:glass/grayless').toJson(),
+          Ingredient.of('#forge:glass/grayless').toJson(),
+          Ingredient.of('minecraft:ghast_tear').toJson(),
+          Ingredient.of('extendedcrafting:ender_star').toJson(),
+          Ingredient.of('mysticalagriculture:prosperity_shard').toJson(),
+          Ingredient.of('minecraft:fermented_spider_eye').toJson(),
+      ],
+      result: {
+          item: 'minecraft:end_crystal'
+      }
+    }).id('finality:end_crystal')
     // black iron recipe
     event.shapeless('extendedcrafting:black_iron_ingot',['minecraft:iron_ingot','minecraft:black_dye','create:powdered_obsidian']).id('finality:ext_black_iron_ingot')
+    // materials
     event.custom({
         type: 'extendedcrafting:shaped_table',
         pattern: [
@@ -942,5 +977,5 @@ onEvent('recipes', event => {
     event.recipes.createPressing('extendedcrafting:singularity','extendedcrafting:singularity'),
     event.recipes.createPressing('extendedcrafting:singularity','extendedcrafting:singularity'),
     event.recipes.createPressing('extendedcrafting:singularity','extendedcrafting:singularity')
-  ]).transitionalItem('extendedcrafting:singularity').loops(128).id('finality:light_blue_concrete_singularity')
+    ]).transitionalItem('extendedcrafting:singularity').loops(128).id('finality:light_blue_concrete_singularity')
 })

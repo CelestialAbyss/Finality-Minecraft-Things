@@ -25,3 +25,13 @@ onEvent('jei.hide.items', event => {
 	event.hide('avaritia:compressor')
 	event.hide('avaritia:neutron_collector')
 })
+
+onEvent('item.tooltip', event => {
+	// Fix provided by Reveter#1305 on latvian.dev
+    event.addAdvanced('patchouli:guide_book', ((item, advanced, text) => {
+        if (!item.hasNBT()) return;
+        if (item.nbt['patchouli:book'] == 'patchouli:tome_of_finality') {
+            text.add(Component.lightPurple("Hi! Please craft this book, it's important. - Overseers of Finality"))
+        }
+    }))
+})

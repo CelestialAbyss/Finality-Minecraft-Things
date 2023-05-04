@@ -22,8 +22,8 @@ onEvent('recipes', event => {
     }).id('finality:morph_tool')
     event.custom({
         type: 'extendedcrafting:combination',
-        powerCost: 0,
-        powerRate: 0,
+        powerCost: 1000,
+        powerRate: 100,
         input: {
             item: 'minecraft:book'
         },

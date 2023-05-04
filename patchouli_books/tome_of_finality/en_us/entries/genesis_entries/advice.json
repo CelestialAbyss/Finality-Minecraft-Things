@@ -7,11 +7,19 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "- If you have not already, press F3 then H to enable advanced tooltips. There is NO NEED to install Mod Name Tooltip or anything similar.$(br2)- The search bar of Just Enough Items (JEI) can be quickly accessed from the inventory by pressing two keys: Ctrl + F"
+            "text": "Notice: Most recipes are very close to vanilla, but any recipe ID that contains $(o)Recipe by Finality$() has either been modified or added by me. Please do not ask why my recipes are not working outside the modpack as the answer is very self-explanatory."
         },
         {
             "type": "patchouli:text",
-            "text": "- Quark adds hotbar swapping from your inventory when you press Z then 1, 2 or 3.$(br2)- Don't engage in losing battles! Always come prepared, even if potion crafting is a bit of a long process.$(br2)- Iron, copper, gold and diamonds are easily obtainable AND renewable with the presence of Mystical Agriculture. USE THEM!"
+            "text": "Here are some helpful tips from me that may help on your journey.$(br)$(li)If you have not already, press F3 then H to enable advanced tooltips. There is NO NEED to install Mod Name Tooltip or anything similar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)The search bar of Just Enough Items (JEI) can be quickly accessed from the inventory by pressing two keys: Ctrl + F$(br)$(li)Quark adds hotbar swapping from your inventory when you press Z then 1, 2 or 3.$(br)$(li)Don't engage in losing battles! Always come prepared, even if potion crafting is a bit of a long process."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Iron, copper, gold and diamonds are easily obtainable AND renewable with the presence of Mystical Agriculture. USE THEM!$(li2)You can also find Inferium Essence throughout the Overworld. Get much of it as you can!"
         },
         {
             "type": "patchouli:spotlight",

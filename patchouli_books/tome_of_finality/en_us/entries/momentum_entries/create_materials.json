@@ -15,7 +15,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/materials/andesite_alloy",
-            "text": "This recipe can't be mirrored.$(br2)In base Create, Zinc Ore is a non-renewable resource.$(br2)Consequently, this makes Brass non-renewable."
+            "text": "This recipe can't be mirrored.$(br2)In base Create, Zinc Ore is a non-renewable resource. Consequently, this makes Brass non-renewable."
         },
         {
             "type": "patchouli:text",

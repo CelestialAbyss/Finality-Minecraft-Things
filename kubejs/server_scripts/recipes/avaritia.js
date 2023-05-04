@@ -116,7 +116,7 @@ onEvent('recipes', event => {
     event.shapeless('avaritia:record_fragment',['#forge:records']).id('finality:avaritia_record_shattering')
     // infinity
     // infinity catalyst acquisition
-    event.recipes.createCompacting(['avaritia:infinity_catalyst'], [Item.of('extendedcrafting:ultimate_singularity'), Item.of('avaritia:record_fragment')]).superheated().id('finality:avaritia_infinity_catalyst_creation')
+    event.recipes.createMixing(['avaritia:infinity_catalyst'], [Item.of('extendedcrafting:ultimate_singularity'), Item.of('avaritia:record_fragment')]).superheated().id('finality:avaritia_infinity_catalyst_creation')
     // everything else
     event.custom({
         type: 'extendedcrafting:shaped_table',
