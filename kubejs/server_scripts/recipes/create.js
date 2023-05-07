@@ -11,10 +11,12 @@ onEvent('recipes', event => {
     event.recipes.createCompacting(['minecraft:tuff'], [Item.of('9x minecraft:deepslate'), Fluid.of('minecraft:lava', 250)]).heated().id('finality:renew_deepslate_tuff')
     // crushing
     event.remove({id: 'create:crushing/gravel'})
-    event.recipes.createCrushing(['minecraft:dirt', Item.of('minecraft:flint').withChance(0.10), Item.of('minecraft:clay_ball').withChance(0.05)], 'minecraft:gravel').processingTime(250).id('finality:gravel_crushing')
-    event.recipes.createCrushing(['minecraft:sand'], 'minecraft:dirt').processingTime(250).id('finality:dirt_crushing')
+    event.remove({id: 'create:crushing/netherrack'})
+    event.recipes.createCrushing(['minecraft:dirt', Item.of('minecraft:flint').withChance(0.10)], 'minecraft:gravel').processingTime(250).id('finality:gravel_crushing')
+    event.recipes.createCrushing(['minecraft:sand', Item.of('minecraft:clay_ball').withChance(0.05)], 'minecraft:dirt').processingTime(250).id('finality:dirt_crushing')
     event.recipes.createCrushing(['4x minecraft:pointed_dripstone', Item.of('minecraft:clay_ball').withChance(0.50), Item.of('create:copper_nugget').withChance(0.25), Item.of('create:experience_nugget').withChance(0.75)], 'minecraft:dripstone_block').processingTime(250).id('finality:dripstone_crushing')
     event.recipes.createCrushing([Item.of('create:copper_nugget').withChance(0.05), Item.of('minecraft:gunpowder').withChance(0.10)], ['minecraft:basalt']).id('finality:basalt_crushing')
+    event.recipes.createCrushing(['create:cinder_flour', Item.of('create:cinder_flour').withChance(0.50), Item.of('minecraft:netherite_scrap').withChance(0.002)], 'minecraft:netherrack').processingTime(250).id('finality:netherrack_crushing')
     // filling
     event.recipes.createFilling('minecraft:netherrack', ['minecraft:cobblestone', Fluid.of('create:potion', 250, '{Potion: "minecraft:strong_healing"}')]).id('finality:living_flesh_stone')
     // haunting

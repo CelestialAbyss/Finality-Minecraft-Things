@@ -1,0 +1,11 @@
+{
+    "name": "Sushi Go Crafting",
+    "icon": "sushigocrafting:nori_sheets",
+    "category": "patchouli:sustenance",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Placeholder text"
+        }
+    ]
+}

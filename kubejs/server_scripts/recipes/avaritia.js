@@ -113,10 +113,11 @@ onEvent('recipes', event => {
     }).id('finality:avaritia_neutronium_block_compression')
     event.shapeless('9x avaritia:neutronium_ingot', ['avaritia:neutronium_block']).id('finality:avaritia_neutronium_block_decompression')
     // record fragment
-    event.shapeless('avaritia:record_fragment',['#forge:records']).id('finality:avaritia_record_shattering')
+    event.recipes.createPressing('8x avaritia:record_fragment', ['#forge:records']).id('finality:avaritia_record_shattering')
+    // old recipe: event.shapeless('avaritia:record_fragment',['#forge:records'])
     // infinity
     // infinity catalyst acquisition
-    event.recipes.createMixing(['avaritia:infinity_catalyst'], [Item.of('extendedcrafting:ultimate_singularity'), Item.of('avaritia:record_fragment')]).superheated().id('finality:avaritia_infinity_catalyst_creation')
+    event.recipes.createMixing(['avaritia:infinity_catalyst'], [Item.of('extendedcrafting:ultimate_singularity'), Item.of('avaritia:record_fragment')]).id('finality:avaritia_infinity_catalyst_creation')
     // infinity ingot
     event.custom({
         "type": "extendedcrafting:shaped_table",
@@ -374,7 +375,7 @@ onEvent('recipes', event => {
             B: 'minecraft:blaze_powder',
             C: 'minecraft:bone',
             D: 'avaritia:crystal_matrix_ingot',
-            E: 'minecraft:oak_log',
+            E: '#minecraft:logs',
             F: 'minecraft:nether_star'
         },
         result: 'avaritia:skullfire_sword'

@@ -1,17 +1,17 @@
 {
     "name": "Advice for Players",
     "icon": "minecraft:writable_book",
-    "category": "patchouli:genesis_category",
+    "category": "patchouli:genesis",
     "priority": true,
     "sortnum": 2,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Notice: Most recipes are very close to vanilla, but any recipe ID that contains $(o)Recipe by Finality$() has either been modified or added by me. Please do not ask why my recipes are not working outside the modpack as the answer is very self-explanatory."
+            "text": "Notice: Most recipes are very close to vanilla, but any recipe ID that contains $(o)Recipe by Finality$() has either been modified, added or re-added by me. Please do not ask why my recipes are not working outside the modpack as the answer is very self-explanatory."
         },
         {
             "type": "patchouli:text",
-            "text": "Here are some helpful tips from me that may help on your journey.$(br)$(li)If you have not already, press F3 then H to enable advanced tooltips. There is NO NEED to install Mod Name Tooltip or anything similar."
+            "text": "Here are some helpful tips from me that may help on your journey.$(br)$(li)If you have not already, press F3 then H to enable advanced tooltips. There is NO NEED to install Mod Name Tooltip or anything similar. $(li)Press I to open and close Inventory HUD+ inventory preview. Press [ to open Inventory HUD+ customization settings."
         },
         {
             "type": "patchouli:text",
@@ -25,6 +25,16 @@
             "type": "patchouli:spotlight",
             "item": "create:wand_of_symmetry",
             "text": "Use Create's Wand of Symmetry to make excavating in the Nether for Ancient Debris blocks easier! You can break 8 blocks around the mirror horizontally with the Octagonal setting or dig a single tunnel with the Mirror on the Z / X axis options!"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "morphtool:tool",
+            "text": "This item consolidates all wrenches, very useful."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "akashictome:tome",
+            "text": "This item consolidates all books, very useful. For some people, not so much."
         }
     ]
 }

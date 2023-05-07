@@ -1,7 +1,7 @@
 {
     "name": "Materials 101",
     "icon": "create:andesite_alloy",
-    "category": "patchouli:momentum_category",
+    "category": "patchouli:momentum",
     "pages": [
         {
             "type": "patchouli:text",

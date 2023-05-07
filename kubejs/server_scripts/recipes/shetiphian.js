@@ -4,6 +4,7 @@ onEvent('recipes', event => {
     event.remove({id: 'enderchests:ender_chest'})
     event.remove({id: 'enderchests:ender_pouch'})
     event.remove({id: 'endertanks:tank'})
+    // ender bag
     event.shaped('enderchests:ender_bag', [
         'AWA',
         'OPO',
@@ -15,6 +16,7 @@ onEvent('recipes', event => {
         P: 'enderchests:ender_pouch',
         E: 'extendedcrafting:ender_catalyst'
     }).id('finality:shetiphian_ender_bag')
+    // ender bucket
     event.shaped('endertanks:ender_bucket', [
         'AWA',
         'OBO',
@@ -26,6 +28,7 @@ onEvent('recipes', event => {
         B: 'minecraft:bucket',
         E: 'extendedcrafting:ender_catalyst'
     }).id('finality:shetiphian_ender_bucket')
+    // enderchests ender chest
     event.shaped('enderchests:ender_chest', [
         'AWA',
         'OCO',
@@ -37,6 +40,7 @@ onEvent('recipes', event => {
         C: 'minecraft:ender_chest',
         E: 'extendedcrafting:ender_catalyst'
     }).id('finality:shetiphian_ender_chest')
+    // ender pouch
     event.shaped('enderchests:ender_pouch', [
         'ALA',
         'LEL',
@@ -46,6 +50,7 @@ onEvent('recipes', event => {
         L: 'minecraft:leather',
         E: 'minecraft:ender_eye'
     }).id('finality:shetiphian_ender_pouch')
+    // ender tank
     event.shaped('endertanks:ender_tank', [
         'AWA',
         'OCO',
@@ -56,5 +61,5 @@ onEvent('recipes', event => {
         O: 'minecraft:obsidian',
         C: 'create:fluid_tank',
         E: 'extendedcrafting:ender_catalyst'
-    }).id('finality:shetiphian_ender_chest')
+    }).id('finality:shetiphian_ender_tank')
 })

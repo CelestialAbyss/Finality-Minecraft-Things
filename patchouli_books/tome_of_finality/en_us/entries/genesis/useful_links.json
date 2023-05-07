@@ -1,0 +1,19 @@
+{
+    "name": "Useful Links",
+    "icon": "create:minecart_coupling",
+    "category": "patchouli:genesis",
+    "pages": [
+        {
+            "type": "patchouli:link",
+            "text": "This entry contains useful links such as the modpack's wiki / changelog if you did not see the button on the main menu.",
+            "url": "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki",
+            "link_text": "GitHub Wiki"
+        },
+        {
+            "type": "patchouli:link",
+            "text": "Want to talk or play with us? Come join on Discord.",
+            "url": "https://discord.gg/UF8yMZEmmc",
+            "link_text": "Discord"
+        }
+    ]
+}

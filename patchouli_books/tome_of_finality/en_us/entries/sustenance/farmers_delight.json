@@ -1,0 +1,16 @@
+{
+    "name": "Farmer's Delight",
+    "icon": "farmersdelight:skillet",
+    "category": "patchouli:sustenance",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Placeholder text"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:mechanical_saw",
+            "text": "Placeholder text"
+        }
+    ]
+}

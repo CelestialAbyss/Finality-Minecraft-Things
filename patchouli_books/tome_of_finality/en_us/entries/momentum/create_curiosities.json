@@ -1,7 +1,7 @@
 {
     "name": "Curiosities",
     "icon": "create:extendo_grip",
-    "category": "patchouli:momentum_category",
+    "category": "patchouli:momentum",
     "pages": [
         {
             "type": "patchouli:text",

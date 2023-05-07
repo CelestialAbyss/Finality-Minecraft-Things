@@ -1,7 +1,7 @@
 {
     "name": "Rotational Power",
     "icon": "create:stressometer",
-    "category": "patchouli:momentum_category",
+    "category": "patchouli:momentum",
     "pages": [
         {
             "type": "patchouli:text",

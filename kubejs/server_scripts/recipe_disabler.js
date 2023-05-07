@@ -6,6 +6,5 @@ onEvent('recipes', event => {
     event.remove({output: 'mysticalagriculture:supremium_furnace'})
     event.remove({output: 'projecte:dm_furnace'})
     event.remove({output: 'projecte:rm+furnace'})
-    event.remove({output: 'mob_grinding_utils:fan'})
     event.remove({id: 'minecraft:coarse_dirt'})
 })

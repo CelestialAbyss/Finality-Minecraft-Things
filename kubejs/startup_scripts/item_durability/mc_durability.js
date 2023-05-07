@@ -1,5 +1,6 @@
 // priority: 1
 onEvent('item.modification', event => {
+	// wooden tools
     event.modify('minecraft:wooden_sword', item => {
         item.maxDamage = 16
     })
@@ -15,6 +16,7 @@ onEvent('item.modification', event => {
     event.modify('minecraft:wooden_hoe', item => {
         item.maxDamage = 16
     })
+	// stone tools
     event.modify('minecraft:stone_sword', item => {
         item.maxDamage = 128
     })
@@ -30,6 +32,7 @@ onEvent('item.modification', event => {
     event.modify('minecraft:stone_hoe', item => {
         item.maxDamage = 128
     })
+	// iron related
     event.modify('minecraft:iron_sword', item => {
         item.maxDamage = 256
     })
@@ -51,6 +54,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:shield', item => {
         item.maxDamage = 225
     })
+	// golden tools
     event.modify('minecraft:golden_sword', item => {
 		item.maxDamage = 32
 	})
@@ -66,6 +70,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:golden_hoe', item => {
 		item.maxDamage = 32
 	})
+	// diamond
     event.modify('minecraft:diamond_sword', item => {
 		item.maxDamage = 1024
 	})
@@ -81,6 +86,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:diamond_hoe', item => {
 		item.maxDamage = 1024
 	})
+	// netherite
     event.modify('minecraft:netherite_sword', item => {
 		item.maxDamage = 2048
 	})
@@ -97,6 +103,7 @@ onEvent('item.modification', event => {
 		item.maxDamage = 2048
 	})
     // Armor durability is synchronized because it does not make sense as to why armor pieces have different durabilities.
+	// leather armor
     event.modify('minecraft:leather_helmet', item => {
 		item.maxDamage = 128
 	})
@@ -109,6 +116,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:leather_boots', item => {
 		item.maxDamage = 128
 	})
+	// iron armor
     event.modify('minecraft:iron_helmet', item => {
 		item.maxDamage = 256
 	})
@@ -121,6 +129,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:iron_boots', item => {
 		item.maxDamage = 256
 	})
+	// golden armor
     event.modify('minecraft:golden_helmet', item => {
 		item.maxDamage = 128
 	})
@@ -133,6 +142,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:golden_boots', item => {
 		item.maxDamage = 128
 	})
+	// diamond armor
     event.modify('minecraft:diamond_helmet', item => {
 		item.maxDamage = 512
 	})
@@ -145,6 +155,7 @@ onEvent('item.modification', event => {
 	event.modify('minecraft:diamond_boots', item => {
 		item.maxDamage = 512
 	})
+	// netherite armor
     event.modify('minecraft:netherite_helmet', item => {
 		item.maxDamage = 1024
 	})
@@ -159,11 +170,11 @@ onEvent('item.modification', event => {
 	})
 })
 
-// Written with the help of squoshi
+// Written with the help of squoshi, currently does not work
 /*onEvent('item.modification', event => {
-    let vanilla_tool = [
-		'minecraft:wooden_sword',
-        'minecraft:wooden_shovel',
+    let tools = [
+		'minecraft:wooden_sword', 
+		'minecraft:wooden_shovel',
         'minecraft:wooden_pickaxe',
         'minecraft:wooden_axe',
         'minecraft:wooden_hoe',
@@ -177,6 +188,8 @@ onEvent('item.modification', event => {
         'minecraft:iron_pickaxe',
         'minecraft:iron_axe',
         'minecraft:iron_hoe',
+		'minecraft:shears',
+		'minecraft:shield',
         'minecraft:golden_sword',
         'minecraft:golden_shovel',
         'minecraft:golden_pickaxe',
@@ -191,8 +204,9 @@ onEvent('item.modification', event => {
         'minecraft:netherite_shovel',
         'minecraft:netherite_pickaxe',
         'minecraft:netherite_axe',
-        'minecraft:netherite_hoe',
-    ].forEach(tool => {
+        'minecraft:netherite_hoe'
+    ]
+	tools.forEach(tool => {
 		if (tool.contains('wooden')) {
 			event.modify(tool, item => {
 				item.maxDamage = 16
@@ -208,6 +222,16 @@ onEvent('item.modification', event => {
                 item.maxDamage = 256
             })
         }
+		if (tool.contains('shears')) {
+			event.modify(tool, item => {
+				item.maxDamage = 256
+			})
+		}
+		if (tool.contains('shield')) {
+			event.modify(tool, item => {
+				item.maxDamage = 225
+			})
+		}
         if (tool.contains('golden')) {
             event.modify(tool, item => {
                 item.maxDamage = 32
@@ -224,9 +248,58 @@ onEvent('item.modification', event => {
             })
         }
     })
-})
-*/
+	let armors = [
+		'minecraft:leather_helmet',
+		'minecraft:leather_chestplate',
+		'minecraft:leather_leggings',
+		'minecraft:leather_boots',
+		'minecraft:iron_helmet',
+		'minecraft:iron_chestplate',
+		'minecraft:iron_leggings',
+		'minecraft:iron_boots',
+		'minecraft:golden_helmet',
+		'minecraft:golden_chestplate',
+		'minecraft:golden_leggings',
+		'minecraft:golden_boots',
+		'minecraft:diamond_helmet',
+		'minecraft:diamond_chestplate',
+		'minecraft:diamond_leggings',
+		'minecraft:diamond_boots',
+		'minecraft:netherite_helmet',
+		'minecraft:netherite_chestplate',
+		'minecraft:netherite_leggings',
+		'minecraft:netherite_boots'
+	]
+	armors.forEach(armor => {
+		if (armor.contains('leather')) {
+			event.modify(armor, item => {
+				item.maxDamage = 128
+			})
+		}
+		if (armor.contains('iron')) {
+			event.modify(armor, item => {
+				item.maxDamage = 256
+			})
+		}
+		if (armor.contains('golden')) {
+			event.modify(armor, item => {
+				item.maxDamage = 128
+			})
+		}
+		if (armor.contains('diamond')) {
+			event.modify(armor, item => {
+				item.maxDamage = 512
+			})
+		}
+		if (armor.contains('netherite')) {
+			event.modify(armor, item => {
+				item.maxDamage = 1024
+			})
+		}
+	})
+})*/
 
+// for reference in future scripts
 /*onEvent('item.modification', event => {
 	event.modify('minecraft:item_name', item => {
 		item.maxStackSize = 64

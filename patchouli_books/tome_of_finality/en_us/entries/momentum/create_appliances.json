@@ -1,0 +1,39 @@
+{
+    "name": "Appliances",
+    "icon": "create:mechanical_press",
+    "category": "patchouli:momentum",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As always, please refer to the Ponder viewer for a more thorough explanation and more complete index."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This entry focuses on some of the most useful Kinetic Appliances such as the following: $(li)Encased Fan $(li)Mechanical Press  $(li)Mechanical Mixer $(li)Mechanical Saw $(li)Mechanical Pump"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:mechanical_press",
+            "text": "Essential for making all kinds of pressed sheets and certain sequenced assembly recipes."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:mechanical_mixer",
+            "text": "Has a minimum RPM requirement of 32 RPM to operate. Highly multi-purpose and can do the following in an automated manner: $(li)Potion brewing $(li)Shapeless crafting $(li)Make food $(li)Metallic alloying $(li)and more!"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:encased_fan",
+            "text": "Can do the following: $(li)Bulk blasting $(li)Bulk smoking $(li)Bulk washing"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Notice: Faster RPM does not equate to faster processing. $(br2)Instead, it is the quantity of fans focused on the same block. You can have 4 fans facing a single block horizontally and have 2 fans vertically, just make sure they are blowing towards the block and not pulling from the block."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:mechanical_saw",
+            "text": "Wood goes in, then gets refined based on the block or item that you have placed on the Saw's recipe filter. Please refer to the Ponder viewer for a more thorough explanation."
+        }
+    ]
+}

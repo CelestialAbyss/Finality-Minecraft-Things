@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
     event.custom({
         type: 'extendedcrafting:combination',
-        powerCost: 100000,
+        powerCost: 5000000,
         input: {
             item:'enigmaticlegacy:cosmic_heart'
         },
