@@ -117,6 +117,41 @@ onEvent('recipes', event => {
     // infinity
     // infinity catalyst acquisition
     event.recipes.createMixing(['avaritia:infinity_catalyst'], [Item.of('extendedcrafting:ultimate_singularity'), Item.of('avaritia:record_fragment')]).superheated().id('finality:avaritia_infinity_catalyst_creation')
+    // infinity ingot
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+          "AAAAAAAAA",
+          "ABCBCBCBA",
+          "ACBCBCBCA",
+          "ABCBCBCBA",
+          "AAAAAAAAA"
+        ],
+        "key": {
+          "A": {
+            "item": "avaritia:neutronium_ingot"
+          },
+          "B": {
+            "item": "avaritia:crystal_matrix_ingot"
+          },
+          "C": {
+            "item": "avaritia:infinity_catalyst"
+          }
+        },
+        "result": {
+          "item": "avaritia:infinity_ingot"
+        }
+      }).id('finality:avaritia_infinity_ingot')
+    // infinity block
+    event.shaped('avaritia:infinity_block', [
+        'III',
+        'III',
+        'III'
+    ], {
+        I: 'avaritia:infinity_ingot'
+    }).id('finality:avaritia_infinity_block')
+    // infinity block decompression
+    event.shapeless('9x avaritia:infinity_ingot', ['avaritia:infinity_block']).id('finality:avaritia_infinity_block_uncrafting')
     // everything else
     event.custom({
         type: 'extendedcrafting:shaped_table',

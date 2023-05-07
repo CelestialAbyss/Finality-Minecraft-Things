@@ -23,10 +23,10 @@ onEvent('recipes', event => {
           item: 'minecraft:ender_eye'
       },
       ingredients: [
-          Ingredient.of('#forge:glass/grayless').toJson(),
-          Ingredient.of('#forge:glass/grayless').toJson(),
-          Ingredient.of('#forge:glass/grayless').toJson(),
-          Ingredient.of('#forge:glass/grayless').toJson(),
+          Ingredient.of('#forge:glass/colorless').toJson(),
+          Ingredient.of('#forge:glass/colorless').toJson(),
+          Ingredient.of('#forge:glass/colorless').toJson(),
+          Ingredient.of('#forge:glass/colorless').toJson(),
           Ingredient.of('minecraft:ghast_tear').toJson(),
           Ingredient.of('extendedcrafting:ender_star').toJson(),
           Ingredient.of('mysticalagriculture:prosperity_shard').toJson(),
@@ -47,7 +47,7 @@ onEvent('recipes', event => {
             'OOO'
         ],
         key: {
-            G: '#forge:glass/grayless',
+            G: '#forge:glass/colorless',
             S: 'extendedcrafting:ender_star',
             O: 'minecraft:obsidian'
         },
