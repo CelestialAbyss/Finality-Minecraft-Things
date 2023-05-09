@@ -8,4 +8,5 @@
 
 <p align="center" dir="auto"><a href="https://github.com/CelestialAbyss/Create-Customized" title="github.com/CelestialAbyss/Create-Customized" rel="nofollow">I have moved my Create custom recipes into the Create-Customized repository, click me if you are looking for those.</a></p>
 
-This repository serves as a public "archive" of sorts for my modpack, Finality. It's not that kind of *archive* ***archive*** though, just to clarify. I just want this to be a point of reference for other beginner modpack makers to look through who have little to no experience in coding.
+This repository serves as a public "archive" of sorts for the modpack in case of my death.
+It's not that kind of *archive* ***archive*** though, just to clarify. I just want this to be a point of reference for other beginner modpack makers to look through who have little to no experience in coding.
