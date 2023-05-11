@@ -25,5 +25,4 @@ This covers the following files / folders.
 
 ***
 
-This repository serves as a public "archive" of sorts for the modpack in case of the death of CelestialAbyss.
-It's not that kind of *archive* ***archive*** though, just to clarify. I just want this to be a point of reference for other beginner modpack makers to look through who have little to no experience in coding.
+This repository serves as a public "archive" of sorts for the modpack in case of the death of CelestialAbyss. I want this to be a point of reference for other beginner modpack makers to look through who have little to no experience in coding.
