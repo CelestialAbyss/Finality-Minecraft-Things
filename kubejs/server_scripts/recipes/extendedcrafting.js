@@ -7,6 +7,15 @@ onEvent('recipes', event => {
     event.remove({id: 'tconstruct:common/glass/vanilla/end_crystal'})
     event.remove({id: 'extendedcrafting:black_iron_ingot'})
     event.shapeless('extendedcrafting:black_iron_ingot', ['minecraft:iron_ingot', 'minecraft:black_dye', 'create:powdered_obsidian']).id('finality:ext_black_iron_ingot')
+    event.shaped('minecraft:beacon',[
+        'GGG',
+        'GSG',
+        'OOO'
+    ], {
+        G: '#forge:glass/colorless',
+        S: 'extendedcrafting:ender_star',
+        O: 'minecraft:obsidian'
+    }).id('finality:beacon')
     event.recipes.createMechanicalCrafting(Item.of('4x extendedcrafting:crystaltine_ingot'), [
         'DLLLLLD',
         'DGISIGD',
@@ -51,20 +60,6 @@ onEvent('recipes', event => {
             item: 'minecraft:end_crystal'
         }
     }).id('finality:end_crystal')
-    event.custom({
-        type: 'extendedcrafting:shaped_table',
-        pattern: [
-            'GGG',
-            'GSG',
-            'OOO'
-        ],
-        key: {
-            G: '#forge:glass/colorless',
-            S: 'extendedcrafting:ender_star',
-            O: 'minecraft:obsidian'
-        },
-        result: 'minecraft:beacon'
-    }).id('finality:beacon')
     // sequenced assembly singularities
     event.recipes.createSequencedAssembly([
         Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:blue_ice"}')
@@ -576,3 +571,20 @@ onEvent('recipes', event => {
         Z: 'create:zinc_block'
     }).id('finality:zinc_singularity')
 })
+
+    /* archived recipes
+    event.custom({
+        type: 'extendedcrafting:shaped_table',
+        pattern: [
+            'GGG',
+            'GSG',
+            'OOO'
+        ],
+        key: {
+            G: '#forge:glass/colorless',
+            S: 'extendedcrafting:ender_star',
+            O: 'minecraft:obsidian'
+        },
+        result: 'minecraft:beacon'
+    }).id('finality:beacon')
+    */

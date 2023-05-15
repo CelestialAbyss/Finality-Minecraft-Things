@@ -1,0 +1,41 @@
+{
+    "name": "Create: Central Kitchen",
+    "icon": "create_central_kitchen:cooking_guide",
+    "category": "patchouli:sustenance",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This entry is a work in progress. You can however check the Ponder entry by holding W on the item on the spotlight page on the right."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_central_kitchen:cooking_guide",
+            "text": "Placeholder text"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_central_kitchen:pumpkin_pie_slice",
+            "text": "I don't know how this is made yet, but it is delicious."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_central_kitchen:chocolate_cake_slice",
+            "text": "I don't know how this is made yet, but it is delicious."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_central_kitchen:honey_cake_slice",
+            "text": "I don't know how this is made yet, but it is delicious."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create_central_kitchen:crafting/sap_bucket_from_bottles",
+            "text": "Judging from what JEI is telling me, sap is converted to syrup via the heated basin mixing process. The syrup is then used for Autumnity recipes."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_central_kitchen:tomato_sauce_bucket",
+            "text": "Create compatibility for TOMATO SAUUUUCEEE!"
+        }
+    ]
+}

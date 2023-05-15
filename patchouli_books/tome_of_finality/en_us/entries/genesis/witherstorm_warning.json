@@ -1,0 +1,17 @@
+{
+    "name": "A Serious Warning",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:genesis",
+    "priority": true,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If you come across an abandoned house with a few wither skulls and a command block as the core of its body, do not put the last wither skull unless if you want hell for yourself. $(br)$(4)You run the risk of seeing your overworld builds destroyed in its wake.$() $(br2)$(4)You have been warned.$()"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "witherstormmod:command_block_sword",
+            "text": "Does this bring back memories? If yes, then you know exactly why you should not place that last wither skull. $(br2)Just make sure to kill it at least once before truly investing into your world, or you may choose to avoid it and utilize the detour recipes."
+        }
+    ]
+}

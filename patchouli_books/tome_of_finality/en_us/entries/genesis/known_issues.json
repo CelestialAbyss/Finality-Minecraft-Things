@@ -3,17 +3,15 @@
     "icon": "botania:cosmetic_questgiver_mark",
     "category": "patchouli:genesis",
     "priority": true,
-    "sortnum": 3,
+    "sortnum": 4,
     "pages": [
         {
             "type": "patchouli:text",
             "text": "Here is the entry that contains known issues for my modpack. However, not all known issues are caused by my modifications and you may need to issue bug reports to mod developers on their respective GitHub pages.$(br2)Also, an important notice is on the page on the right."
         },
         {
-            "type": "patchouli:link",
-            "text": "$(#AA0000)I am not responsible for any bugs whether they are graphical or broken visuals that may result from using optimization mods such as OptiFine, Rubidium or Oculus.$() $(br2)Now that you know, to see known issues turn to the next page or go to the Trello Board below.",
-            "url": "https://trello.com/b/60JjUmBh/finality-development",
-            "link_text": "Trello Board"
+            "type": "patchouli:text",
+            "text": "$(#AA0000)I am not responsible for any bugs whether they are graphical or broken visuals that may result from using optimization mods such as OptiFine, Rubidium or Oculus.$() $(br2)Now that you know, to see known issues turn to the next page or go to the $(l:https://trello.com/b/60JjUmBh/finality-development)Trello Board$(/l) and check the Known Issues label."
         },
         {
             "type": "patchouli:text",

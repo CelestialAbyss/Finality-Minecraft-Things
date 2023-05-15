@@ -19,7 +19,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Iron, copper, gold and diamonds are easily obtainable AND renewable with the presence of Mystical Agriculture. USE THEM!$(li2)You can also find Inferium Essence throughout the Overworld. Get much of it as you can!"
+            "text": "$(li)Iron, copper, gold and diamonds are easily obtainable AND renewable with the presence of Mystical Agriculture. USE THEM!$(li2)You can also find Inferium Essence throughout the Overworld. Get much of it as you can! $(li)Press L (the default keybind for Achievements) to reveal achievements, if you don't already know that."
         },
         {
             "type": "patchouli:spotlight",

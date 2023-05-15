@@ -24,6 +24,9 @@ onEvent('jei.hide.items', event => {
 	event.hide('avaritia:amethyst_singularity')
 	event.hide('avaritia:compressor')
 	event.hide('avaritia:neutron_collector')
+	event.hide('waystones:warp_plate')
+	event.hide('waystones:warp_dust')
+	event.hide('waystones:attuned_shard')
 })
 
 onEvent('item.tooltip', event => {
@@ -31,7 +34,9 @@ onEvent('item.tooltip', event => {
     event.addAdvanced('patchouli:guide_book', ((item, advanced, text) => {
         if (!item.hasNBT()) return;
         if (item.nbt['patchouli:book'] == 'patchouli:tome_of_finality') {
-            text.add(Component.lightPurple("Hi! Please craft this book, it's important. - Overseers of Finality"))
+            text.add(Component.lightPurple("Hi! Please use this book, it's important modpack documentation."))
+			text.add(Component.lightPurple("Entries in the Genesis category are spoiler free and are targeted at new players!"))
+			text.add(Component.lightPurple(" - Overseers of Finality"))
         }
     }))
 })

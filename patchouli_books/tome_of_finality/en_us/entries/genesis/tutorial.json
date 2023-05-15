@@ -24,11 +24,12 @@
         {
             "type": "patchouli:spotlight",
             "item": "enigmaticlegacy:cursed_ring",
-            "text": "Read the tooltip very carefully. This ring becomes permanently attached to you upon wearing it.$(br2)There is also another accessory that you arrived with, it's called the Enigmatic Amulet. $(br2)Continue on to the next page."
+            "title": "The Cursed Ring",
+            "text": "Read the tooltip very carefully with your mouse cursor hovering over the item above while your Shift key is pressed. $(br)$(4)This ring becomes permanently attached to you upon wearing it. There is also a permanent cost if you destroy it legitimately with a... certain stone.$()"
         },
         {
             "type": "patchouli:text",
-            "text": "Now, prepare yourself by getting some wood by punching down some trees before night hits.$(br2)Let's just say the night has become significantly more dangerous and I can safely say you might need to be more... prepared."
+            "text": "There is also another accessory that you arrived with, it's called the Enigmatic Amulet. $(br2)Now, prepare yourself by getting some wood by punching down some trees before night hits.$(br2)Let's just say the night has become significantly more dangerous and I can safely say you might need to be more... prepared."
         },
         {
             "type": "patchouli:spotlight",
