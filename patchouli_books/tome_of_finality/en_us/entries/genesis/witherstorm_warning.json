@@ -6,12 +6,21 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "If you come across an abandoned house with a few wither skulls and a command block as the core of its body, do not put the last wither skull unless if you want hell for yourself. $(br)$(4)You run the risk of seeing your overworld builds destroyed in its wake.$() $(br2)$(4)You have been warned.$()"
+            "text": "If you come across an abandoned house with a few wither skulls and a command block as the core of its body, do not put the last wither skull unless if you want hell for yourself. $(4)You run the risk of seeing your overworld builds destroyed in its wake. $(br2)The damage is irreversible.$() $(br2)$(4)You have been warned.$()"
         },
         {
             "type": "patchouli:spotlight",
             "item": "witherstormmod:command_block_sword",
-            "text": "Does this bring back memories? If yes, then you know exactly why you should not place that last wither skull. $(br2)Just make sure to kill it at least once before truly investing into your world, or you may choose to avoid it and utilize the detour recipes."
+            "text": "Does this bring back memories? If yes, then you know exactly why you should not place that last wither skull. $(br2)Just make sure to kill it at least once before truly investing into your world, or you may choose to avoid it and utilize the detour recipes which are on the next page."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Here are the alternate means of acquiring two of the tainted blocks. $(br2)As for the Withered Nether Star, you will need to power an ExtendedCrafting Crafting Core extensively. Check the recipe with JEI's search bar. More recipes to come."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "finality:tainted_flesh_block",
+            "recipe2": "finality:tainted_glass"
         }
     ]
 }
