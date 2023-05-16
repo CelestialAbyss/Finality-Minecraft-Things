@@ -1,0 +1,315 @@
+{
+	id: "063BF37EE3F476D4"
+	group: ""
+	order_index: 0
+	filename: "intro_to_singularity"
+	title: "Humble beginnings..."
+	icon: "minecraft:crying_obsidian"
+	subtitle: ["This is just the introduction..."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -3.5d
+		width: 8.0d
+		height: 1.75d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/packtitle.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Hi! Welcome to Finality."
+			icon: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:coal"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Click me to check the description of this button."
+			description: [
+				"If you wish to play the modpack on its intended difficulty, set the difficulty to Hard. For obvious reasons, this is optional."
+				""
+				"The rest of the chapters can be accessed after you click the checkmark here and move your cursor to the left edge of your screen."
+				""
+				"If you lose the Tome of Finality, it is reclaimable from Emergency Items (broken heart icon) on the right. You can also craft the guidebook with two sticks!"
+				""
+				"Also, take the time now to SET YOUR KEYBINDS, only if you want to."
+			]
+			size: 1.5d
+			id: "4A691BB889286C89"
+			tasks: [{
+				id: "10D0DC144CD6061E"
+				type: "checkmark"
+				title: "You have acknowledged the button."
+			}]
+			rewards: [{
+				id: "1F326401E791AF1B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6652661467762805826L
+			}]
+		}
+		{
+			title: "Introduction to Enigmatic Legacy"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Power is a double edged sword, choose wisely."
+			description: ["Once you wear the Ring of the Seven Curses, it is bound to you... eternally."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6EEDB74144BCAD6C"
+			tasks: [{
+				id: "488C52212FD6799D"
+				type: "checkmark"
+				title: "I accept."
+			}]
+			rewards: [{
+				id: "63B4F8ECA1B5F39F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3533172865185366803L
+			}]
+		}
+		{
+			title: "Are you sure this is vanilla?"
+			icon: {
+				id: "enigmaticlegacy:etherium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "The night is ever so slightly more dangerous, see for yourself."
+			description: [
+				"Certain \"zombies\" are a bit different."
+				""
+				"Oh and certain structures may be different, so keep an eye out for that."
+				""
+				"If you are on the 1.18.2 version of this modpack, PLEASE DO NOT PUT THE LAST WITHER SKULL ON THE COMMAND BLOCK! You will regret it, unless if you like playing hardcore."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "4913D65B3D761C6F"
+			tasks: [
+				{
+					id: "78DB3180CA1FD879"
+					type: "kill"
+					icon: "minecraft:rotten_flesh"
+					entity: "minecraft:zombie"
+					value: 64L
+				}
+				{
+					id: "2F4CA9AFAB3CC7A8"
+					type: "kill"
+					icon: "minecraft:bone"
+					entity: "minecraft:skeleton"
+					value: 32L
+				}
+				{
+					id: "10DA198E3B5A7642"
+					type: "kill"
+					icon: "minecraft:gunpowder"
+					entity: "minecraft:creeper"
+					value: 8L
+				}
+				{
+					id: "3A5644DA06E25C5F"
+					type: "kill"
+					icon: "minecraft:string"
+					entity: "minecraft:spider"
+					value: 32L
+				}
+				{
+					id: "65B6FE5E8BFB67C4"
+					type: "kill"
+					icon: "minecraft:ender_pearl"
+					entity: "minecraft:enderman"
+					value: 16L
+				}
+			]
+			rewards: [{
+				id: "19ECA5AD05CE2E28"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 946488619696883447L
+			}]
+		}
+		{
+			title: "I don't remember Sugar Cane growing that tall..."
+			x: 0.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "Hey, so Apotheosis puts your Sugar Cane, Bamboo and Cactus on steroids."
+			description: ["You're welcome~"]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "5693356D2578CF5E"
+			tasks: [
+				{
+					id: "1F80310E2B4B5CA8"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 64L
+				}
+				{
+					id: "2B4116DC02EF2E64"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 64L
+				}
+				{
+					id: "5DEF2DD3DDFA3A5F"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "04DB34818E781059"
+				type: "item"
+				item: "croptopia:cheese_cake"
+			}]
+		}
+		{
+			title: "Convenient Utilities"
+			icon: "extendedcrafting:handheld_table"
+			x: 0.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "No really, they are very convenient."
+			description: [
+				"Press O to open the config interface for Inventory HUD+"
+				""
+				"Press I to show a preview of your inventory."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "0AE06EB85B6E1CB6"
+			tasks: [
+				{
+					id: "6907F27EE9B9826D"
+					type: "item"
+					item: "extendedcrafting:handheld_table"
+					only_from_crafting: true
+				}
+				{
+					id: "1C8990793067BA62"
+					type: "checkmark"
+					title: "What is this...?"
+				}
+			]
+		}
+		{
+			title: "Convenient Utilities Ch.2 - The Akashic Tome"
+			x: -1.0d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Scientia Consolidationis"
+			description: [
+				"To add a book to it, simply combine them in the crafting table. You can have as many as you want, including duplicates."
+				""
+				"To transform the tome into another mod's documentation book that is added to it, simply right click and pick the book you want from the menu."
+				""
+				"To untransform back into the tome, punch the air."
+				""
+				"To remove stored books, transform the Tome into the book to remove, then sneak and press your \"drop\" key."
+				""
+				"You can use a transformed Tome for crafting, but you probably shouldn't, since you'll lose all other attached items. So... DON'T USE IT FOR CRAFTING!"
+				""
+				"Just a warning in advance: Items will have a custom name after removing items from the Akashic Tome or Morph Tool, so be sure to clear the custom name in brackets before putting it back!"
+				""
+				"Use an Anvil and put some spaces after clearing the name to clear the custom name."
+			]
+			dependencies: ["0AE06EB85B6E1CB6"]
+			id: "2EF808209CCECE6A"
+			tasks: [{
+				id: "781047FC0FE342C3"
+				type: "item"
+				item: "akashictome:tome"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Convenient Utilities Ch.2 - The Morph Tool"
+			x: 1.0d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Clave Absolutio"
+			description: [
+				"Whenever you look at a block from the same mod as that wrench-like item, the Morphing Tool will turn into it."
+				""
+				"You can use a morphed Tool for crafting, but you probably shouldn't, since you'll lose all other attached items."
+				""
+				"To remove attached items, transform the Tool into the item you want to remove, then sneak and press your \"drop\" key."
+				""
+				"Just a warning in advance: Items will have a custom name after removing items from the Akashic Tome or Morph Tool, so be sure to clear the custom name in brackets before putting it back!"
+				""
+				"Use an Anvil and put some spaces after clearing the name to clear the custom name."
+			]
+			dependencies: ["0AE06EB85B6E1CB6"]
+			id: "09134C5108A1B870"
+			tasks: [{
+				id: "7AF4F455B45035C8"
+				type: "item"
+				item: "morphtool:tool"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Craft the Tempad"
+			icon: "tempad:tempad"
+			x: 0.0d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "For all time. Always."
+			description: ["Think of this device as a personal waystone with a long cooldown. It is very effective and customizable!"]
+			dependencies: [
+				"09134C5108A1B870"
+				"2EF808209CCECE6A"
+			]
+			id: "5E5E9241EB84A4E9"
+			tasks: [{
+				id: "265931DE467928C8"
+				type: "item"
+				item: "tempad:tempad"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "He who remains..."
+			icon: "tempad:he_who_remains_tempad"
+			x: 0.0d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "...at the End of time."
+			description: ["Unlimited teleports, for all time."]
+			dependencies: ["5E5E9241EB84A4E9"]
+			id: "38EC0E607FAE4543"
+			tasks: [{
+				id: "07E460614DD4774D"
+				type: "item"
+				item: "tempad:he_who_remains_tempad"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

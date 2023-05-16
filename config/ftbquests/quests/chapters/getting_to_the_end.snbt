@@ -1,0 +1,338 @@
+{
+	id: "316C9BB1844BE86C"
+	group: ""
+	order_index: 1
+	filename: "getting_to_the_end"
+	title: "Getting to the End"
+	icon: "minecraft:end_portal_frame"
+	subtitle: ["It's a bit... complicated."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Unlocking The End"
+			icon: "minecraft:end_portal_frame"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "All I can say is... good luck."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			size: 2.0d
+			id: "34BBD9B70AE0AAB1"
+			tasks: [{
+				id: "5098C9DA205BDE8A"
+				type: "dimension"
+				icon: "minecraft:end_stone"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Find me in buried treasure."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "168D0120F150BC28"
+			tasks: [{
+				id: "1D30C9F6ACAE3CF3"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Find me in igloos."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "5AF53749F917D429"
+			tasks: [{
+				id: "0540213F44030BB9"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Find me where I stalk villagers."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "2E2C02E5BD9E21F7"
+			tasks: [{
+				id: "0109D61CAE58079B"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Find me in ancient mineshafts."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6C0BCC3A430B9FEB"
+			tasks: [{
+				id: "15891D2C744D8AC0"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Find me in the Nether Fortress."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "58C3EE597C33E90D"
+			tasks: [{
+				id: "19761F1D28E842C1"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Find me in ancient desert temples."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "68BDA11046E98486"
+			tasks: [{
+				id: "60F672CEB7CF7B50"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Find me in the temple that contains malicious redstone."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "685B2504CF4E9E26"
+			tasks: [{
+				id: "5EEC9A6676F1B84B"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Find me in a Bastion."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "65816DD85625C60E"
+			tasks: [{
+				id: "0906B32D7A49EE41"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Acquire me from a Master Cleric."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3262C302262A1AAC"
+			tasks: [{
+				id: "6233B553452828BE"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "I am responsible for many deaths in the ocean ruins."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1013541B6EC52CEF"
+			tasks: [{
+				id: "76E62C364A2792E9"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "I am used by someone with ill intentions."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "66725960700B2323"
+			tasks: [{
+				id: "153F6A1E52466B39"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "I bring destruction to the world."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3FFB8D0ADC19BCA1"
+			tasks: [{
+				id: "7E3DB1DAC40B0F03"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "I was once part of a master of potion brewing."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "021DAFFB5B6C41D7"
+			tasks: [{
+				id: "7E1F35FAC6DF89A7"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			subtitle: "I am made from the soul of a horse turned skeletal."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3F991D3B86EFF9EE"
+			tasks: [{
+				id: "3289A7711479BCE1"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "I can only be created from your aquatic adventures."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3939C50171FAD48A"
+			tasks: [{
+				id: "1C7BB2EBEF9AC5A0"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Origins unkown, maybe from a tome of ancient knowledge?"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "7E7D888C64FD0E69"
+			tasks: [{
+				id: "2D593506152BC546"
+				type: "item"
+				item: {
+					id: "endrem:cryptic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

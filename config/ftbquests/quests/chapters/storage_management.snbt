@@ -1,0 +1,722 @@
+{
+	id: "32CC85BACCD9E454"
+	group: "668E3EA3A7A91B79"
+	order_index: 0
+	filename: "storage_management"
+	title: "Storage Management"
+	icon: "minecraft:chest"
+	subtitle: ["Organization is your best friend."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
+	quests: [
+		{
+			title: "Make a barrel."
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Just a regular barrel."
+			dependencies: ["1229F8883A381F07"]
+			id: "35B4674E46E57316"
+			tasks: [{
+				id: "69D88EC6E66E3B09"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "Introduction to Storage Management"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "There are many options for storage. Sophisticated Storage, Backpacks, Iron Chests, etc."
+			description: ["You are free to utilize whatever storage methods you feel best suit your needs."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			size: 1.5d
+			id: "1229F8883A381F07"
+			tasks: [{
+				id: "6F00A5E440FE9504"
+				type: "checkmark"
+				title: "Everything Storage checkmark"
+			}]
+		}
+		{
+			title: "Make a chest."
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Make a basic chest."
+			dependencies: ["1229F8883A381F07"]
+			id: "6175DFE7CD3F470E"
+			tasks: [{
+				id: "1BA6340D3FDD8082"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "A basic drawer."
+			x: -3.0d
+			y: 1.0d
+			subtitle: "Don't underestimate Functional Storage."
+			dependencies: ["6175DFE7CD3F470E"]
+			id: "4DEB9CA0C44C7443"
+			tasks: [{
+				id: "502F03E54151B126"
+				type: "item"
+				item: "functionalstorage:oak_1"
+			}]
+		}
+		{
+			title: "Introduction to Sophisticated Backpacks"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Dora the explorer!"
+			description: ["There are a lot of upgrades, so make sure to check them through JEI."]
+			dependencies: ["1229F8883A381F07"]
+			id: "18FDB5A924329F06"
+			tasks: [{
+				id: "0FDEF878D0B8CDF7"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+						contentsUuid: [I;
+							-1559123695
+							1694647029
+							-1800984745
+							47952899
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["4742E83B23E823E2"]
+			id: "29698FF320603511"
+			tasks: [{
+				id: "5C45F6C5358C2566"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["743C474578CF6D8F"]
+			id: "629914646DB60610"
+			tasks: [{
+				id: "29FF660798788B2B"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_barrel"
+					Count: 1b
+					tag: {
+						woodType: "spruce"
+					}
+				}
+			}]
+		}
+		{
+			title: "Acquire some Quartz Enriched Iron!"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "This branch is currently a work in progress!"
+			dependencies: ["1229F8883A381F07"]
+			id: "530139A623E79419"
+			tasks: [{
+				id: "02505AABCBCA2FAB"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["2B5B0880BD8A5778"]
+			id: "161F0260D42CB3C7"
+			tasks: [{
+				id: "7FC1EC6ED7715EA8"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Introduction to EnderChests and EnderTanks"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Made by shetiphian"
+			dependencies: ["1229F8883A381F07"]
+			id: "537EBAE5E0065751"
+			tasks: [{
+				id: "01F2D5DD6B7417BA"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["161F0260D42CB3C7"]
+			id: "6D9C01E172556411"
+			tasks: [{
+				id: "735D61A2A648B15A"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["6D9C01E172556411"]
+			id: "4742E83B23E823E2"
+			tasks: [{
+				id: "7B845393D1D8681E"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Intro to Iron Chests"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "You can either make the upgrade, or the Copper Chest."
+			dependencies: ["6175DFE7CD3F470E"]
+			id: "750696A3AE521A53"
+			tasks: [{
+				id: "361C1CC12D1E9753"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			title: "Sophisticated Storage: Intro"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Upgrade a regular chest into a Sophisticated Storage chest."
+			dependencies: [
+				"6175DFE7CD3F470E"
+				"35B4674E46E57316"
+			]
+			id: "2B5B0880BD8A5778"
+			tasks: [{
+				id: "04E70902F5430964"
+				type: "item"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["750696A3AE521A53"]
+			id: "78F700FA13C805A4"
+			tasks: [{
+				id: "183D510F9CF3A181"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["78F700FA13C805A4"]
+			id: "13565B151388ED52"
+			tasks: [{
+				id: "104D198A2705CE87"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["13565B151388ED52"]
+			id: "150CEAEEDDFCAFE7"
+			tasks: [{
+				id: "1226560D7E98AD76"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			title: "Iron Chests: Final Tier"
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["150CEAEEDDFCAFE7"]
+			id: "7173F6A29A2A7AD0"
+			tasks: [
+				{
+					id: "1B48EA6F5B1846E5"
+					type: "item"
+					item: "ironchest:obsidian_chest"
+				}
+				{
+					id: "1A0A93ACA4FCF34C"
+					type: "item"
+					item: "ironchest:crystal_chest"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["2DEA29D7DE7D4D00"]
+			id: "743C474578CF6D8F"
+			tasks: [{
+				id: "0E14D803BF47447E"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_barrel"
+					Count: 1b
+					tag: {
+						woodType: "spruce"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["60F5D4C1BCD3B6BF"]
+			id: "2DEA29D7DE7D4D00"
+			tasks: [{
+				id: "5F252B33C0B3463E"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_barrel"
+					Count: 1b
+					tag: {
+						woodType: "spruce"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["2B5B0880BD8A5778"]
+			id: "60F5D4C1BCD3B6BF"
+			tasks: [{
+				id: "179889BE53732FB0"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_barrel"
+					Count: 1b
+					tag: {
+						woodType: "spruce"
+					}
+				}
+			}]
+		}
+		{
+			title: "Compacting Drawers: Magical compacting!"
+			x: -4.5d
+			y: 2.5d
+			subtitle: "These are very special drawers."
+			dependencies: ["4DEB9CA0C44C7443"]
+			id: "069FE13E68226DBC"
+			tasks: [
+				{
+					id: "60E8E3E4BDDBD3D5"
+					type: "item"
+					item: "functionalstorage:compacting_drawer"
+				}
+				{
+					id: "77543B084A3B7C17"
+					type: "item"
+					item: "functionalstorage:simple_compacting_drawer"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["4DEB9CA0C44C7443"]
+			id: "4E05EE9F10CE5BA1"
+			tasks: [{
+				id: "3DE90A59364402BE"
+				type: "item"
+				item: "functionalstorage:copper_upgrade"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["4E05EE9F10CE5BA1"]
+			id: "756DF593AAB6B979"
+			tasks: [{
+				id: "62FEA7E14925B9A6"
+				type: "item"
+				item: "functionalstorage:gold_upgrade"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			dependencies: ["756DF593AAB6B979"]
+			id: "79CCD3538FB4A2CF"
+			tasks: [{
+				id: "00E431C719E58832"
+				type: "item"
+				item: "functionalstorage:diamond_upgrade"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["79CCD3538FB4A2CF"]
+			id: "0D131BC5457FA33F"
+			tasks: [{
+				id: "68C5742FBDDD8B80"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["537EBAE5E0065751"]
+			id: "124DCED733F1F423"
+			tasks: [{
+				id: "34EA586AB3034F06"
+				type: "item"
+				item: {
+					id: "enderchests:ender_chest"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["537EBAE5E0065751"]
+			id: "42D2219C7161A185"
+			tasks: [{
+				id: "2DDDFDA5D66FF258"
+				type: "item"
+				item: {
+					id: "endertanks:ender_tank"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["42D2219C7161A185"]
+			id: "2328A84037C87D9F"
+			tasks: [{
+				id: "4EEF4A44A98F2C6B"
+				type: "item"
+				item: {
+					id: "endertanks:ender_bucket"
+					Count: 1b
+					tag: {
+						owner: "all"
+						mode: "normal"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["7B6F4E63BE0885B6"]
+			id: "72664E72295EA82F"
+			tasks: [{
+				id: "24DAC654429C17A4"
+				type: "item"
+				item: {
+					id: "enderchests:ender_bag"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+						open: 0b
+					}
+				}
+			}]
+		}
+		{
+			title: "A customized drawer."
+			icon: "functionalstorage:framed_1"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Same thing, but you can customize the appearance of the drawer."
+			dependencies: ["4DEB9CA0C44C7443"]
+			id: "65EF71C70CF43E9B"
+			tasks: [
+				{
+					id: "337DAFE915A3E7F4"
+					type: "item"
+					item: "functionalstorage:framed_1"
+				}
+				{
+					id: "47269219F72DDCB0"
+					type: "item"
+					item: "functionalstorage:compacting_framed_drawer"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["537EBAE5E0065751"]
+			id: "7B6F4E63BE0885B6"
+			tasks: [{
+				id: "1E2F4E2E6FFA5FD7"
+				type: "item"
+				item: {
+					id: "enderchests:ender_pouch"
+					Count: 1b
+					tag: {
+						open: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "Condensed configuration. "
+			dependencies: ["069FE13E68226DBC"]
+			id: "6AFFD71C3366EA4E"
+			tasks: [
+				{
+					id: "0C6B4CA7839EBFEC"
+					type: "item"
+					item: {
+						id: "functionalstorage:configuration_tool"
+						Count: 1b
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+				}
+				{
+					id: "6DAD39293048F0D6"
+					type: "item"
+					item: {
+						id: "functionalstorage:linking_tool"
+						Count: 1b
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["6AFFD71C3366EA4E"]
+			id: "407B062DED7EB26F"
+			tasks: [{
+				id: "1BAF5000C983F549"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["2B5B0880BD8A5778"]
+			id: "597F344AAAA4F11F"
+			tasks: [{
+				id: "74B3794313500865"
+				type: "item"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["597F344AAAA4F11F"]
+			id: "7134D2F39F1FBB76"
+			tasks: [{
+				id: "7A9D0CE1F98D2746"
+				type: "item"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["7134D2F39F1FBB76"]
+			id: "04F790D91E21E663"
+			tasks: [{
+				id: "157730474C303E15"
+				type: "item"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["04F790D91E21E663"]
+			id: "525303208D7D3180"
+			tasks: [{
+				id: "416C5C805FFE0624"
+				type: "item"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["18FDB5A924329F06"]
+			id: "62C861AA94BD3AC0"
+			tasks: [{
+				id: "090B8C797794371D"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+						contentsUuid: [I;
+							853032574
+							1328694153
+							-1545711236
+							693520857
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["62C861AA94BD3AC0"]
+			id: "20F24300FDCFF6CB"
+			tasks: [{
+				id: "454BE7D464DE4FCD"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:gold_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
+						contentsUuid: [I;
+							-1795580574
+							1185957975
+							-1116709724
+							2127834065
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["20F24300FDCFF6CB"]
+			id: "2E9307716F204BF3"
+			tasks: [{
+				id: "3A386E76C13EE251"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:diamond_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
+						contentsUuid: [I;
+							781695343
+							-765181404
+							-1227061216
+							-1208770945
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["2E9307716F204BF3"]
+			id: "6CA1A53ED10B04BF"
+			tasks: [{
+				id: "1AFEC907DD55497B"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:netherite_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 120
+						upgradeSlots: 7
+						contentsUuid: [I;
+							-2020380905
+							-1960098104
+							-2088563750
+							246099017
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Instant item transportation, frequency configurable."
+			dependencies: ["6AFFD71C3366EA4E"]
+			id: "73883BFFA5483EF9"
+			tasks: [{
+				id: "00F21E86061B9711"
+				type: "item"
+				item: "functionalstorage:ender_drawer"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			dependencies: ["407B062DED7EB26F"]
+			id: "5798753B48C6807F"
+			tasks: [{
+				id: "5BE9AEF2BBDA6A93"
+				type: "item"
+				item: "functionalstorage:controller_extension"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

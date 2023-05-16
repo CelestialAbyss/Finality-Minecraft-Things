@@ -1,0 +1,63 @@
+{
+	id: "7C5485AD4115C397"
+	group: "668E3EA3A7A91B79"
+	order_index: 1
+	filename: "travel_anchors"
+	title: "Travel Anchors"
+	icon: "travel_anchors:travel_anchor"
+	subtitle: ["Teleporter elevators, but omni-directional!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "The omni-directional teleportation rod!"
+			description: ["Also more reasonably priced compared to OpenBlocks Elevator."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3DA5BDA8100E3091"
+			tasks: [{
+				id: "63D12F76B2BAAE04"
+				type: "item"
+				item: "travel_anchors:travel_staff"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "You can name it too."
+			description: ["To unlock the Travel Anchor to rename it, use a stick!"]
+			dependencies: ["3DA5BDA8100E3091"]
+			id: "5E18C8F322B6F15A"
+			tasks: [{
+				id: "7329DF97733317D4"
+				type: "item"
+				item: "travel_anchors:travel_anchor"
+			}]
+		}
+		{
+			title: "Acquire the Teleportation Enchantment"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "This allows you to convert any tool to a Travel Staff!"
+			dependencies: ["3DA5BDA8100E3091"]
+			id: "63160CE1AD581078"
+			tasks: [{
+				id: "07318D1053DE48DB"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1
+							id: "travel_anchors:teleportation"
+						}]
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

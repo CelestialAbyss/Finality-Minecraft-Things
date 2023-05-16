@@ -1,0 +1,289 @@
+{
+	id: "2C5FF9AF6ACD1D02"
+	group: "6855847200ADBE3A"
+	order_index: 9
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:infusion_altar"
+	subtitle: [
+		"It's growing diamonds!"
+		"Mystical Agriculture is very cool."
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Genesis of Infinity"
+			icon: "mysticalagriculture:infusion_altar"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Avaritia, greed."
+			description: [
+				"With Mystical Agriculture, you can make many things. You can even make renewable conduits, hearts of the sea and more."
+				""
+				"Does this upset the balance? Yes. Was this modpack intended to be balanced? Nope."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3ED54EFC2FC65E99"
+			tasks: [
+				{
+					id: "1CB1D118DB89DA8C"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "6C05977CFD430CC7"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["6E3E85ECD7204B4D"]
+			id: "013A53FA6B5EA594"
+			tasks: [{
+				id: "56B96EC3B1857503"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			icon: "mysticalagriculture:inferium_essence"
+			x: 0.0d
+			y: 2.0d
+			description: ["Please craft the Mystical Agriculture Guide Book. The documentation is extensive."]
+			dependencies: ["3ED54EFC2FC65E99"]
+			id: "6E3E85ECD7204B4D"
+			tasks: [
+				{
+					id: "432A834B17F1F711"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+				}
+				{
+					id: "3F65123B7AD92251"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "mysticalagriculture:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["013A53FA6B5EA594"]
+			id: "3E607B69558203C0"
+			tasks: [{
+				id: "5051D0D23964A3EC"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["3E607B69558203C0"]
+			id: "58621F2AF6BAED27"
+			tasks: [{
+				id: "4C1ADDAF2F6DCA13"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["58621F2AF6BAED27"]
+			id: "6366BD8019526248"
+			tasks: [{
+				id: "41989A0CAA146393"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			title: "Craft the basic Watering Can"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Just your basic watering can."
+			description: ["Simply right click on water to fill, it's that simple."]
+			dependencies: ["3ED54EFC2FC65E99"]
+			id: "1BAF5C307DD38F12"
+			tasks: [{
+				id: "5C4E0CE5FF14CD14"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+		}
+		{
+			title: "Acquire the Inferium Watering Can"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "MORE WATER!"
+			dependencies: [
+				"1BAF5C307DD38F12"
+				"6E3E85ECD7204B4D"
+			]
+			id: "02949EFDAF8BFE6F"
+			tasks: [{
+				id: "13221CEC2CD35A5E"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["6E3E85ECD7204B4D"]
+			id: "1142F1650CBDF461"
+			tasks: [{
+				id: "30BDA0A7128D885B"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+		}
+		{
+			title: "Acquire the Prudentium Watering Can"
+			x: 1.5d
+			y: 4.0d
+			subtitle: "MORE WATERR!!!"
+			dependencies: ["013A53FA6B5EA594"]
+			id: "70790BD37B0BDE2D"
+			tasks: [{
+				id: "5AAC6A33655D91CA"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+		}
+		{
+			title: "Acquire the Tertium Watering Can"
+			x: 1.5d
+			y: 6.0d
+			subtitle: "EVEN MORE WATERR!"
+			dependencies: ["3E607B69558203C0"]
+			id: "36D6E28D0D048B25"
+			tasks: [{
+				id: "6425FEFC1C4BF9A4"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["58621F2AF6BAED27"]
+			id: "776DCB20322DC7CA"
+			tasks: [{
+				id: "6D3EB9183E605EF8"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			dependencies: ["6366BD8019526248"]
+			id: "3A2D13B49A74A4E5"
+			tasks: [{
+				id: "5ED76EABC6C8ACF0"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["013A53FA6B5EA594"]
+			id: "2379E9C25EF61BB8"
+			tasks: [{
+				id: "63C7AC42016D88A8"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["3E607B69558203C0"]
+			id: "793C2CA9EE9A28A1"
+			tasks: [{
+				id: "598367EF8EB024F0"
+				type: "item"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			dependencies: ["6366BD8019526248"]
+			id: "1E94C7BF285762B9"
+			tasks: [{
+				id: "328C3E579E38B01C"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["58621F2AF6BAED27"]
+			id: "733E538EB19C6210"
+			tasks: [{
+				id: "1FD918E0714CB9B2"
+				type: "item"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

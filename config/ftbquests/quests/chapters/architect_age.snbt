@@ -1,0 +1,134 @@
+{
+	id: "478E1A54F8FF90FA"
+	group: "4B44486C4CFAE9FB"
+	order_index: 0
+	filename: "architect_age"
+	title: "Create: Architect Age"
+	icon: "create:polished_cut_ochrum"
+	subtitle: ["Create's decorative palette colors."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Base Ingredients: The Vanilla Palette"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Collect the basic building materials for each color palette in the Minecraft group."
+			description: ["At least try each of them, because I believe they would look wonderful in a lot of builds. Look at CraisinLord's Integrated structures!"]
+			dependencies: ["0823CEAA341364B2"]
+			id: "56FBABA56EE62D70"
+			tasks: [
+				{
+					id: "14D7CE6EF3BC1EDE"
+					type: "item"
+					item: "minecraft:granite"
+					count: 16L
+				}
+				{
+					id: "1AF5F3E831EF1E10"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 16L
+				}
+				{
+					id: "5FEEB9ED71A32E1E"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16L
+				}
+				{
+					id: "7908C28073C6AAD6"
+					type: "item"
+					item: "minecraft:deepslate"
+					count: 16L
+				}
+				{
+					id: "51A183CBF465BD00"
+					type: "item"
+					item: "minecraft:dripstone_block"
+					count: 16L
+				}
+				{
+					id: "08986BA7D1CB433E"
+					type: "item"
+					item: "minecraft:tuff"
+					count: 16L
+				}
+				{
+					id: "632BF358D98CE08D"
+					type: "item"
+					item: "minecraft:calcite"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "The Mighty Stonecutter"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "An architect's best friend."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "0823CEAA341364B2"
+			tasks: [{
+				id: "34B6FC50695C4DE6"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "Base Ingredients: The Create Palette"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Collect the basic building materials for each color palette in the Create group."
+			description: ["At least try each of them, because I believe they would look wonderful in a lot of builds. Look at CraisinLord's Integrated structures!"]
+			dependencies: ["0823CEAA341364B2"]
+			id: "257DBCB0BE981895"
+			tasks: [
+				{
+					id: "4F22F542B07F0480"
+					type: "item"
+					item: "create:crimsite"
+					count: 16L
+				}
+				{
+					id: "34B5F65742FD89FA"
+					type: "item"
+					item: "create:veridium"
+					count: 16L
+				}
+				{
+					id: "254FD726D4A1E151"
+					type: "item"
+					item: "create:asurine"
+					count: 16L
+				}
+				{
+					id: "4003D3C2318A1198"
+					type: "item"
+					item: "create:ochrum"
+					count: 16L
+				}
+				{
+					id: "333F680C2A414A37"
+					type: "item"
+					item: "create:limestone"
+					count: 16L
+				}
+				{
+					id: "7B84394A85A07A37"
+					type: "item"
+					item: "create:scoria"
+					count: 16L
+				}
+				{
+					id: "66871302D69AEA93"
+					type: "item"
+					item: "create:scorchia"
+					count: 16L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

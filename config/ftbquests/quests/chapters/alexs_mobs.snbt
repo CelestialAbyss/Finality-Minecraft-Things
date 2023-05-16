@@ -1,0 +1,27 @@
+{
+	id: "446E7B84E4F48620"
+	group: "6855847200ADBE3A"
+	order_index: 0
+	filename: "alexs_mobs"
+	title: "Alex's Mobs"
+	icon: "alexsmobs:mimicream"
+	subtitle: ["Making Minecraft feel alive in many ways."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Making Minecraft feel alive."
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Work in progress."
+		description: ["Please refer to the Animal Dictionary for guidance."]
+		dependencies: ["4A691BB889286C89"]
+		hide: true
+		id: "515023C592C1CB42"
+		tasks: [{
+			id: "54A9B8CECAEAC401"
+			type: "item"
+			item: "alexsmobs:mimicream"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,137 @@
+{
+	id: "392C4E165C82B483"
+	group: "6855847200ADBE3A"
+	order_index: 8
+	filename: "the_graveyard"
+	title: "The Graveyard"
+	icon: "graveyard:corruption"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Darkness lies ahead..."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "An aura of evil whispers into your ear as you hold the bone dagger in your hand..."
+			description: [
+				"Villagers..."
+				""
+				"Be sure to hold a glass bottle in your off hand while doing this."
+			]
+			dependencies: ["4A691BB889286C89"]
+			id: "735737BB5E9F18EA"
+			tasks: [
+				{
+					id: "707DFAE119BFA020"
+					type: "item"
+					item: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4985BCFDC79BFBEB"
+					type: "item"
+					item: "minecraft:glass_bottle"
+				}
+			]
+		}
+		{
+			title: "Fill a vessel with the blood of the innocent..."
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Good..."
+			dependencies: ["735737BB5E9F18EA"]
+			id: "2E2346173540B632"
+			tasks: [{
+				id: "3A898CF5F38984C2"
+				type: "item"
+				item: "graveyard:vial_of_blood"
+			}]
+		}
+		{
+			title: "Find the fragments..."
+			icon: "graveyard:upper_bone_staff"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "More whispers in your ear..."
+			description: [
+				"You will need to find the three bone staff pieces from a special structure."
+				""
+				"You will need the upper, middle and lower components."
+			]
+			dependencies: ["2E2346173540B632"]
+			id: "508B2B6A97E3D278"
+			tasks: [
+				{
+					id: "0FB4621C230083DE"
+					type: "item"
+					item: "graveyard:upper_bone_staff"
+				}
+				{
+					id: "5138D612FA821139"
+					type: "item"
+					item: "graveyard:middle_bone_staff"
+				}
+				{
+					id: "7BC9561AAAFC3D39"
+					type: "item"
+					item: "graveyard:lower_bone_staff"
+				}
+			]
+		}
+		{
+			title: "Find the forbidden island..."
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Good luck."
+			description: [
+				"Once you get on the island, place the bone staff fragments in order in front of the altar. The blocks stand out very easily."
+				""
+				"Lastly, pour the vial of blood onto the altar block."
+			]
+			dependencies: ["508B2B6A97E3D278"]
+			id: "26765D3FA36B997A"
+			tasks: [{
+				id: "0650ECCD75463E75"
+				type: "observation"
+				icon: "graveyard:altar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "graveyard:altar"
+			}]
+		}
+		{
+			title: "Corrupted Decoration"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "This is mostly used for decorative purposes."
+			dependencies: ["735737BB5E9F18EA"]
+			id: "2C290DE4866EBC4B"
+			tasks: [{
+				id: "43D02C88F693D827"
+				type: "item"
+				item: "graveyard:corruption"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "20394E5067964449"
+					type: "item"
+					item: "graveyard:dark_iron_block"
+					count: 64
+				}
+				{
+					id: "05A772194E84AC8E"
+					type: "item"
+					item: "graveyard:dark_iron_ingot"
+					count: 32
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

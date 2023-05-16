@@ -1,0 +1,39 @@
+{
+	id: "795903068BE735E6"
+	group: "2B2D0B6DE31DE8D3"
+	order_index: 2
+	filename: "sushi_go_crafting"
+	title: "Sushi Go Crafting"
+	icon: "sushigocrafting:onigiri"
+	subtitle: ["Sushi."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Getting Started: Sushi Crafting"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Have fun with all things sushi related."
+		dependencies: ["4A691BB889286C89"]
+		hide: true
+		id: "2E2DB6D5171C31BC"
+		tasks: [
+			{
+				id: "5D7F10E386F796F1"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sushigocrafting:sushigocrafting"
+					}
+				}
+			}
+			{
+				id: "1A97602FB6D57D4A"
+				type: "item"
+				item: "sushigocrafting:cleaver_knife"
+			}
+		]
+	}]
+	quest_links: [ ]
+}

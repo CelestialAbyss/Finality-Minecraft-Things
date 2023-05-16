@@ -1,0 +1,333 @@
+{
+	id: "316548665A573E57"
+	group: "65124948534FAE42"
+	order_index: 0
+	filename: "the_ultimate_singularity"
+	title: "Avaritia"
+	icon: "avaritia:infinity_sword"
+	subtitle: ["You are in the endgame now."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "You made it."
+			description: ["The Ultimate Singularity... You should probably be rethinking your life choices right now."]
+			dependencies: ["256A6D42E6BF34CF"]
+			hide: true
+			id: "413A74092EF58787"
+			tasks: [{
+				id: "33D3AACA92B3DE58"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Begin to rethink your life choices."
+			description: ["Compress 77 Coal Blocks into a single Coal Singularity."]
+			dependencies: ["71CA0C6C865E6D6B"]
+			id: "21705F9601862862"
+			tasks: [{
+				id: "50775EFDC7988C49"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+		}
+		{
+			title: "It's a Pile of Neutrons..."
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Casually grinding a singularity into a powder."
+			description: ["So you just compressed 77 Coal Blocks into a single point, now grind it."]
+			dependencies: ["21705F9601862862"]
+			id: "057E4148E637F842"
+			tasks: [{
+				id: "6910B81A71013C9B"
+				type: "item"
+				item: "avaritia:neutron_pile"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "...now what?"
+			description: ["Make 9 Piles of Neutrons and make the Neutron Nugget."]
+			dependencies: ["057E4148E637F842"]
+			id: "4105336FA9C5606E"
+			tasks: [{
+				id: "144878A4CA6BAC7B"
+				type: "item"
+				item: "avaritia:neutron_nugget"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "It gets worse."
+			description: ["Take the 9 Neutron Nuggets you made and make the Neutronium Ingot."]
+			dependencies: ["4105336FA9C5606E"]
+			id: "763EB92F4A1B4BAC"
+			tasks: [{
+				id: "5E867FEB3545EEDF"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			subtitle: "I might be going insane?"
+			description: ["Take the 9 Neutronium Ingots and compress them into a single Neutronium Block. Feel accomplished yet?"]
+			dependencies: ["763EB92F4A1B4BAC"]
+			id: "537A4202F910E346"
+			tasks: [{
+				id: "17789855A978005D"
+				type: "item"
+				item: "avaritia:neutronium_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["413A74092EF58787"]
+			id: "71CA0C6C865E6D6B"
+			tasks: [{
+				id: "4BE7CDBAF84C1666"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["71CA0C6C865E6D6B"]
+			id: "7E65EFCCC9B222F1"
+			tasks: [{
+				id: "07F5F4D7FF5DF299"
+				type: "item"
+				item: "avaritia:diamond_lattice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			description: ["You can only craft the Crystal Matrix Ingot using the Advanced Crafting Table."]
+			dependencies: ["7E65EFCCC9B222F1"]
+			id: "10154B576B21FED3"
+			tasks: [{
+				id: "08BCD6A693F4A829"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: [
+				"71CA0C6C865E6D6B"
+				"763EB92F4A1B4BAC"
+				"10154B576B21FED3"
+			]
+			id: "511971DE8855258C"
+			tasks: [{
+				id: "26768FAC79A2F7EE"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["10154B576B21FED3"]
+			id: "05F65C7E9FA7D848"
+			tasks: [{
+				id: "6985A6E623665A4D"
+				type: "item"
+				item: "avaritia:crystal_matrix_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Visio Noctis"
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "1203D808A83A22C8"
+			tasks: [{
+				id: "6B431D74BFAA1789"
+				type: "item"
+				item: "avaritia:infinity_helmet"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "Vita Aeterna"
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "5C5BE5B8284E04AA"
+			tasks: [{
+				id: "5D74CF20884E533C"
+				type: "item"
+				item: "avaritia:infinity_chestplate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.0d
+			shape: "rsquare"
+			subtitle: "SANIC speed!"
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "0B9744E776FA8A8A"
+			tasks: [{
+				id: "6865C76DE7927C33"
+				type: "item"
+				item: "avaritia:infinity_boots"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "I don't know what these do so..."
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "7B916E84654EFBB1"
+			tasks: [{
+				id: "33B55589404DDFFD"
+				type: "item"
+				item: "avaritia:infinity_legs"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Mors Gladius"
+			description: ["Universal death given form."]
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "3B8124AF135C2C5C"
+			tasks: [{
+				id: "5D42840CC842ED9C"
+				type: "item"
+				item: "avaritia:infinity_sword"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "May those who are in your sight have mercy from the heavens."
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "07C31392CABE7D06"
+			tasks: [{
+				id: "51EC492AA5492D8E"
+				type: "item"
+				item: "avaritia:infinity_bow"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Your appetite is probably going to be gone afterwards."
+			dependencies: ["6910B81A71013C9B"]
+			hide: true
+			id: "507AD7021D299113"
+			tasks: [{
+				id: "57CD256E6244FCA2"
+				type: "item"
+				item: "avaritia:ultimate_stew"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			shape: "rsquare"
+			subtitle: "Ikea meatballs 1000x"
+			dependencies: ["6910B81A71013C9B"]
+			hide: true
+			id: "7BBA3D1270891D0D"
+			tasks: [{
+				id: "51074AE21654CAEE"
+				type: "item"
+				item: "avaritia:cosmic_meatballs"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Planeta Destructor"
+			description: ["Shift + Right Click to switch modes. Can mine a 16x16 by 9 blocks tall area, so be careful."]
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "661775C57E0E125A"
+			tasks: [{
+				id: "1322E7C7AA492327"
+				type: "item"
+				item: "avaritia:infinity_pickaxe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "Natura Messorem"
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "6A49A5E42E6E90F2"
+			tasks: [{
+				id: "36A15E2FF8B7ECB9"
+				type: "item"
+				item: "avaritia:infinity_axe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			shape: "rsquare"
+			subtitle: "Planeta ficedula"
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "584C1E8B6E47DD01"
+			tasks: [{
+				id: "13B57168F03BFC08"
+				type: "item"
+				item: "avaritia:infinity_shovel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			shape: "rsquare"
+			subtitle: "Vita Falcatae"
+			description: ["You can till the farmlands to your heart's content."]
+			dependencies: ["26768FAC79A2F7EE"]
+			hide: true
+			id: "1DAB47D5653865A2"
+			tasks: [{
+				id: "10EC418FA26DA2C3"
+				type: "item"
+				item: "avaritia:infinity_hoe"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

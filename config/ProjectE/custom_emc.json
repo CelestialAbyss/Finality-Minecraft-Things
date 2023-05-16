@@ -1,0 +1,68 @@
+{
+  "entries": [
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:lapis_lazuli\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:gunpowder\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:coal\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:redstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:sea_lantern\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:ender_pearl\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:diamond\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:honey\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:iron\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:glowstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:netherite\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:copper\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:quartz\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:gold\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:amethyst\"}",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity{Id:\"extendedcrafting:emerald\"}",
+      "emc": 0
+    }
+  ]
+}

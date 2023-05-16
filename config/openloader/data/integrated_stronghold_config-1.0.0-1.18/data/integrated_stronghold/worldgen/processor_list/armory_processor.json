@@ -1,0 +1,14 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:remove_floating_blocks_processor"
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "integrated_stronghold:stronghold"
+    }
+  ]
+}

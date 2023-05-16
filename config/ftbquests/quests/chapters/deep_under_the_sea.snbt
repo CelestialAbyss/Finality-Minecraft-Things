@@ -1,0 +1,78 @@
+{
+	id: "0D990FD7BA874E28"
+	group: "6855847200ADBE3A"
+	order_index: 2
+	filename: "deep_under_the_sea"
+	title: "Aquamirae"
+	icon: "aquamirae:ship_graveyard_echo"
+	subtitle: ["It's cold."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Find the Frozen Ocean biome."
+			icon: "minecraft:blue_ice"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Something new lurks in the deep."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			size: 1.5d
+			id: "45A755C8C8F7BC77"
+			tasks: [{
+				id: "1E2AB3B303BBA0FB"
+				type: "biome"
+				icon: "minecraft:blue_ice"
+				biome: "minecraft:frozen_ocean"
+			}]
+		}
+		{
+			title: "Find the Shell Horn"
+			x: 0.0d
+			y: 4.0d
+			shape: "rsquare"
+			subtitle: "With the sound of the horn, Captain Cornelia appears."
+			description: ["Make sure you are prepared with the Terrible Sword. It is the only weapon that can defeat her."]
+			dependencies: ["38C4D6D6DB7D9044"]
+			id: "67F927F7012EC595"
+			tasks: [{
+				id: "3716E42A1A7B92B4"
+				type: "item"
+				item: "aquamirae:shell_horn"
+			}]
+		}
+		{
+			title: "You feel vibrations under the ice..."
+			icon: "aquamirae:abyssal_amethyst"
+			x: 0.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Kill the Mother of the Maze."
+			dependencies: ["45A755C8C8F7BC77"]
+			id: "38C4D6D6DB7D9044"
+			tasks: [{
+				id: "75A166B5D306C6E6"
+				type: "kill"
+				icon: "aquamirae:abyssal_amethyst"
+				entity: "aquamirae:maze_mother"
+				value: 1L
+			}]
+		}
+		{
+			title: "Frozen Treasures"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "You have acquired the Frozen Key, congratulations."
+			description: ["Next thing to do is to find a Frozen Chest."]
+			dependencies: ["67F927F7012EC595"]
+			id: "013BDE40B58BD29C"
+			tasks: [{
+				id: "716EBD5EF1739796"
+				type: "item"
+				item: "aquamirae:frozen_key"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

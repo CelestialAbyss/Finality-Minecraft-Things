@@ -1,0 +1,88 @@
+{
+	id: "381F32629FB523CD"
+	group: "4B44486C4CFAE9FB"
+	order_index: 1
+	filename: "supplementaries"
+	title: "Spice it Up!"
+	icon: "supplementaries:globe"
+	subtitle: ["A lot more decorative blocks."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Better torches!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "They look cooler!"
+			description: ["Here's a free soul sconce once you make the regular variant."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "4A2CFDD09FF7A975"
+			tasks: [{
+				id: "374445A1897F9DC2"
+				type: "item"
+				item: "supplementaries:sconce"
+			}]
+			rewards: [{
+				id: "6894CAF8AC0FA0DE"
+				type: "item"
+				item: "supplementaries:sconce_soul"
+			}]
+		}
+		{
+			title: "Yes, gates."
+			x: -1.5d
+			y: 0.0d
+			subtitle: "If you loved using Iron Bars or Gold Bars as walls, here you go!"
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "2DC6790BD0A55A6E"
+			tasks: [
+				{
+					id: "24823464BDDF7173"
+					type: "item"
+					item: "supplementaries:iron_gate"
+				}
+				{
+					id: "0C86F593220A6BD6"
+					type: "item"
+					item: "supplementaries:gold_gate"
+				}
+			]
+		}
+		{
+			title: "Netherite decorations..."
+			x: 1.5d
+			y: 0.0d
+			subtitle: "I'm sure you'll be fineee"
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "79560D87C0BCD280"
+			tasks: [
+				{
+					id: "2D4E2B9AE870E115"
+					type: "item"
+					item: "supplementaries:netherite_door"
+				}
+				{
+					id: "3F1024F70A05987C"
+					type: "item"
+					item: "supplementaries:netherite_trapdoor"
+				}
+			]
+		}
+		{
+			title: "Make the secret torch lever!"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Pull the lever Kronk!"
+			description: ["Perfect for adding secret Mechanical Piston doors, though it might be useless since Jade reveals all..."]
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "4D7D29F3E7D7AC0D"
+			tasks: [{
+				id: "2739559FD5F3E922"
+				type: "item"
+				item: "supplementaries:sconce_lever"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

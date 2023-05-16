@@ -1,0 +1,86 @@
+{
+	id: "35D4EDEBCA6FE42B"
+	group: "6855847200ADBE3A"
+	order_index: 12
+	filename: "stalwart_dungeons"
+	title: "Stalwart Dungeons"
+	icon: "stalwart_dungeons:void_crystal"
+	subtitle: ["Dungeons!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction to Stalwart Dungeons"
+			icon: "stalwart_dungeons:void_crystal"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Use a Nether Star to activate the boss summoning blocks."
+			description: ["Quests are a work in progress."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "2F76F56324013FD1"
+			tasks: [
+				{
+					id: "42783C2027F568EB"
+					type: "checkmark"
+					title: "Stalwart Dungeons work in progress"
+				}
+				{
+					id: "0559414C785D0A6F"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+			]
+		}
+		{
+			icon: "stalwart_dungeons:shelterer_altar"
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["2F76F56324013FD1"]
+			id: "48B7C3229DDC29CC"
+			tasks: [{
+				id: "746CB0A1A711CDFA"
+				type: "observation"
+				title: "Find the Shelterer Altar in the End"
+				icon: "stalwart_dungeons:shelterer_altar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "stalwart_dungeons:shelterer_altar"
+			}]
+		}
+		{
+			title: "Nether Keeper Dungeon"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Find this dungeon in the Nether."
+			dependencies: ["2F76F56324013FD1"]
+			id: "54036D03D6C608C2"
+			tasks: [{
+				id: "4281708D44685332"
+				type: "observation"
+				icon: "stalwart_dungeons:nether_keeper_altar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "stalwart_dungeons:nether_keeper_altar"
+			}]
+		}
+		{
+			title: "Awful Ghast Dungeon"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Find this dungeon in the Nether."
+			dependencies: ["2F76F56324013FD1"]
+			id: "249DB097808547A6"
+			tasks: [{
+				id: "6039C68C69C84CF9"
+				type: "observation"
+				icon: "stalwart_dungeons:awful_ghast_altar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "stalwart_dungeons:awful_ghast_altar"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

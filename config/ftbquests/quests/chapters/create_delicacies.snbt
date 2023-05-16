@@ -1,0 +1,106 @@
+{
+	id: "22474EAD1542545C"
+	group: "2B2D0B6DE31DE8D3"
+	order_index: 0
+	filename: "create_delicacies"
+	title: "Create Delicacies"
+	icon: "create:honeyed_apple"
+	subtitle: ["Yes, Create has food items."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sweet honey apples!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "A delicious, fulfilling snack."
+			description: ["Simply pour some honey with a Spout onto an Apple to make one Honeyed Apple."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1A453676D90594AC"
+			tasks: [{
+				id: "33D0C5E9C7E8C39D"
+				type: "item"
+				item: "create:honeyed_apple"
+			}]
+		}
+		{
+			title: "Tea Time!"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Invigorating!"
+			description: ["This is going to require a bit of setup..."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "185B4800C4077816"
+			tasks: [{
+				id: "4AE5643CF1AC98CD"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "Make some chocolate."
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Chocolate? Did you say chocolate? Chocolate?! CHOCOLAAAATEEE?!!!"
+			description: ["I'd like to buy all of your chocolate."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "7284C936E41492CE"
+			tasks: [{
+				id: "6C3D3D84984CCFAD"
+				type: "item"
+				item: "create:bar_of_chocolate"
+				count: 256L
+			}]
+			rewards: [{
+				id: "5408237C8FDA81B2"
+				type: "item"
+				item: "minecraft:netherite_block"
+				count: 9
+			}]
+		}
+		{
+			title: "Make some Chocolate Glazed Berries"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "If only chocolate glazed strawberries existed..."
+			dependencies: ["7284C936E41492CE"]
+			id: "7118D4C70AE8A159"
+			tasks: [{
+				id: "7359EA0E09B494CE"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+			}]
+		}
+		{
+			title: "Make a Sweet Roll"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Looks like a cinnamon bun, doesn't it?"
+			dependencies: ["1E617671F56B9DD8"]
+			id: "4C188B7382FDFDE7"
+			tasks: [{
+				id: "3C9A10BAB940CDFC"
+				type: "item"
+				item: "create:sweet_roll"
+			}]
+		}
+		{
+			title: "Create some dough..."
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Once you make some dough, cook it."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1E617671F56B9DD8"
+			tasks: [{
+				id: "0FBD62F700D18094"
+				type: "item"
+				item: "create:dough"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

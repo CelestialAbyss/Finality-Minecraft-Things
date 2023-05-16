@@ -1,0 +1,11 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:ancient_mines_bottom"
+    }
+  ]
+}

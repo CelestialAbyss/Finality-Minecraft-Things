@@ -1,0 +1,443 @@
+{
+	id: "017D0DB69CFA7AD9"
+	group: "6855847200ADBE3A"
+	order_index: 7
+	filename: "tale_of_the_seven_curses"
+	title: "Enigmatic Legacy"
+	icon: "enigmaticlegacy:cursed_ring"
+	subtitle: ["Choose carefully, or suffer."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
+	quests: [
+		{
+			title: "Tale of the Seven Curses"
+			icon: "enigmaticlegacy:cursed_ring"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "To put on the ring, or to not put on the ring?"
+			description: ["Upon wearing the ring, this branch will unlock."]
+			dependencies: ["12AC3D51B071A726"]
+			id: "208774AE7914F294"
+			tasks: [{
+				id: "5D4A93C82E89171A"
+				type: "advancement"
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Memories forever lost, to time."
+			icon: "enigmaticlegacy:unwitnessed_amulet"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Welcome to Enigmatic Legacy."
+			description: ["You can either choose to walk the path of the cursed or refuse to wear the ring. Your choice."]
+			dependencies: ["6EEDB74144BCAD6C"]
+			size: 1.5d
+			id: "12AC3D51B071A726"
+			tasks: [{
+				id: "00496091148AA48D"
+				type: "checkmark"
+				title: "Where am I?"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["12AC3D51B071A726"]
+			id: "040E48C782B00AF9"
+			tasks: [{
+				id: "1972F5C490B5225E"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+		}
+		{
+			title: "Don't die."
+			icon: "artifacts:obsidian_skull"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "If you do die, you lose a part of your soul... literally."
+			description: ["Looks like you lost a part of your soul."]
+			dependencies: ["208774AE7914F294"]
+			id: "11983113011D3B1F"
+			tasks: [
+				{
+					id: "6E536FDA2F80AD1D"
+					type: "stat"
+					title: "Die once while wearing the Ring of the Seven Curses."
+					icon: "artifacts:obsidian_skull"
+					stat: "minecraft:deaths"
+					value: 1
+				}
+				{
+					id: "478EBF68BF607504"
+					type: "checkmark"
+					title: "Die once or more."
+				}
+			]
+		}
+		{
+			title: "Acquire the Magnetic Ring"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Become a walking magnet!"
+			dependencies: ["681F73AE3065F443"]
+			id: "1FB1A53755B36654"
+			tasks: [{
+				id: "3597EA39F5A41E11"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+		}
+		{
+			title: "Acquire the Dislocation Ring"
+			x: -3.5d
+			y: 3.0d
+			subtitle: "Become a walking neodymium magnet."
+			dependencies: ["1FB1A53755B36654"]
+			id: "2C28B9F44D650E24"
+			tasks: [{
+				id: "050263E9706A8BDE"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			subtitle: "Only found in End Cities."
+			description: ["Those who bear the Seven Curses may obtain this by destroying Shulkers."]
+			dependencies: ["34BBD9B70AE0AAB1"]
+			hide: true
+			id: "1EB71203E5FF754F"
+			tasks: [{
+				id: "225A19245977AB21"
+				type: "item"
+				item: "enigmaticlegacy:astral_dust"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["12AC3D51B071A726"]
+			id: "66F80C2ABCE3E66D"
+			tasks: [{
+				id: "3984CFE1DD05CD48"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.5d
+			dependencies: ["34BBD9B70AE0AAB1"]
+			hide: true
+			id: "156CAC730EA3088E"
+			tasks: [{
+				id: "65D3FAB3A7024852"
+				type: "item"
+				item: "enigmaticlegacy:abyssal_heart"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			dependencies: [
+				"156CAC730EA3088E"
+				"0A73FCA06952871D"
+				"2FA433E979086310"
+			]
+			id: "12531774E80AC679"
+			tasks: [{
+				id: "178DC19C3AA0F159"
+				type: "item"
+				item: "enigmaticlegacy:the_infinitum"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 13.0d
+			dependencies: [
+				"53C02593AC1F91ED"
+				"156CAC730EA3088E"
+			]
+			id: "138747E2315C1FEC"
+			tasks: [{
+				id: "7336D0DED762FD69"
+				type: "item"
+				item: "enigmaticlegacy:desolation_ring"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 13.0d
+			dependencies: ["34BBD9B70AE0AAB1"]
+			hide: true
+			id: "53C02593AC1F91ED"
+			tasks: [{
+				id: "0DAFCFB41F14173C"
+				type: "item"
+				item: "enigmaticlegacy:void_pearl"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.5d
+			shape: "rsquare"
+			subtitle: "A gift that is only found in the End."
+			dependencies: ["34BBD9B70AE0AAB1"]
+			hide: true
+			id: "76522994457CD38A"
+			tasks: [{
+				id: "5DC5FDB4FBD8E027"
+				type: "item"
+				item: "enigmaticlegacy:astral_fruit"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			dependencies: ["3E5C9C8D7ED4EF05"]
+			id: "45313F16CBCB2923"
+			tasks: [{
+				id: "73F903E480B1E452"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:infernal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			dependencies: ["4F5A0B97911720DE"]
+			id: "3E5C9C8D7ED4EF05"
+			tasks: [{
+				id: "6736915742E63C22"
+				type: "item"
+				item: "enigmaticlegacy:twisted_core"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			dependencies: ["3E5C9C8D7ED4EF05"]
+			id: "7BECABEF86342F46"
+			tasks: [{
+				id: "12208979EE0F7104"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.5d
+			dependencies: ["3E5C9C8D7ED4EF05"]
+			id: "0A73FCA06952871D"
+			tasks: [{
+				id: "72BFA85F188A94B0"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "The only way to destroy the ring, but you do not escape unscathed."
+			dependencies: ["208774AE7914F294"]
+			id: "053D69FDDE2A8783"
+			tasks: [{
+				id: "27BE3BCA34993C5E"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+		}
+		{
+			title: "Acquire the Dormant Eye"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Your very own narrator."
+			description: ["To awaken the Dormant Eye, please right click."]
+			dependencies: ["12AC3D51B071A726"]
+			id: "48C151A41CA3D343"
+			tasks: [{
+				id: "0BCB61FB9EE10E78"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:architect_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["00496091148AA48D"]
+			hide: true
+			id: "4F5A0B97911720DE"
+			tasks: [{
+				id: "3D7A0F842FF6F9C4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Create the Enchanter's Pearl"
+			x: 3.5d
+			y: 10.5d
+			subtitle: "Both a curse and a blessing."
+			dependencies: ["34BBD9B70AE0AAB1"]
+			hide: true
+			id: "2FA433E979086310"
+			tasks: [{
+				id: "40AD18AD24BEA5BC"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+		}
+		{
+			title: "Acquire an Iron Ring..."
+			x: -3.5d
+			y: 0.0d
+			subtitle: "It's just a basic ring."
+			dependencies: ["12AC3D51B071A726"]
+			id: "681F73AE3065F443"
+			tasks: [{
+				id: "741816FA96B4FD97"
+				type: "item"
+				item: "enigmaticlegacy:iron_ring"
+			}]
+		}
+		{
+			title: "Acquire the Exquisite Ring"
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Oh the luxury! Even more exquisite!"
+			description: ["This ring makes Piglins neutral towards you."]
+			dependencies: ["681F73AE3065F443"]
+			id: "4694F6D543E967E8"
+			tasks: [{
+				id: "19FCFBBF95C65F68"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: [
+				"3E5C9C8D7ED4EF05"
+				"19FCFBBF95C65F68"
+			]
+			hide: true
+			id: "11E1C39B69C180E4"
+			tasks: [{
+				id: "46196A856106A204"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+		}
+		{
+			title: "Create the Essence of Raging Life"
+			x: 2.0d
+			y: 5.5d
+			subtitle: "Infinitum incrementum."
+			dependencies: ["4F5A0B97911720DE"]
+			id: "5963885E766A0D02"
+			tasks: [{
+				id: "4C5491916CD948B3"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+		}
+		{
+			title: "Create the Charm of the Treasure Hunter"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Infinite night vision while underground."
+			description: ["Very convenient, right?"]
+			dependencies: ["4F5A0B97911720DE"]
+			id: "6A6A9E7BF92A2188"
+			tasks: [{
+				id: "612CC7C847C19AAD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Make the Teleportato"
+			x: -1.5d
+			y: 10.5d
+			subtitle: "...why?"
+			dependencies: ["1EB71203E5FF754F"]
+			id: "7B6D7FEF7E3BC444"
+			tasks: [{
+				id: "33A3DA5B34F5F983"
+				type: "item"
+				item: "enigmaticlegacy:astral_potato"
+			}]
+		}
+		{
+			title: "Acquire the Heart of the Cosmos"
+			x: 0.0d
+			y: 12.0d
+			subtitle: "A multi-purpose ingredient."
+			dependencies: ["1EB71203E5FF754F"]
+			id: "005E3F75DBA9A31D"
+			tasks: [{
+				id: "093A30C931BF91C6"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cosmic_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "THE Eternal Cake"
+			x: -1.5d
+			y: 12.0d
+			subtitle: "Cake of Eternal Lies"
+			description: ["It uhhh... regenerates itself over time."]
+			dependencies: ["005E3F75DBA9A31D"]
+			id: "444036B6E4FD2A60"
+			tasks: [{
+				id: "4B83D04B3B194218"
+				type: "item"
+				item: "enigmaticlegacy:cosmic_cake"
+			}]
+		}
+		{
+			title: "Acquire The Ring of Ender"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "It's your Ender Chest, but it is on you at all times."
+			dependencies: ["681F73AE3065F443"]
+			id: "6CD02EF71074F088"
+			tasks: [{
+				id: "7478A15B8A4CFAB5"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

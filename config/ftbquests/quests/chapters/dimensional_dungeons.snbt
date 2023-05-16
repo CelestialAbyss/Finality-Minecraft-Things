@@ -1,0 +1,266 @@
+{
+	id: "526F560FFF3A3C77"
+	group: "6855847200ADBE3A"
+	order_index: 6
+	filename: "dimensional_dungeons"
+	title: "Dimensional Dungeons"
+	icon: "dimdungeons:item_homeward_pearl"
+	subtitle: ["Be cautious."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction to Dimensional Dungeons"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Craft the book. It is actually important."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "18159CB8A6F7F5FF"
+			tasks: [{
+				id: "554C37348D7C0471"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "dimdungeons:guide_book"
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			title: "Left Gilded Portal Block"
+			x: -2.5d
+			y: 5.5d
+			shape: "square"
+			subtitle: "Left."
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "0C5432F355873125"
+			tasks: [{
+				id: "73358DC8CC6B0073"
+				type: "item"
+				item: "dimdungeons:block_gilded_portal"
+			}]
+		}
+		{
+			title: "Make a Portal Keystone"
+			x: 0.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "Criss cross!"
+			description: ["I know there's a building guide in the Patchouli book, but in case you threw it away here is a copy of what the portal looks like."]
+			dependencies: ["528D6ED43BDFF99E"]
+			id: "038B2F2C56E48516"
+			tasks: [{
+				id: "456F8AF9F5FA56FC"
+				type: "item"
+				item: "dimdungeons:block_portal_keyhole"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Right Gilded Portal Block"
+			x: 2.5d
+			y: 5.5d
+			shape: "square"
+			subtitle: "Right."
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "3DF0EC8399A5CECE"
+			tasks: [{
+				id: "2FF2332973F750B5"
+				type: "item"
+				item: "dimdungeons:block_gilded_portal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "6988414B1616A980"
+			tasks: [{
+				id: "160D689B8D5FCD02"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "71D05E9E0A92E773"
+			tasks: [{
+				id: "598FDDF64620FA96"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "7A7B493051A85C72"
+			tasks: [{
+				id: "46ECE87E6FC1FD50"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "1942899BDCFAB4DF"
+			tasks: [{
+				id: "5526D98AC2BDCF24"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "6CEBC6DF87923B74"
+			tasks: [{
+				id: "26A9B68C0C31FA36"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "4703FFA37AA9466E"
+			tasks: [{
+				id: "2953ED91D0F8BEB5"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "44C09207FF139C71"
+			tasks: [{
+				id: "6F6FEB8112348E2D"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "46773864051E3549"
+			tasks: [{
+				id: "5BFBCF992088D89B"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "38BCEAA37DD84950"
+			tasks: [{
+				id: "6AFCB77DC3672DA1"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			title: "Left Portal Crown Block"
+			icon: "dimdungeons:block_portal_crown"
+			x: -1.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "To the left."
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "471E4493AA76D950"
+			tasks: [
+				{
+					id: "7D197CF928B08D3A"
+					type: "item"
+					item: "dimdungeons:block_portal_crown"
+				}
+				{
+					id: "4A3A004E6BC46FA2"
+					type: "checkmark"
+					title: "Click me after acquiring and placing this block correctly as shown."
+				}
+			]
+		}
+		{
+			title: "Right Portal Crown Block"
+			icon: "dimdungeons:block_portal_crown"
+			x: 1.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "To the right."
+			dependencies: ["456F8AF9F5FA56FC"]
+			hide: true
+			id: "6C08FDCA99AE4EE9"
+			tasks: [
+				{
+					id: "674B8EEBBC2B4A56"
+					type: "item"
+					item: "dimdungeons:block_portal_crown"
+				}
+				{
+					id: "0D96096FAE88F411"
+					type: "checkmark"
+					title: "Click me after acquiring and placing this block correctly as shown."
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["18159CB8A6F7F5FF"]
+			id: "1A2B6A6C8E9BEB94"
+			tasks: [{
+				id: "4487A81286BA4F46"
+				type: "item"
+				item: "dimdungeons:item_portal_key"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1A2B6A6C8E9BEB94"]
+			id: "528D6ED43BDFF99E"
+			tasks: [{
+				id: "4CC483B03440F286"
+				type: "item"
+				item: "dimdungeons:block_key_charger"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

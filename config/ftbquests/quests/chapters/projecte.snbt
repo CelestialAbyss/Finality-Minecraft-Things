@@ -1,0 +1,637 @@
+{
+	id: "7B713F3F7FBBD4CF"
+	group: "65124948534FAE42"
+	order_index: 2
+	filename: "projecte"
+	title: "ProjectE"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Duplication, the mod."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction to ProjectE: The Philosopher's Stone"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Omnia aeterna."
+			description: ["Work in progress for mapping out."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			size: 1.5d
+			id: "318C5EE2C3137838"
+			tasks: [{
+				id: "5835415D9F125D7D"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "octagon"
+			subtitle: "*Infinite duplication."
+			dependencies: ["76870EC977869775"]
+			id: "745E4070C4982892"
+			tasks: [{
+				id: "47F11BA5E55C64C9"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["318C5EE2C3137838"]
+			id: "697DEEF92265AA02"
+			tasks: [{
+				id: "3EDE27B181256C4D"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["318C5EE2C3137838"]
+			id: "684621AE7ED36036"
+			tasks: [{
+				id: "63C5FD16BC92A128"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["684621AE7ED36036"]
+			id: "2548716CD0DC03FE"
+			tasks: [{
+				id: "33D1344AD8FBF226"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+		}
+		{
+			title: "Covalence Dust"
+			x: 0.0d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "It's just... magic dust."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1FB7F93BFD08B4A3"
+			tasks: [
+				{
+					id: "5D2845F2C194DF2F"
+					type: "item"
+					item: "projecte:low_covalence_dust"
+				}
+				{
+					id: "00B6F56B26B2BB97"
+					type: "item"
+					item: "projecte:medium_covalence_dust"
+				}
+				{
+					id: "2DF7CE22445DBCA5"
+					type: "item"
+					item: "projecte:high_covalence_dust"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "octagon"
+			dependencies: ["2548716CD0DC03FE"]
+			id: "5B6ED4B1D9930EF5"
+			tasks: [{
+				id: "6A758F9F6ABB4AC4"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "octagon"
+			dependencies: ["5B6ED4B1D9930EF5"]
+			id: "18C14C791289A211"
+			tasks: [{
+				id: "04E4508C7C940EEA"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["5B6ED4B1D9930EF5"]
+			id: "76870EC977869775"
+			tasks: [{
+				id: "647E67970DFF856D"
+				type: "item"
+				item: "projecte:dark_matter_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "Pocket sized *infinite duplication."
+			dependencies: ["7F5B802769498880"]
+			id: "265354E8A1E48B33"
+			tasks: [{
+				id: "112F4ABC7185F87A"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["5B6ED4B1D9930EF5"]
+			id: "1778C86CD7B6CD7E"
+			tasks: [
+				{
+					id: "3D48CA7510FD150E"
+					type: "item"
+					item: {
+						id: "projecte:dm_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "3A48627194255752"
+					type: "item"
+					item: {
+						id: "projecte:dm_pick"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "4CFB63C251D8CB59"
+					type: "item"
+					item: {
+						id: "projecte:dm_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "1AE10CA78BC4C7A9"
+					type: "item"
+					item: {
+						id: "projecte:dm_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "21885716A2DD068F"
+					type: "item"
+					item: {
+						id: "projecte:dm_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "29AFB2BC24CDB561"
+					type: "item"
+					item: {
+						id: "projecte:dm_shears"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "175C578FBF2811AC"
+					type: "item"
+					item: {
+						id: "projecte:dm_hammer"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["5B6ED4B1D9930EF5"]
+			id: "3D2FECE11CBC72C7"
+			tasks: [
+				{
+					id: "09DE6EEBA8D04CF9"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "64B44192254A9D62"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "3DEAD1CE0F7FF313"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "08CAC1647DA16C3B"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			dependencies: ["18C14C791289A211"]
+			id: "0B91CB2B9CB1C7CB"
+			tasks: [
+				{
+					id: "02D6CFF58031F03B"
+					type: "item"
+					item: "projecte:rm_helmet"
+				}
+				{
+					id: "210A0F6D7949F56D"
+					type: "item"
+					item: "projecte:rm_chestplate"
+				}
+				{
+					id: "315DFDCB395E045F"
+					type: "item"
+					item: "projecte:rm_leggings"
+				}
+				{
+					id: "53208AD3DD292054"
+					type: "item"
+					item: "projecte:rm_boots"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			dependencies: ["18C14C791289A211"]
+			id: "3D940EB20B42D7C2"
+			tasks: [
+				{
+					id: "6425C8871266A7E4"
+					type: "item"
+					item: {
+						id: "projecte:rm_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "4C1D34A73586DFA7"
+					type: "item"
+					item: {
+						id: "projecte:rm_pick"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "3F772535F12AF687"
+					type: "item"
+					item: {
+						id: "projecte:rm_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "5DD38EF736463116"
+					type: "item"
+					item: {
+						id: "projecte:rm_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "2A9C4896E3734C93"
+					type: "item"
+					item: {
+						id: "projecte:rm_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "1138DAFE1ACF9731"
+					type: "item"
+					item: {
+						id: "projecte:rm_shears"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "7B385F1D2C5A496A"
+					type: "item"
+					item: {
+						id: "projecte:rm_hammer"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["684621AE7ED36036"]
+			id: "050AD8794F02270A"
+			tasks: [{
+				id: "52EF3D72EBD24283"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["050AD8794F02270A"]
+			id: "74BE407B7BEFC181"
+			tasks: [{
+				id: "60D09D8F38AE70F2"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["74BE407B7BEFC181"]
+			id: "56B94DFE72958228"
+			tasks: [{
+				id: "335F04E7C2EA5AC3"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["56B94DFE72958228"]
+			id: "1A1263AEE93F370F"
+			tasks: [{
+				id: "3DB1DBDC1FB128BB"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["1A1263AEE93F370F"]
+			id: "6751C9F4AF12E481"
+			tasks: [{
+				id: "7393FF2D7FA92A39"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["6751C9F4AF12E481"]
+			id: "2DC4A4EB70D6BD4C"
+			tasks: [{
+				id: "5CAD1EBFC89FEC8E"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Mendacium infinitum."
+			dependencies: ["1FB7F93BFD08B4A3"]
+			id: "708E3C90EB6F6CF5"
+			tasks: [{
+				id: "3C01180B4CCA6953"
+				type: "item"
+				item: {
+					id: "projecte:repair_talisman"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["1FB7F93BFD08B4A3"]
+			id: "7CABE61F6D5FD0CC"
+			tasks: [{
+				id: "1FEAF8C7552C81C8"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: [
+				"7CABE61F6D5FD0CC"
+				"1ED4B32D3B882001"
+			]
+			id: "248AB8E1A8050FC7"
+			tasks: [{
+				id: "2911E7755366E85F"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["248AB8E1A8050FC7"]
+			id: "1A76510B0E36AB04"
+			tasks: [{
+				id: "4C7308926373928F"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			subtitle: "Use this to surround the energy collector chest."
+			dependencies: ["7CABE61F6D5FD0CC"]
+			id: "1ED4B32D3B882001"
+			tasks: [{
+				id: "1E45616E0AD581B6"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "Accelerated energy collection."
+			dependencies: ["1ED4B32D3B882001"]
+			id: "14D2E447DE9DC5E3"
+			tasks: [{
+				id: "79561924739D377B"
+				type: "item"
+				item: "projecte:collector_mk2"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			subtitle: "Sanic speed energy collection."
+			dependencies: ["14D2E447DE9DC5E3"]
+			id: "01F7D24EC88E128E"
+			tasks: [{
+				id: "510263C8119E8E6D"
+				type: "item"
+				item: "projecte:collector_mk3"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			dependencies: [
+				"0B91CB2B9CB1C7CB"
+				"2DC4A4EB70D6BD4C"
+			]
+			id: "2E3DF6CA216AC24B"
+			tasks: [
+				{
+					id: "6E003E8258CFE42A"
+					type: "item"
+					item: "projecte:gem_helmet"
+				}
+				{
+					id: "006297C83D2BA942"
+					type: "item"
+					item: "projecte:gem_chestplate"
+				}
+				{
+					id: "4B98470B9C2C5A15"
+					type: "item"
+					item: "projecte:gem_leggings"
+				}
+				{
+					id: "09F598270738DDB8"
+					type: "item"
+					item: "projecte:gem_boots"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["18C14C791289A211"]
+			id: "7F5B802769498880"
+			tasks: [{
+				id: "7C8ABB127486BF77"
+				type: "item"
+				item: "projecte:red_matter_block"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

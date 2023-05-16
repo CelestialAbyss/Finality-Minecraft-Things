@@ -1,0 +1,247 @@
+{
+	id: "6434B2A19860198C"
+	group: ""
+	order_index: 2
+	filename: "wither_storm"
+	title: "Wither Storm"
+	icon: "witherstormmod:command_block_sword"
+	subtitle: ["Why did you do this?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Not everything lasts forever."
+			icon: "minecraft:compass"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "I highly suggest you reconsider, there is no turning back."
+			description: ["Locate the house at X: 0 Z: 0 and check what's on top of the house. Once you start, you have to wait for the Wither Storm to evolve."]
+			dependencies: ["6AFB5422FB9E757B"]
+			id: "66735D186374DDAA"
+			tasks: [
+				{
+					id: "577430BC5B939109"
+					type: "item"
+					item: "minecraft:command_block"
+				}
+				{
+					id: "493A20AA591A326F"
+					type: "location"
+					dimension: "minecraft:overworld"
+					ignore_dimension: false
+					position: [I;
+						0
+						0
+						0
+					]
+					size: [I;
+						50
+						256
+						50
+					]
+				}
+			]
+		}
+		{
+			icon: "witherstormmod:command_block_book"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "It's too late to back out now."
+			description: [
+				"Kill a Wither Symbiont to acquire the Command Block Book in order to make Super TNT."
+				""
+				"Just keep in mind you will have to kill TWO of them. One Command Block Book is for the Formidibomb, the second for the Command Block weapon of your choice."
+			]
+			dependencies: ["66735D186374DDAA"]
+			id: "6C2BCBCB7C74ADAD"
+			tasks: [
+				{
+					id: "1307D13DC02FE2C1"
+					type: "kill"
+					title: "Kill a Withered Symbiont"
+					icon: "witherstormmod:tainted_zombie_sitting"
+					entity: "witherstormmod:withered_symbiont"
+					value: 2L
+				}
+				{
+					id: "2E9FC165E421C166"
+					type: "item"
+					item: "witherstormmod:command_block_book"
+				}
+			]
+		}
+		{
+			title: "...now craft the F-Bomb"
+			icon: {
+				id: "witherstormmod:formidibomb"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 8.0d
+			subtitle: "No seriously, make it ASAP."
+			description: ["Just keep in mind that once you craft it, the F-Bomb will explode in 500 seconds."]
+			dependencies: ["5DB9360257E9579C"]
+			id: "13C2316E87991056"
+			tasks: [{
+				id: "0CE2927AF2092A29"
+				type: "item"
+				item: {
+					id: "witherstormmod:formidibomb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Craft Super TNT"
+			icon: "witherstormmod:super_tnt"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "One step closer, but be careful."
+			dependencies: ["6C2BCBCB7C74ADAD"]
+			id: "5DB9360257E9579C"
+			tasks: [{
+				id: "3577A6962ACB10B9"
+				type: "item"
+				item: "witherstormmod:super_tnt"
+			}]
+		}
+		{
+			title: "Make a Command Block item."
+			x: 2.5d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "Make any of them... now."
+			description: ["Make any of these Command Block tools so you can damage the Command Block at the Wither Storm's heart."]
+			dependencies: [
+				"13C2316E87991056"
+				"6C2BCBCB7C74ADAD"
+			]
+			id: "63C39A3C969C5556"
+			tasks: [
+				{
+					id: "0DA67C72A8D66378"
+					type: "item"
+					item: "witherstormmod:command_block_sword"
+				}
+				{
+					id: "781B39D59CB1ACF9"
+					type: "item"
+					item: "witherstormmod:command_block_pickaxe"
+				}
+				{
+					id: "344309684F5D8560"
+					type: "item"
+					item: "witherstormmod:command_block_axe"
+				}
+				{
+					id: "5A2A2F5A369F871E"
+					type: "item"
+					item: "witherstormmod:command_block_shovel"
+				}
+				{
+					id: "59307D29F4B645F8"
+					type: "item"
+					item: "witherstormmod:command_block_hoe"
+				}
+			]
+		}
+		{
+			title: "Acquire the Withered Nether Star"
+			x: 0.0d
+			y: 10.0d
+			shape: "octagon"
+			subtitle: "You did it...?"
+			description: ["Congratulations, your world is most likely in a torn apart state, but that's okay."]
+			dependencies: [
+				"13C2316E87991056"
+				"63C39A3C969C5556"
+			]
+			id: "598FF377B03487EE"
+			tasks: [{
+				id: "29013EB594AA4170"
+				type: "item"
+				item: "witherstormmod:withered_nether_star"
+			}]
+		}
+		{
+			title: "Craft the Amulet"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Make this first."
+			description: [
+				"Once you have the Amulet, the Wither Storm WILL mark you as its priority target."
+				""
+				"However, a word of warning."
+				""
+				"The damage that the Wither Storm will cause to the surface of the overworld is irreversible."
+				""
+				"Alternative means of acquiring the greatest reward have been made for your interest in keeping your overworld preserved."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6AFB5422FB9E757B"
+			tasks: [{
+				id: "441851EE7E0C722E"
+				type: "item"
+				item: {
+					id: "witherstormmod:amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Heads up!"
+			icon: "minecraft:bedrock"
+			x: 0.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "nonamecrackers will not be backporting to 1.19.2 the newest features. (the Withered Beacon)"
+			description: [
+				"So if you wish for the fight against the Wither Storm to have ANY value, play on the 1.18.2 variant of this modpack."
+				""
+				"The Withered Beacon will only exist on 1.19.3 and 1.18.2 from what can be concluded. - CelestialAbyss"
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "7ED1D13DC614F451"
+			tasks: [{
+				id: "515E300AAFF9A3E5"
+				type: "checkmark"
+				title: "Acknowledged."
+			}]
+		}
+		{
+			title: "Craft the Withered Beacon"
+			x: 0.0d
+			y: 12.0d
+			subtitle: "The most powerful beacon to ever exist. What did it cost? Everything."
+			description: ["Has more range, more power!"]
+			dependencies: ["598FF377B03487EE"]
+			id: "088707867BE2CF0F"
+			tasks: [{
+				id: "51D5849986A28958"
+				type: "item"
+				item: "witherstormmod:super_beacon"
+			}]
+		}
+		{
+			title: "EVEN MORE POWAAA!"
+			x: 0.0d
+			y: 14.0d
+			subtitle: "Craft Withered Support beacons."
+			description: ["These provide their buffs in their direction infinitely. The North, South, West, East."]
+			dependencies: ["088707867BE2CF0F"]
+			id: "51F49EC59475688B"
+			tasks: [{
+				id: "2E41B1FE29231EE1"
+				type: "item"
+				item: "witherstormmod:super_support_beacon"
+				count: 4L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

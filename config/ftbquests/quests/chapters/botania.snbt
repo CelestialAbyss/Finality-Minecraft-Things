@@ -1,0 +1,94 @@
+{
+	id: "4927861B34272D63"
+	group: "6855847200ADBE3A"
+	order_index: 4
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:terra_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["Magical fun and automation without the grind!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction to Botania"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Pretty easy to get into, not grindy. Also, lots of magic!"
+			description: ["FTB Quests and modpack customizations are a work in progress for this mod. In the meantime, utilize the Lexica Botania."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "5D3EFEF4923D1657"
+			tasks: [{
+				id: "2679F8DF92E343FA"
+				type: "item"
+				item: "botania:lexicon"
+				only_from_crafting: true
+				match_nbt: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["232DFCD8ED93F8F9"]
+			id: "0A1BC69BAF8ED11C"
+			tasks: [{
+				id: "616ACE5932327794"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			title: "Create the Petal Apothecary"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["35F49775086FA686"]
+			id: "49C0B16017476D84"
+			tasks: [{
+				id: "5A23C3900B95564C"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["49C0B16017476D84"]
+			id: "232DFCD8ED93F8F9"
+			tasks: [{
+				id: "318850D35A433C19"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			title: "Acquire the Mystical White Flower"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["5D3EFEF4923D1657"]
+			id: "49713A4A1A3A6E4E"
+			tasks: [{
+				id: "0A0B454047AF1CF4"
+				type: "item"
+				item: "botania:white_mystical_flower"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["49713A4A1A3A6E4E"]
+			id: "35F49775086FA686"
+			tasks: [{
+				id: "12206C683E2B272F"
+				type: "item"
+				item: "botania:white_petal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

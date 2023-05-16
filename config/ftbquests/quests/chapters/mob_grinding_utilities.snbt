@@ -1,0 +1,80 @@
+{
+	id: "2935A426660B95CA"
+	group: "6855847200ADBE3A"
+	order_index: 11
+	filename: "mob_grinding_utilities"
+	title: "Mob Grinding Utilities"
+	icon: "mob_grinding_utils:saw_upgrade_sharpness"
+	subtitle: ["Automate mob grinding so you can do other things."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Beginning of..."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "...yeah."
+			description: [
+				"A lot of the blocks are explainable through JEI, but more documentation will be here once I get to it."
+				""
+				"Oh and I changed the fan from Mob Grinding Utils."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1B5B598C60C348CA"
+			tasks: [{
+				id: "53A2E7CAF24A72ED"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+		}
+		{
+			icon: "mob_grinding_utils:saw"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Self-explanatory."
+			dependencies: ["1B5B598C60C348CA"]
+			id: "17D7C43023EBE459"
+			tasks: [{
+				id: "3A72D01E21462FFB"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["1B5B598C60C348CA"]
+			id: "327CC8722CC1247C"
+			tasks: [{
+				id: "6C0A5B13ED66709D"
+				type: "item"
+				item: "mob_grinding_utils:tinted_glass"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["1B5B598C60C348CA"]
+			id: "5A8B07CA0CDE2BC8"
+			tasks: [{
+				id: "2D2F6F006F4C4E28"
+				type: "item"
+				item: "mysticalagriculture:witherproof_glass"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Convenient succ"
+			dependencies: ["1B5B598C60C348CA"]
+			id: "365F742943814677"
+			tasks: [{
+				id: "6B6A5393BDC3D919"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
