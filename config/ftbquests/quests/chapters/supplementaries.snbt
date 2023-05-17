@@ -22,11 +22,13 @@
 				id: "374445A1897F9DC2"
 				type: "item"
 				item: "supplementaries:sconce"
+				count: 16L
 			}]
 			rewards: [{
 				id: "6894CAF8AC0FA0DE"
 				type: "item"
 				item: "supplementaries:sconce_soul"
+				count: 16
 			}]
 		}
 		{
@@ -199,6 +201,31 @@
 					id: "69A122A0D0C5B87A"
 					type: "item"
 					item: "supplementaries:lead_trapdoor"
+				}
+			]
+		}
+		{
+			title: "A Sample of Lanterns"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Something other than torches, plus they look nicer."
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "6015E8BC02BDF285"
+			tasks: [
+				{
+					id: "3781EA2EAD053AEF"
+					type: "item"
+					item: "supplementaries:copper_lantern"
+				}
+				{
+					id: "5D70E8C49B3752A0"
+					type: "item"
+					item: "supplementaries:brass_lantern"
+				}
+				{
+					id: "6BB4E9732B371B47"
+					type: "item"
+					item: "supplementaries:crimson_lantern"
 				}
 			]
 		}

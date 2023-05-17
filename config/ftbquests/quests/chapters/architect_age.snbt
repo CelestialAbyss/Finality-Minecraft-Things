@@ -81,7 +81,13 @@
 			x: 1.5d
 			y: 0.0d
 			subtitle: "Collect the basic building materials for each color palette in the Create group."
-			description: ["At least try each of them, because I believe they would look wonderful in a lot of builds. Look at CraisinLord's Integrated structures!"]
+			description: [
+				"At least try each of them, because I believe they would look wonderful in a lot of builds. Look at CraisinLord's Integrated structures!"
+				""
+				"Limestone can be made by making honey flow into lava."
+				""
+				"Scoria is extremely burned chocolate, with Scorchia being even more burnt."
+			]
 			dependencies: ["0823CEAA341364B2"]
 			id: "257DBCB0BE981895"
 			tasks: [

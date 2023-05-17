@@ -54,5 +54,23 @@ onEvent('recipes', event => {
             result: {
                 item: 'enigmaticlegacy:enigmatic_item'
             }
-        }).id('finality:heart_of_creation')
+    }).id('finality:heart_of_creation')
+    event.shaped('enigmaticlegacy:earth_heart', [
+        'PSP',
+        'SDS',
+        'PSP'
+    ], {
+        S: 'mysticalagriculture:earth_essence',
+        P: 'mysticalagriculture:prosperity_shard',
+        D: 'quark:diamond_heart'
+    }).id('finality:earth_heart')
+    event.shaped('enigmaticlegacy:earth_heart', [
+        'PSP',
+        'SDS',
+        'PSP'
+    ], {
+        S: 'ars_nouveau:earth_essence',
+        P: 'mysticalagriculture:prosperity_shard',
+        D: 'quark:diamond_heart'
+    }).id('finality:earth_heart_ars')
 })

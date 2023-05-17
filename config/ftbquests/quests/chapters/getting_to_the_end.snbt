@@ -13,10 +13,13 @@
 			title: "Unlocking The End"
 			icon: "minecraft:end_portal_frame"
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 			shape: "octagon"
 			subtitle: "All I can say is... good luck."
-			dependencies: ["4A691BB889286C89"]
+			dependencies: [
+				"4A691BB889286C89"
+				"4E9DB5E5DA145FB7"
+			]
 			hide: true
 			size: 2.0d
 			id: "34BBD9B70AE0AAB1"
@@ -28,8 +31,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -3.0d
+			y: 3.0d
 			subtitle: "Find me in buried treasure."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -47,8 +50,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 5.0d
 			subtitle: "Find me in igloos."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -66,8 +69,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 2.5d
+			y: 2.0d
 			subtitle: "Find me where I stalk villagers."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -85,8 +88,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 7.0d
 			subtitle: "Find me in ancient mineshafts."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -104,8 +107,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 2.5d
+			y: 4.0d
 			subtitle: "Find me in the Nether Fortress."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -123,8 +126,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 5.0d
 			subtitle: "Find me in ancient desert temples."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -143,7 +146,7 @@
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 7.0d
 			subtitle: "Find me in the temple that contains malicious redstone."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -161,8 +164,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 			subtitle: "Find me in a Bastion."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -181,7 +184,7 @@
 		}
 		{
 			x: 2.0d
-			y: -2.0d
+			y: 1.0d
 			subtitle: "Acquire me from a Master Cleric."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -199,8 +202,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: 4.0d
 			subtitle: "I am responsible for many deaths in the ocean ruins."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -219,7 +222,7 @@
 		}
 		{
 			x: -2.0d
-			y: 0.0d
+			y: 1.0d
 			subtitle: "I am used by someone with ill intentions."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -237,8 +240,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: -2.5d
+			y: 2.0d
 			subtitle: "I bring destruction to the world."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -256,8 +259,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: -1.0d
+			y: 6.0d
 			subtitle: "I was once part of a master of potion brewing."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -276,8 +279,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: 0.0d
+			y: 6.5d
 			subtitle: "I am made from the soul of a horse turned skeletal."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -295,8 +298,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: 1.0d
+			y: 6.0d
 			subtitle: "I can only be created from your aquatic adventures."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -315,8 +318,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 5.5d
 			subtitle: "Origins unkown, maybe from a tome of ancient knowledge?"
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -331,6 +334,21 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Find a Stronghold"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You won't get to the End that easily, however."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "4E9DB5E5DA145FB7"
+			tasks: [{
+				id: "41ADDCD19E1253FF"
+				type: "advancement"
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
 			}]
 		}
 	]

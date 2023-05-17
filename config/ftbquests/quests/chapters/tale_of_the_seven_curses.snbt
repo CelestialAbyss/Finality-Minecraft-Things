@@ -57,6 +57,7 @@
 				id: "1972F5C490B5225E"
 				type: "item"
 				item: "enigmaticlegacy:the_acknowledgment"
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -114,7 +115,7 @@
 		{
 			title: "The Dust of Space and Time"
 			x: 0.0d
-			y: 10.5d
+			y: 14.5d
 			shape: "rsquare"
 			subtitle: "Only found in End Cities."
 			description: ["Those who bear the Seven Curses may obtain this by destroying Shulkers."]
@@ -143,7 +144,7 @@
 		{
 			title: "Acquire the Heart of the Abyss"
 			x: 8.0d
-			y: 10.5d
+			y: 13.0d
 			shape: "rsquare"
 			subtitle: "Hopefully you enjoyed that fight."
 			dependencies: ["34BBD9B70AE0AAB1"]
@@ -158,7 +159,7 @@
 		{
 			title: "The Ominous Book"
 			x: 5.5d
-			y: 10.5d
+			y: 13.0d
 			shape: "rsquare"
 			subtitle: "You feel the abyss stare back at you."
 			dependencies: [
@@ -176,7 +177,7 @@
 		{
 			title: "Acquire the Burden of Desolation"
 			x: 8.0d
-			y: 13.0d
+			y: 15.5d
 			shape: "rsquare"
 			subtitle: "The best thing to do is end it all and leave forever..."
 			dependencies: [
@@ -193,7 +194,7 @@
 		{
 			title: "Find the Pearl of the Void"
 			x: 10.0d
-			y: 13.0d
+			y: 15.5d
 			shape: "rsquare"
 			subtitle: "A rare treasure... at the end of time."
 			dependencies: ["34BBD9B70AE0AAB1"]
@@ -207,8 +208,8 @@
 		}
 		{
 			title: "Acquire the Celestial Fruit"
-			x: 10.0d
-			y: 10.5d
+			x: -1.5d
+			y: 16.0d
 			shape: "rsquare"
 			subtitle: "A gift that is only found in the End."
 			dependencies: ["34BBD9B70AE0AAB1"]
@@ -223,7 +224,7 @@
 		{
 			title: "A Blazing Shield!"
 			x: 6.5d
-			y: 8.0d
+			y: 10.5d
 			shape: "rsquare"
 			subtitle: "A shield that can finally extinguish your eternal fire..."
 			description: ["You do realize it's a shield made out of fire, right?"]
@@ -244,7 +245,7 @@
 		{
 			title: "Corrupting the Heart"
 			x: 5.5d
-			y: 7.0d
+			y: 9.5d
 			shape: "rsquare"
 			subtitle: "It's corrupted."
 			dependencies: [
@@ -260,7 +261,7 @@
 		}
 		{
 			x: 4.5d
-			y: 8.0d
+			y: 10.5d
 			shape: "rsquare"
 			dependencies: ["3E5C9C8D7ED4EF05"]
 			id: "7BECABEF86342F46"
@@ -273,7 +274,7 @@
 		{
 			title: "What's The Twist?"
 			x: 5.5d
-			y: 8.5d
+			y: 11.0d
 			shape: "rsquare"
 			subtitle: "Absolutely no strings attached."
 			dependencies: ["3E5C9C8D7ED4EF05"]
@@ -322,7 +323,7 @@
 		{
 			title: "Find the Heart of the Earth"
 			x: 3.0d
-			y: 4.5d
+			y: 7.0d
 			shape: "rsquare"
 			subtitle: "It's a foundational ingredient that can be found in dungeons."
 			dependencies: ["00496091148AA48D"]
@@ -341,7 +342,7 @@
 		{
 			title: "Create the Enchanter's Pearl"
 			x: 3.5d
-			y: 10.5d
+			y: 13.0d
 			shape: "rsquare"
 			subtitle: "Both a curse and a blessing."
 			dependencies: ["34BBD9B70AE0AAB1"]
@@ -383,7 +384,7 @@
 		{
 			title: "The Pact of Infinite Avarice"
 			x: 8.0d
-			y: 8.0d
+			y: 10.5d
 			shape: "rsquare"
 			subtitle: "Greed."
 			dependencies: [
@@ -401,7 +402,7 @@
 		{
 			title: "Create the Essence of Raging Life"
 			x: 2.0d
-			y: 5.5d
+			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Infinitum incrementum."
 			dependencies: ["4F5A0B97911720DE"]
@@ -415,7 +416,7 @@
 		{
 			title: "Create the Charm of the Treasure Hunter"
 			x: 1.5d
-			y: 4.5d
+			y: 7.0d
 			shape: "rsquare"
 			subtitle: "Infinite night vision while underground."
 			description: ["Very convenient, right?"]
@@ -434,7 +435,7 @@
 		{
 			title: "Make the Teleportato"
 			x: -1.5d
-			y: 10.5d
+			y: 14.5d
 			shape: "rsquare"
 			subtitle: "...why?"
 			dependencies: ["1EB71203E5FF754F"]
@@ -448,7 +449,7 @@
 		{
 			title: "Acquire the Heart of the Cosmos"
 			x: 0.0d
-			y: 12.0d
+			y: 16.0d
 			subtitle: "A multi-purpose ingredient."
 			dependencies: ["1EB71203E5FF754F"]
 			id: "005E3F75DBA9A31D"
@@ -465,7 +466,7 @@
 		{
 			title: "THE Eternal Cake"
 			x: 0.0d
-			y: 13.5d
+			y: 17.5d
 			shape: "rsquare"
 			subtitle: "Cake of Eternal Lies"
 			description: ["It uhhh... regenerates itself over time."]
@@ -493,7 +494,7 @@
 		{
 			title: "One Thousand Curses"
 			x: 8.0d
-			y: 6.0d
+			y: 8.5d
 			shape: "rsquare"
 			subtitle: "One thousand voices emanate from the scroll."
 			dependencies: ["1FB5367AB0593332"]
@@ -533,7 +534,7 @@
 			title: "Becoming the Writer"
 			icon: "enigmaticlegacy:lore_inscriber"
 			x: 1.5d
-			y: 10.5d
+			y: 14.5d
 			shape: "rsquare"
 			subtitle: "You can now add lore to your stuff."
 			dependencies: ["1EB71203E5FF754F"]
@@ -563,40 +564,38 @@
 			shape: "rsquare"
 			dependencies: ["12AC3D51B071A726"]
 			id: "6CD35482F5E5C780"
-			tasks: [{
-				id: "59DDF1EA7E831394"
-				type: "item"
-				item: "enigmaticlegacy:animal_guide"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 1.5d
-			shape: "rsquare"
-			dependencies: ["12AC3D51B071A726"]
-			id: "3A430E2D0D9740E4"
-			tasks: [{
-				id: "7F06EF80CC023D2F"
-				type: "item"
-				item: "enigmaticlegacy:hunter_guide"
-			}]
+			tasks: [
+				{
+					id: "59DDF1EA7E831394"
+					type: "item"
+					item: "enigmaticlegacy:animal_guide"
+				}
+				{
+					id: "0F36DD527CD33BBB"
+					type: "item"
+					item: "enigmaticlegacy:hunter_guide"
+				}
+			]
 		}
 		{
 			title: "The Hungry Book"
-			x: 0.0d
-			y: 3.5d
-			subtitle: "It's very hungry."
-			dependencies: ["040E48C782B00AF9"]
+			x: 1.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "It's very hungry, for enchantments."
+			dependencies: ["12AC3D51B071A726"]
 			id: "11997F2E625018CE"
 			tasks: [{
 				id: "09051F6D1F4D7E0E"
 				type: "item"
 				item: "enigmaticlegacy:enchantment_transposer"
+				only_from_crafting: true
 			}]
 		}
 		{
+			title: "Scroll of Creation"
 			x: 0.0d
-			y: 9.0d
+			y: 13.0d
 			shape: "rsquare"
 			dependencies: [
 				"14EEC0FCC423EBA4"
@@ -612,7 +611,7 @@
 		{
 			title: "Scrolls of Darkness"
 			x: 8.0d
-			y: 7.0d
+			y: 9.5d
 			shape: "rsquare"
 			subtitle: "These scrolls are so dark that you can't see the surface of it as you hold it in your hands."
 			dependencies: ["3E5C9C8D7ED4EF05"]
@@ -624,8 +623,9 @@
 			}]
 		}
 		{
+			title: "The Angelic Spellstone"
 			x: -3.0d
-			y: 9.0d
+			y: 13.0d
 			dependencies: ["00496091148AA48D"]
 			hide: true
 			id: "6C92B5CFA5613508"
@@ -636,8 +636,9 @@
 			}]
 		}
 		{
+			title: "Scroll from the Heavens"
 			x: -1.5d
-			y: 9.0d
+			y: 13.0d
 			shape: "rsquare"
 			dependencies: ["6C92B5CFA5613508"]
 			id: "14EEC0FCC423EBA4"
@@ -648,15 +649,173 @@
 			}]
 		}
 		{
+			title: "The Heart of Creation"
 			x: 1.5d
-			y: 12.0d
+			y: 16.0d
 			shape: "rsquare"
+			subtitle: "Immortality."
 			dependencies: ["005E3F75DBA9A31D"]
 			id: "78AF5418F2B63A76"
 			tasks: [{
 				id: "19DBEFCB0514155E"
 				type: "item"
 				item: "enigmaticlegacy:enigmatic_item"
+			}]
+		}
+		{
+			title: "Brew the Potion of Recall"
+			x: 0.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["040E48C782B00AF9"]
+			id: "56BBB54B2451C552"
+			tasks: [{
+				id: "7DD5A0B3193D9F41"
+				type: "item"
+				item: "enigmaticlegacy:recall_potion"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "rsquare"
+			dependencies: ["56BBB54B2451C552"]
+			id: "58FEEE64A3D256CC"
+			tasks: [{
+				id: "5DB27D523C7CF104"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
+		}
+		{
+			title: "The Tome of Devoured Malignancy"
+			x: 7.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "It devours curses, what did you expect?"
+			dependencies: [
+				"5D4A93C82E89171A"
+				"208774AE7914F294"
+				"09051F6D1F4D7E0E"
+			]
+			hide: true
+			id: "5B71190FB35FC105"
+			tasks: [{
+				id: "181CF31B2E98EC36"
+				type: "item"
+				item: "enigmaticlegacy:curse_transposer"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "2FE947D84AEDF084"
+			tasks: [{
+				id: "37EEA877D5A717D6"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+		}
+		{
+			title: "Acquire the Eye of the Nebula"
+			x: -3.0d
+			y: 10.0d
+			dependencies: ["41ADDCD19E1253FF"]
+			hide: true
+			id: "43142F2D72DAE34B"
+			tasks: [{
+				id: "54C918C725398C7F"
+				type: "item"
+				item: "enigmaticlegacy:eye_of_nebula"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			dependencies: [
+				"6C92B5CFA5613508"
+				"43142F2D72DAE34B"
+			]
+			id: "5E359D8B3DE40A0A"
+			tasks: [{
+				id: "458AB0BBCDBD3B84"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.0d
+			shape: "rsquare"
+			dependencies: ["43142F2D72DAE34B"]
+			id: "7357B9DC587DED29"
+			tasks: [{
+				id: "485283F06EC67749"
+				type: "item"
+				item: "enigmaticlegacy:end_anchor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			shape: "rsquare"
+			dependencies: ["43142F2D72DAE34B"]
+			id: "05C6A402F6B443FB"
+			tasks: [{
+				id: "5AFAF59581229658"
+				type: "item"
+				item: "enigmaticlegacy:escape_scroll"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "rsquare"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "4E7A2F79DCA59E12"
+			tasks: [{
+				id: "67A791047E7BC34B"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:xp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Acquire the Emblem of Monster Slayer"
+			x: -3.0d
+			y: 7.0d
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6872B158D9984864"
+			tasks: [{
+				id: "7E6DB9CD6A52E8D8"
+				type: "item"
+				item: "enigmaticlegacy:monster_charm"
+			}]
+		}
+		{
+			title: "Acquire the Emblem of Bloodstained Valor"
+			x: 4.0d
+			y: 9.5d
+			dependencies: ["3E5C9C8D7ED4EF05"]
+			id: "2AD507323E1DCC9C"
+			tasks: [{
+				id: "0C4D79B17024D268"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
 			}]
 		}
 	]

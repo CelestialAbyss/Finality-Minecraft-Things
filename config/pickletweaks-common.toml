@@ -25,7 +25,7 @@
 	#Diamond and Emerald Apples enabled?
 	apples = true
 	#Watering Can enabled?
-	wateringCan = true
+	wateringCan = false
 	#Enable Meshes?
 	meshes = true
 	#Enable Magnet?
