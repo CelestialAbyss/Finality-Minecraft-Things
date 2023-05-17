@@ -63,7 +63,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[main_menu.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Server List event
