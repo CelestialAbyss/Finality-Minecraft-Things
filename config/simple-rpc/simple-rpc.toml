@@ -21,13 +21,13 @@
 	#The first line of text under the app name
 	description = "Minecraft is loading"
 	#The second line of text under the app name
-	state = "Game Starting..."
+	state = "Game starting..."
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["%player%"]
+	smallImageKey = ["loading"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "Forge %mcver% - %mods% mods installed"
 
@@ -125,7 +125,7 @@
 	#The first line of text under the app name
 	description = "%player% is joining a game"
 	#The second line of text under the app name
-	state = "Joining Game"
+	state = "Joining game..."
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
