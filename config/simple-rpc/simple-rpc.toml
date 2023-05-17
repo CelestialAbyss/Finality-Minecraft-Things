@@ -269,7 +269,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["logo"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the Overworld"
+		largeImageText = "Pushing Create to its limits."
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["overworld"]
 		#The text that gets displayed when the small image is hovered
@@ -294,7 +294,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["logo"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the Nether"
+		largeImageText = "Pushing Create to its limits."
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["the_nether"]
 		#The text that gets displayed when the small image is hovered
@@ -319,7 +319,7 @@
 		#The Asset ID of the image to display as the large image
 		largeImageKey = ["logo"]
 		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the End"
+		largeImageText = "Pushing Create to its limits."
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["the_end"]
 		#The text that gets displayed when the small image is hovered
