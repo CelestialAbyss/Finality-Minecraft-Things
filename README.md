@@ -8,6 +8,8 @@
 
 <p align="center" dir="auto"><a href="https://github.com/CelestialAbyss/Create-Customized" title="github.com/CelestialAbyss/Create-Customized" rel="nofollow">I have moved my Create custom recipes into the Create-Customized repository, click me if you are looking for those.</a></p>
 
+<p align="center" dir="auto"><a href="https://www.curseforge.com/minecraft/modpacks/finality" title="https://www.curseforge.com/minecraft/modpacks/finality" rel="nofollow">You can download the Finality modpack on CurseForge here.</a></p>
+
 ### License clarifications
 Finality is released on CurseForge only as **All Rights Reserved.**
 This covers the following files / folders.
