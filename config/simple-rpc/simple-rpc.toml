@@ -25,11 +25,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["%player%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[init.buttons]]
@@ -37,7 +37,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[init.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Main Menu event
@@ -51,11 +51,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["menu"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[main_menu.buttons]]
@@ -77,11 +77,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["menu"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[server_list.buttons]]
@@ -89,7 +89,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[server_list.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Realms Screen event
@@ -103,11 +103,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["menu"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[realms_list.buttons]]
@@ -115,7 +115,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[realms_list.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Join Game Event
@@ -129,11 +129,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["loading"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[join_game.buttons]]
@@ -141,7 +141,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[join_game.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Single Player Event
@@ -155,11 +155,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["%player%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[single_player.buttons]]
@@ -167,7 +167,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[single_player.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Multi Player Event
@@ -181,11 +181,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["%player%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[multi_player.buttons]]
@@ -193,7 +193,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[multi_player.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #The Realms Game Event
@@ -207,11 +207,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%realmdescription%"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[realms.buttons]]
@@ -219,7 +219,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[realms.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #Fallback event for disabled events
@@ -231,11 +231,11 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Pushing Create to its limits."
 	#The Asset ID of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "Forge %mcver% - %mods% mods installed"
 
 	#The buttons to display on Discord
 	[[generic.buttons]]
@@ -243,7 +243,7 @@
 		url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 	[[generic.buttons]]
-		label = "Wiki"
+		label = "Modpack Wiki"
 		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 #Custom Config Variables that you can use
@@ -273,7 +273,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["overworld"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Forge %mcver% - %mods% mods installed"
 
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
@@ -281,7 +281,7 @@
 			url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Wiki"
+			label = "Modpack Wiki"
 			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 	[[dimension_overrides.dimensions]]
@@ -298,7 +298,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["the_nether"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Forge %mcver% - %mods% mods installed"
 
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
@@ -306,7 +306,7 @@
 			url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Wiki"
+			label = "Modpack Wiki"
 			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 
 	[[dimension_overrides.dimensions]]
@@ -323,7 +323,7 @@
 		#The Asset ID of the image to display as the small image
 		smallImageKey = ["the_end"]
 		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
+		smallImageText = "Forge %mcver% - %mods% mods installed"
 
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
@@ -331,6 +331,6 @@
 			url = "https://www.curseforge.com/minecraft/modpacks/finality"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Wiki"
+			label = "Modpack Wiki"
 			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
 

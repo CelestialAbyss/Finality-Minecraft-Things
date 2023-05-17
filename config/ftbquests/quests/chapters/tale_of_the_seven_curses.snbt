@@ -13,12 +13,13 @@
 		{
 			title: "Tale of the Seven Curses"
 			icon: "enigmaticlegacy:cursed_ring"
-			x: 3.0d
+			x: 5.5d
 			y: 0.0d
 			shape: "octagon"
 			subtitle: "To put on the ring, or to not put on the ring?"
 			description: ["Upon wearing the ring, this branch will unlock."]
 			dependencies: ["12AC3D51B071A726"]
+			size: 1.5d
 			id: "208774AE7914F294"
 			tasks: [{
 				id: "5D4A93C82E89171A"
@@ -45,8 +46,11 @@
 			}]
 		}
 		{
+			title: "Reaching Enlightenment"
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Acquire the KNOWLEDGE!"
 			dependencies: ["12AC3D51B071A726"]
 			id: "040E48C782B00AF9"
 			tasks: [{
@@ -58,10 +62,11 @@
 		{
 			title: "Don't die."
 			icon: "artifacts:obsidian_skull"
-			x: 3.0d
-			y: -1.5d
+			x: 5.5d
+			y: -2.0d
+			shape: "rsquare"
 			subtitle: "If you do die, you lose a part of your soul... literally."
-			description: ["Looks like you lost a part of your soul."]
+			description: ["Looks like you lost a part of your soul. Better find your soul fragments quick!"]
 			dependencies: ["208774AE7914F294"]
 			id: "11983113011D3B1F"
 			tasks: [
@@ -82,7 +87,7 @@
 		}
 		{
 			title: "Acquire the Magnetic Ring"
-			x: -3.5d
+			x: -5.0d
 			y: 1.5d
 			subtitle: "Become a walking magnet!"
 			dependencies: ["681F73AE3065F443"]
@@ -95,7 +100,7 @@
 		}
 		{
 			title: "Acquire the Dislocation Ring"
-			x: -3.5d
+			x: -5.0d
 			y: 3.0d
 			subtitle: "Become a walking neodymium magnet."
 			dependencies: ["1FB1A53755B36654"]
@@ -107,8 +112,10 @@
 			}]
 		}
 		{
+			title: "The Dust of Space and Time"
 			x: 0.0d
 			y: 10.5d
+			shape: "rsquare"
 			subtitle: "Only found in End Cities."
 			description: ["Those who bear the Seven Curses may obtain this by destroying Shulkers."]
 			dependencies: ["34BBD9B70AE0AAB1"]
@@ -121,8 +128,10 @@
 			}]
 		}
 		{
+			title: "Acquire the Heart of the Golem"
 			x: -1.5d
-			y: 1.5d
+			y: -1.5d
+			subtitle: "Tough cookies."
 			dependencies: ["12AC3D51B071A726"]
 			id: "66F80C2ABCE3E66D"
 			tasks: [{
@@ -132,8 +141,11 @@
 			}]
 		}
 		{
+			title: "Acquire the Heart of the Abyss"
 			x: 8.0d
 			y: 10.5d
+			shape: "rsquare"
+			subtitle: "Hopefully you enjoyed that fight."
 			dependencies: ["34BBD9B70AE0AAB1"]
 			hide: true
 			id: "156CAC730EA3088E"
@@ -144,8 +156,11 @@
 			}]
 		}
 		{
+			title: "The Ominous Book"
 			x: 5.5d
 			y: 10.5d
+			shape: "rsquare"
+			subtitle: "You feel the abyss stare back at you."
 			dependencies: [
 				"156CAC730EA3088E"
 				"0A73FCA06952871D"
@@ -159,8 +174,11 @@
 			}]
 		}
 		{
+			title: "Acquire the Burden of Desolation"
 			x: 8.0d
 			y: 13.0d
+			shape: "rsquare"
+			subtitle: "The best thing to do is end it all and leave forever..."
 			dependencies: [
 				"53C02593AC1F91ED"
 				"156CAC730EA3088E"
@@ -173,8 +191,11 @@
 			}]
 		}
 		{
+			title: "Find the Pearl of the Void"
 			x: 10.0d
 			y: 13.0d
+			shape: "rsquare"
+			subtitle: "A rare treasure... at the end of time."
 			dependencies: ["34BBD9B70AE0AAB1"]
 			hide: true
 			id: "53C02593AC1F91ED"
@@ -185,6 +206,7 @@
 			}]
 		}
 		{
+			title: "Acquire the Celestial Fruit"
 			x: 10.0d
 			y: 10.5d
 			shape: "rsquare"
@@ -199,8 +221,12 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 7.0d
+			title: "A Blazing Shield!"
+			x: 6.5d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "A shield that can finally extinguish your eternal fire..."
+			description: ["You do realize it's a shield made out of fire, right?"]
 			dependencies: ["3E5C9C8D7ED4EF05"]
 			id: "45313F16CBCB2923"
 			tasks: [{
@@ -216,9 +242,15 @@
 			}]
 		}
 		{
+			title: "Corrupting the Heart"
 			x: 5.5d
 			y: 7.0d
-			dependencies: ["4F5A0B97911720DE"]
+			shape: "rsquare"
+			subtitle: "It's corrupted."
+			dependencies: [
+				"4F5A0B97911720DE"
+				"208774AE7914F294"
+			]
 			id: "3E5C9C8D7ED4EF05"
 			tasks: [{
 				id: "6736915742E63C22"
@@ -229,6 +261,7 @@
 		{
 			x: 4.5d
 			y: 8.0d
+			shape: "rsquare"
 			dependencies: ["3E5C9C8D7ED4EF05"]
 			id: "7BECABEF86342F46"
 			tasks: [{
@@ -238,8 +271,11 @@
 			}]
 		}
 		{
+			title: "What's The Twist?"
 			x: 5.5d
 			y: 8.5d
+			shape: "rsquare"
+			subtitle: "Absolutely no strings attached."
 			dependencies: ["3E5C9C8D7ED4EF05"]
 			id: "0A73FCA06952871D"
 			tasks: [{
@@ -249,10 +285,15 @@
 			}]
 		}
 		{
-			x: 4.5d
+			title: "A Blessing or a Curse?"
+			x: 7.0d
 			y: -1.5d
-			subtitle: "The only way to destroy the ring, but you do not escape unscathed."
-			dependencies: ["208774AE7914F294"]
+			shape: "rsquare"
+			subtitle: "This is the only way to destroy the ring, but you do not escape unscathed."
+			dependencies: [
+				"208774AE7914F294"
+				"6736915742E63C22"
+			]
 			id: "053D69FDDE2A8783"
 			tasks: [{
 				id: "27BE3BCA34993C5E"
@@ -263,7 +304,7 @@
 		{
 			title: "Acquire the Dormant Eye"
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 			subtitle: "Your very own narrator."
 			description: ["To awaken the Dormant Eye, please right click."]
 			dependencies: ["12AC3D51B071A726"]
@@ -279,8 +320,11 @@
 			}]
 		}
 		{
+			title: "Find the Heart of the Earth"
 			x: 3.0d
 			y: 4.5d
+			shape: "rsquare"
+			subtitle: "It's a foundational ingredient that can be found in dungeons."
 			dependencies: ["00496091148AA48D"]
 			hide: true
 			id: "4F5A0B97911720DE"
@@ -298,6 +342,7 @@
 			title: "Create the Enchanter's Pearl"
 			x: 3.5d
 			y: 10.5d
+			shape: "rsquare"
 			subtitle: "Both a curse and a blessing."
 			dependencies: ["34BBD9B70AE0AAB1"]
 			hide: true
@@ -310,7 +355,7 @@
 		}
 		{
 			title: "Acquire an Iron Ring..."
-			x: -3.5d
+			x: -5.0d
 			y: 0.0d
 			subtitle: "It's just a basic ring."
 			dependencies: ["12AC3D51B071A726"]
@@ -323,7 +368,7 @@
 		}
 		{
 			title: "Acquire the Exquisite Ring"
-			x: -3.5d
+			x: -5.0d
 			y: -1.5d
 			subtitle: "Oh the luxury! Even more exquisite!"
 			description: ["This ring makes Piglins neutral towards you."]
@@ -336,11 +381,14 @@
 			}]
 		}
 		{
-			x: 6.5d
+			title: "The Pact of Infinite Avarice"
+			x: 8.0d
 			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Greed."
 			dependencies: [
-				"3E5C9C8D7ED4EF05"
 				"19FCFBBF95C65F68"
+				"1FB5367AB0593332"
 			]
 			hide: true
 			id: "11E1C39B69C180E4"
@@ -354,6 +402,7 @@
 			title: "Create the Essence of Raging Life"
 			x: 2.0d
 			y: 5.5d
+			shape: "rsquare"
 			subtitle: "Infinitum incrementum."
 			dependencies: ["4F5A0B97911720DE"]
 			id: "5963885E766A0D02"
@@ -367,6 +416,7 @@
 			title: "Create the Charm of the Treasure Hunter"
 			x: 1.5d
 			y: 4.5d
+			shape: "rsquare"
 			subtitle: "Infinite night vision while underground."
 			description: ["Very convenient, right?"]
 			dependencies: ["4F5A0B97911720DE"]
@@ -385,6 +435,7 @@
 			title: "Make the Teleportato"
 			x: -1.5d
 			y: 10.5d
+			shape: "rsquare"
 			subtitle: "...why?"
 			dependencies: ["1EB71203E5FF754F"]
 			id: "7B6D7FEF7E3BC444"
@@ -413,8 +464,9 @@
 		}
 		{
 			title: "THE Eternal Cake"
-			x: -1.5d
-			y: 12.0d
+			x: 0.0d
+			y: 13.5d
+			shape: "rsquare"
 			subtitle: "Cake of Eternal Lies"
 			description: ["It uhhh... regenerates itself over time."]
 			dependencies: ["005E3F75DBA9A31D"]
@@ -427,7 +479,7 @@
 		}
 		{
 			title: "Acquire The Ring of Ender"
-			x: -5.0d
+			x: -6.5d
 			y: 0.0d
 			subtitle: "It's your Ender Chest, but it is on you at all times."
 			dependencies: ["681F73AE3065F443"]
@@ -436,6 +488,175 @@
 				id: "7478A15B8A4CFAB5"
 				type: "item"
 				item: "enigmaticlegacy:ender_ring"
+			}]
+		}
+		{
+			title: "One Thousand Curses"
+			x: 8.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "One thousand voices emanate from the scroll."
+			dependencies: ["1FB5367AB0593332"]
+			id: "76AE933054BE4A21"
+			tasks: [{
+				id: "66C73C7FE5658DEA"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+		}
+		{
+			title: "The Best Sponge"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Spongebob Squarepants!"
+			dependencies: ["12AC3D51B071A726"]
+			id: "3A5294E2809B32A0"
+			tasks: [{
+				id: "38E15849BA852876"
+				type: "item"
+				item: "enigmaticlegacy:mega_sponge"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["208774AE7914F294"]
+			id: "1451BC425274C7C6"
+			tasks: [{
+				id: "77BCAC731D6A50DC"
+				type: "item"
+				item: "enigmaticlegacy:guardian_heart"
+			}]
+		}
+		{
+			title: "Becoming the Writer"
+			icon: "enigmaticlegacy:lore_inscriber"
+			x: 1.5d
+			y: 10.5d
+			shape: "rsquare"
+			subtitle: "You can now add lore to your stuff."
+			dependencies: ["1EB71203E5FF754F"]
+			id: "2C42886701AC5746"
+			tasks: [
+				{
+					id: "1DEFF2DB6BB37B0F"
+					type: "item"
+					item: "enigmaticlegacy:lore_inscriber"
+				}
+				{
+					id: "1265C79FAB183E5F"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:lore_fragment"
+						Count: 1b
+						tag: {
+							display: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["12AC3D51B071A726"]
+			id: "6CD35482F5E5C780"
+			tasks: [{
+				id: "59DDF1EA7E831394"
+				type: "item"
+				item: "enigmaticlegacy:animal_guide"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["12AC3D51B071A726"]
+			id: "3A430E2D0D9740E4"
+			tasks: [{
+				id: "7F06EF80CC023D2F"
+				type: "item"
+				item: "enigmaticlegacy:hunter_guide"
+			}]
+		}
+		{
+			title: "The Hungry Book"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "It's very hungry."
+			dependencies: ["040E48C782B00AF9"]
+			id: "11997F2E625018CE"
+			tasks: [{
+				id: "09051F6D1F4D7E0E"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "rsquare"
+			dependencies: [
+				"14EEC0FCC423EBA4"
+				"1EB71203E5FF754F"
+			]
+			id: "70EA9D16224B7126"
+			tasks: [{
+				id: "2621B4E6EA5C2056"
+				type: "item"
+				item: "enigmaticlegacy:fabulous_scroll"
+			}]
+		}
+		{
+			title: "Scrolls of Darkness"
+			x: 8.0d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "These scrolls are so dark that you can't see the surface of it as you hold it in your hands."
+			dependencies: ["3E5C9C8D7ED4EF05"]
+			id: "1FB5367AB0593332"
+			tasks: [{
+				id: "2322354B6E17253D"
+				type: "item"
+				item: "enigmaticlegacy:darkest_scroll"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: ["00496091148AA48D"]
+			hide: true
+			id: "6C92B5CFA5613508"
+			tasks: [{
+				id: "302198AB5E5A2831"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			shape: "rsquare"
+			dependencies: ["6C92B5CFA5613508"]
+			id: "14EEC0FCC423EBA4"
+			tasks: [{
+				id: "7D8697440EA80345"
+				type: "item"
+				item: "enigmaticlegacy:heaven_scroll"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			shape: "rsquare"
+			dependencies: ["005E3F75DBA9A31D"]
+			id: "78AF5418F2B63A76"
+			tasks: [{
+				id: "19DBEFCB0514155E"
+				type: "item"
+				item: "enigmaticlegacy:enigmatic_item"
 			}]
 		}
 	]
