@@ -38,22 +38,45 @@
 			id: "2DC6790BD0A55A6E"
 			tasks: [
 				{
-					id: "24823464BDDF7173"
-					type: "item"
-					item: "supplementaries:iron_gate"
-				}
-				{
 					id: "0C86F593220A6BD6"
 					type: "item"
 					item: "supplementaries:gold_gate"
 				}
+				{
+					id: "771E07F876E9D84A"
+					type: "item"
+					item: "supplementaries:iron_gate"
+				}
+			]
+			rewards: [
+				{
+					id: "6348AB39274C26B0"
+					type: "item"
+					item: "quark:gold_bars"
+					count: 64
+				}
+				{
+					id: "199C70FC86868DF7"
+					type: "item"
+					item: "minecraft:iron_bars"
+					count: 64
+				}
 			]
 		}
 		{
-			title: "Netherite decorations..."
+			title: "Luxury Doors!"
 			x: 1.5d
 			y: 0.0d
 			subtitle: "I'm sure you'll be fineee"
+			description: [
+				"Have an excessive amount of precious metals? Then these doors are for you!"
+				""
+				"Gold doors function like normal doors."
+				""
+				"Silver doors can't be opened manually."
+				""
+				"Lead doors take three clicks to open manually."
+			]
 			dependencies: ["4A2CFDD09FF7A975"]
 			id: "79560D87C0BCD280"
 			tasks: [
@@ -63,9 +86,19 @@
 					item: "supplementaries:netherite_door"
 				}
 				{
-					id: "3F1024F70A05987C"
+					id: "2BA7AC969BB99939"
 					type: "item"
-					item: "supplementaries:netherite_trapdoor"
+					item: "supplementaries:gold_door"
+				}
+				{
+					id: "27031331138D5973"
+					type: "item"
+					item: "supplementaries:silver_door"
+				}
+				{
+					id: "0D1F7DF4EEA1B425"
+					type: "item"
+					item: "supplementaries:lead_door"
 				}
 			]
 		}
@@ -82,6 +115,92 @@
 				type: "item"
 				item: "supplementaries:sconce_lever"
 			}]
+		}
+		{
+			title: "The Floor is Lava!"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Cool tiling, right?"
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "1FC391DB2B32DCA3"
+			tasks: [
+				{
+					id: "4CD7945E95E0E618"
+					type: "item"
+					item: "supplementaries:checker_block"
+				}
+				{
+					id: "1829059B434F2E93"
+					type: "item"
+					item: "supplementaries:stone_tile"
+				}
+				{
+					id: "39EC06C14BA182FD"
+					type: "item"
+					item: "supplementaries:blackstone_tile"
+				}
+			]
+		}
+		{
+			title: "All the Lamps!"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Try some of these lamps for your base."
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "13B519BF572FDE45"
+			tasks: [
+				{
+					id: "677A7F9D4EAF0219"
+					type: "item"
+					item: "supplementaries:stone_lamp"
+				}
+				{
+					id: "60C2AC1F3D70DDE7"
+					type: "item"
+					item: "supplementaries:blackstone_lamp"
+				}
+				{
+					id: "213BF27B7580699D"
+					type: "item"
+					item: "supplementaries:deepslate_lamp"
+				}
+				{
+					id: "5DA8B52557889EE0"
+					type: "item"
+					item: "supplementaries:end_stone_lamp"
+				}
+			]
+		}
+		{
+			title: "Luxury Trapdoors!"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "You'll be fine...?"
+			description: ["Follows the same functions to their door counterparts."]
+			dependencies: ["79560D87C0BCD280"]
+			id: "0090CBE54F86A72F"
+			tasks: [
+				{
+					id: "2AC877DDE919D839"
+					type: "item"
+					item: "supplementaries:netherite_trapdoor"
+				}
+				{
+					id: "222D611B74E5FB73"
+					type: "item"
+					item: "supplementaries:gold_trapdoor"
+				}
+				{
+					id: "37AB041C931401AB"
+					type: "item"
+					item: "supplementaries:silver_trapdoor"
+				}
+				{
+					id: "69A122A0D0C5B87A"
+					type: "item"
+					item: "supplementaries:lead_trapdoor"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

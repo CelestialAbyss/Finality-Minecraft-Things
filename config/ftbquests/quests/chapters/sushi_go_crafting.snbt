@@ -6,10 +6,11 @@
 	title: "Sushi Go Crafting"
 	icon: "sushigocrafting:onigiri"
 	subtitle: ["Sushi."]
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [{
 		title: "Getting Started: Sushi Crafting"
+		icon: "sushigocrafting:seaweed"
 		x: 0.0d
 		y: 0.0d
 		subtitle: "Have fun with all things sushi related."

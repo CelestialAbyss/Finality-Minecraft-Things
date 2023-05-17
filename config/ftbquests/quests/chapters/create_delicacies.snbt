@@ -22,6 +22,7 @@
 				id: "33D0C5E9C7E8C39D"
 				type: "item"
 				item: "create:honeyed_apple"
+				count: 16L
 			}]
 		}
 		{
@@ -37,6 +38,7 @@
 				id: "4AE5643CF1AC98CD"
 				type: "item"
 				item: "create:builders_tea"
+				count: 8L
 			}]
 		}
 		{
@@ -52,7 +54,7 @@
 				id: "6C3D3D84984CCFAD"
 				type: "item"
 				item: "create:bar_of_chocolate"
-				count: 256L
+				count: 1024L
 			}]
 			rewards: [{
 				id: "5408237C8FDA81B2"
@@ -66,12 +68,14 @@
 			x: 3.0d
 			y: 0.0d
 			subtitle: "If only chocolate glazed strawberries existed..."
+			description: ["Put that chocolate factory to use!"]
 			dependencies: ["7284C936E41492CE"]
 			id: "7118D4C70AE8A159"
 			tasks: [{
 				id: "7359EA0E09B494CE"
 				type: "item"
 				item: "create:chocolate_glazed_berries"
+				count: 256L
 			}]
 		}
 		{
@@ -85,6 +89,7 @@
 				id: "3C9A10BAB940CDFC"
 				type: "item"
 				item: "create:sweet_roll"
+				count: 16L
 			}]
 		}
 		{
@@ -99,6 +104,7 @@
 				id: "0FBD62F700D18094"
 				type: "item"
 				item: "create:dough"
+				count: 16L
 			}]
 		}
 	]

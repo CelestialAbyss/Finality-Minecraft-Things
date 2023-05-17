@@ -105,6 +105,18 @@
 	[leaves_type.croptopia]
 		cinnamon = true
 
+	[leaves_type.twigs]
+		bamboo = true
+
+	[leaves_type.atmospheric]
+		rosewood = true
+		morado = true
+		yucca = true
+		kousa = true
+		aspen = true
+		grimwood = true
+		flowering_morado = true
+
 [wood_type]
 
 	[wood_type.minecraft]
@@ -185,4 +197,15 @@
 	[wood_type.botania]
 		livingwood = true
 		dreamwood = true
+
+	[wood_type.twigs]
+		bamboo = true
+
+	[wood_type.atmospheric]
+		rosewood = true
+		morado = true
+		yucca = true
+		kousa = true
+		aspen = true
+		grimwood = true
 

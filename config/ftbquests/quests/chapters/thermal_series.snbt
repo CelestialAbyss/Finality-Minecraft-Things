@@ -20,6 +20,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Create the Thermalpedia"
 			x: 0.0d
 			y: 0.0d
 			subtitle: "Introduction to Thermal Series"

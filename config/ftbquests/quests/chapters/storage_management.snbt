@@ -160,7 +160,14 @@
 			title: "Introduction to EnderChests and EnderTanks"
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Made by shetiphian"
+			subtitle: "These mods are made by shetiphian."
+			description: [
+				"The older Ender Storage mod had some issues when writing new recipes."
+				""
+				"To upgrade Ender Chest capacity, right click with either Ender Pearls or Ender Eyes."
+				""
+				"To bind Ender Chests or Ender Tanks, right click on them with a Diamond."
+			]
 			dependencies: ["1229F8883A381F07"]
 			id: "537EBAE5E0065751"
 			tasks: [{

@@ -1,0 +1,13 @@
+onEvent('recipes', event => {
+    event.remove({id: 'minecraft:coarse_dirt'})
+    event.remove({output: 'mysticalagriculture:inferium_furnace'})
+    event.remove({output: 'mysticalagriculture:prudentium_furnace'})
+    event.remove({output: 'mysticalagriculture:tertium_furnace'})
+    event.remove({output: 'mysticalagriculture:imperium_furnace'})
+    event.remove({output: 'mysticalagriculture:supremium_furnace'})
+    event.remove({output: 'projecte:dm_furnace'})
+    event.remove({output: 'projecte:rm+furnace'})
+    event.remove({output: 'waystones:warp_plate'})
+    event.remove({output: 'waystones:attuned_shard'})
+    event.remove({output: 'waystones:warp_dust'})
+})
