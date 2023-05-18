@@ -51,6 +51,7 @@
 			icon: "farmersdelight:stove"
 			x: 0.0d
 			y: 2.0d
+			subtitle: "You're actually cooking!"
 			dependencies: ["3A93D1DBD84B9F94"]
 			id: "44D0D68F582B8418"
 			tasks: [

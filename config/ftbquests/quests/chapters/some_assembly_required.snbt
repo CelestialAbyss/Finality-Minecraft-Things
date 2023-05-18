@@ -1,0 +1,49 @@
+{
+	id: "40B7C0560B900F0C"
+	group: "2B2D0B6DE31DE8D3"
+	order_index: 4
+	filename: "some_assembly_required"
+	title: "Some Assembly Required"
+	icon: "some_assembly_required:bread_slice"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Foundation of the Art of Sandwiching"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Create the almighty Sandwiching Station!"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "06CE3A2E506D1686"
+			tasks: [{
+				id: "2D4623EBD462A5FC"
+				type: "item"
+				item: "some_assembly_required:sandwiching_station"
+			}]
+		}
+		{
+			title: "Your First Bread Slices"
+			x: 0.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "This is the first step for making the ULTIMATE sandwich."
+			description: [
+				"Did I mention you can also put potions on your sandwiches too? It's very cool, I just don't know if it will taste good."
+				""
+				"Good thing you can't taste things, right?"
+			]
+			dependencies: ["06CE3A2E506D1686"]
+			id: "23DDDAE5F4B72958"
+			tasks: [{
+				id: "4519AFBD916E8EE1"
+				type: "item"
+				title: "Slice some bread!"
+				item: "some_assembly_required:bread_slice"
+				count: 4L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

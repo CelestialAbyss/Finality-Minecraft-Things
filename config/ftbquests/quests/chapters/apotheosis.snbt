@@ -41,7 +41,7 @@
 			x: 0.0d
 			y: 3.0d
 			subtitle: "It is really important."
-			description: ["This salvages Affixed items and converts them into materials."]
+			description: ["This salvages Affixed items and converts them into Rarity Materials."]
 			dependencies: ["0EB2D84D0683C5C5"]
 			id: "0CC888B34808370F"
 			tasks: [{
@@ -53,6 +53,7 @@
 		{
 			x: -2.0d
 			y: 5.0d
+			subtitle: "Tier 1 Rarity Material"
 			dependencies: ["0CC888B34808370F"]
 			id: "376556B76A4D12A5"
 			tasks: [{
@@ -64,6 +65,7 @@
 		{
 			x: -1.0d
 			y: 5.0d
+			subtitle: "Tier 2 Rarity Material"
 			dependencies: ["0CC888B34808370F"]
 			id: "4E3FAA48FA11E177"
 			tasks: [{
@@ -75,6 +77,7 @@
 		{
 			x: 0.0d
 			y: 5.0d
+			subtitle: "Tier 3 Rarity Material"
 			dependencies: ["0CC888B34808370F"]
 			id: "72AD6FF2F61C7FD8"
 			tasks: [{
@@ -86,6 +89,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
+			subtitle: "Tier 4 Rarity Material"
 			dependencies: ["0CC888B34808370F"]
 			id: "20FEAD12447CB2E2"
 			tasks: [{
@@ -97,6 +101,7 @@
 		{
 			x: 2.0d
 			y: 5.0d
+			subtitle: "Tier 5 Rarity Material"
 			dependencies: ["0CC888B34808370F"]
 			id: "7A6003AA26F89F01"
 			tasks: [{
@@ -170,7 +175,10 @@
 				""
 				"Use different bookshelves in order to modify the levels of the 3 different aspects of Apotheosis enchanting: Eterna, Quanta and Arcana."
 			]
-			dependencies: ["00C04831E4FA7E9B"]
+			dependencies: [
+				"00C04831E4FA7E9B"
+				"4A691BB889286C89"
+			]
 			hide: true
 			id: "411F865E038E7A2E"
 			tasks: [{
@@ -301,8 +309,11 @@
 			}]
 		}
 		{
+			title: "Create the Reforging Table"
 			x: 0.0d
 			y: 11.0d
+			subtitle: "This is where things get VERY interesting."
+			description: ["You can make the most powerful tools imaginable, don't say I warned you."]
 			dependencies: ["411F865E038E7A2E"]
 			id: "3718E49C5B96FBFA"
 			tasks: [{

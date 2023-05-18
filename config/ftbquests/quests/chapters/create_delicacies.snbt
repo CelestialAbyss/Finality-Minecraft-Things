@@ -107,6 +107,26 @@
 				count: 16L
 			}]
 		}
+		{
+			title: "Create the Cooking Guide"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "You can now make your sentient fireplace into a sentient stovetop. Pretty neat right?"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "328308DEFA3C37CB"
+			tasks: [{
+				id: "2B84D889789E42AD"
+				type: "item"
+				item: {
+					id: "create_central_kitchen:cooking_guide"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

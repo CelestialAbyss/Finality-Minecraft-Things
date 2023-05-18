@@ -199,6 +199,7 @@
 			shape: "rsquare"
 			subtitle: "Glyphs are responsible for adjusting the Strength of your spells."
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "50661FA989613284"
 			tasks: [
 				{
@@ -778,6 +779,7 @@
 			subtitle: "Multi-purpose spells for your use."
 			description: ["(placeholder text)"]
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "6C62EA09DFF5DEAE"
 			tasks: [
 				{
@@ -804,6 +806,7 @@
 			shape: "rsquare"
 			subtitle: "Glyphs responsible for extending or shortening the Duration of your spells."
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "466EB5213703D731"
 			tasks: [
 				{
@@ -822,6 +825,8 @@
 			x: 10.5d
 			y: 0.0d
 			shape: "rsquare"
+			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "3F6C5755D3C7FB56"
 			tasks: [{
 				id: "468A0ADA4252EACF"
@@ -833,6 +838,8 @@
 			x: 10.5d
 			y: 1.0d
 			shape: "rsquare"
+			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "3C548AE3F8B6193E"
 			tasks: [{
 				id: "3947C0053D2F1596"
@@ -845,6 +852,7 @@
 			y: 0.0d
 			shape: "rsquare"
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "3272B8B0DBD1D8FF"
 			tasks: [{
 				id: "1BED603BB4D5D051"
@@ -859,6 +867,7 @@
 			shape: "rsquare"
 			subtitle: "Glyphs responsible for accelerating or deccelerating your spell projectiles."
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "175871D2E7FC9C8A"
 			tasks: [
 				{
@@ -879,6 +888,7 @@
 			y: 1.0d
 			shape: "rsquare"
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "0D146A8B6D9C0A66"
 			tasks: [
 				{
@@ -899,6 +909,7 @@
 			y: 1.0d
 			shape: "rsquare"
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "515A58792804A2CE"
 			tasks: [
 				{
@@ -924,6 +935,7 @@
 			y: 2.5d
 			shape: "rsquare"
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "7A14D1573D68D07C"
 			tasks: [
 				{
@@ -996,6 +1008,9 @@
 		{
 			x: 10.5d
 			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["02F721F5C94BEDF8"]
+			hide: true
 			id: "6F2273EA39A07094"
 			tasks: [{
 				id: "0A5FC7B8A012B9AE"
@@ -1009,6 +1024,11 @@
 			y: 2.5d
 			shape: "rsquare"
 			subtitle: "Let it goooo!"
+			dependencies: [
+				"2BB6EF5F07348A96"
+				"36E7D0C53B6BD807"
+			]
+			hide: true
 			id: "52C0FDE29938AAFE"
 			tasks: [
 				{
@@ -1042,6 +1062,7 @@
 			shape: "rsquare"
 			subtitle: "Riiiise my minions!"
 			dependencies: ["36E7D0C53B6BD807"]
+			hide: true
 			id: "64873C4D3018CDCC"
 			tasks: [
 				{
@@ -1081,6 +1102,11 @@
 			x: 8.5d
 			y: 2.5d
 			shape: "rsquare"
+			dependencies: [
+				"3BA19A97FA35EBE3"
+				"36E7D0C53B6BD807"
+			]
+			hide: true
 			id: "66105F2E4DEE282E"
 			tasks: [
 				{

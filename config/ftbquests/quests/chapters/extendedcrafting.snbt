@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Craft some Black Iron"
+			title: "Extended Foundation: Black Iron"
 			x: 0.0d
 			y: 0.0d
 			subtitle: "I am not responsible for your sanity."
@@ -25,6 +25,7 @@
 				id: "7EAEFF51C74C69AA"
 				type: "item"
 				item: "extendedcrafting:black_iron_ingot"
+				count: 256L
 			}]
 		}
 		{
@@ -160,8 +161,10 @@
 			}]
 		}
 		{
+			title: "Extended Foundation: Black Iron Slates"
 			x: 2.0d
 			y: 0.0d
+			subtitle: "You will also need a lot of this."
 			dependencies: ["2CB2E91CC3F2E9ED"]
 			id: "2ECBC57F086F9900"
 			tasks: [{
@@ -215,6 +218,7 @@
 			}]
 		}
 		{
+			title: "Introduction to Ender Crafting"
 			icon: "extendedcrafting:ender_crafter"
 			x: 0.0d
 			y: -2.0d
@@ -230,10 +234,12 @@
 					id: "27EEA369C8F67DC0"
 					type: "item"
 					item: "extendedcrafting:ender_alternator"
+					count: 8L
 				}
 			]
 		}
 		{
+			title: "Create an Ender Star"
 			x: 0.0d
 			y: -4.0d
 			dependencies: ["2CAFE36DDBF4EE0B"]
@@ -379,8 +385,10 @@
 			}]
 		}
 		{
+			title: "Extended Foundation: Black Iron Frame"
 			x: 4.0d
 			y: 0.0d
+			subtitle: "This is the basis of two ExtendedCrafting crafting stations."
 			dependencies: ["2ECBC57F086F9900"]
 			id: "131FA998F750B262"
 			tasks: [{
@@ -456,8 +464,10 @@
 			}]
 		}
 		{
+			title: "Combination Crafting: Pedestals"
 			x: -2.0d
 			y: 0.0d
+			subtitle: "Pedestals are required for the Crafting Core to function."
 			dependencies: ["2CB2E91CC3F2E9ED"]
 			id: "4E60F5754BF80F8E"
 			tasks: [{
@@ -468,6 +478,7 @@
 			}]
 		}
 		{
+			title: "Combination Crafting: The Crafting Core"
 			x: -4.0d
 			y: 0.0d
 			subtitle: "Combination recipes go brrrrr"
@@ -687,6 +698,7 @@
 			x: 7.0d
 			y: 12.0d
 			shape: "gear"
+			subtitle: "Are you still sane?"
 			dependencies: ["49B7301C0778939C"]
 			id: "56548410351F5DF0"
 			tasks: [
@@ -1054,6 +1066,7 @@
 			title: "Magical Singularities"
 			x: 1.0d
 			y: 12.0d
+			subtitle: "Consolidated magic."
 			dependencies: ["49B7301C0778939C"]
 			id: "0E5E4337FE33B463"
 			tasks: [{

@@ -14,6 +14,7 @@
 			x: 0.0d
 			y: 0.0d
 			subtitle: "Ice ice baby!"
+			description: ["You'll need ice for your ice cream, duh."]
 			dependencies: ["4A691BB889286C89"]
 			hide: true
 			id: "6265AEBA4D3C0F38"

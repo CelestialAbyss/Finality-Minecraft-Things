@@ -33,8 +33,8 @@
 		}
 		{
 			title: "Yes, gates."
-			x: -1.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.0d
 			subtitle: "If you loved using Iron Bars or Gold Bars as walls, here you go!"
 			dependencies: ["4A2CFDD09FF7A975"]
 			id: "2DC6790BD0A55A6E"
@@ -106,8 +106,8 @@
 		}
 		{
 			title: "Make the secret torch lever!"
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 			subtitle: "Pull the lever Kronk!"
 			description: ["Perfect for adding secret Mechanical Piston doors, though it might be useless since Jade reveals all..."]
 			dependencies: ["4A2CFDD09FF7A975"]
@@ -120,7 +120,7 @@
 		}
 		{
 			title: "The Floor is Lava!"
-			x: -1.0d
+			x: 1.0d
 			y: 1.0d
 			subtitle: "Cool tiling, right?"
 			dependencies: ["4A2CFDD09FF7A975"]
@@ -145,8 +145,8 @@
 		}
 		{
 			title: "All the Lamps!"
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 			subtitle: "Try some of these lamps for your base."
 			dependencies: ["4A2CFDD09FF7A975"]
 			id: "13B519BF572FDE45"
@@ -206,8 +206,8 @@
 		}
 		{
 			title: "A Sample of Lanterns"
-			x: 0.0d
-			y: -1.5d
+			x: -1.0d
+			y: 1.0d
 			subtitle: "Something other than torches, plus they look nicer."
 			dependencies: ["4A2CFDD09FF7A975"]
 			id: "6015E8BC02BDF285"
@@ -226,6 +226,77 @@
 					id: "6BB4E9732B371B47"
 					type: "item"
 					item: "supplementaries:crimson_lantern"
+				}
+			]
+		}
+		{
+			title: "Windows for Days"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Tired of vanilla windows made of glass blocks that don't have connected textures?"
+			description: ["Here's your solution! This is but only a small sample of the different types of glass to suit your needs."]
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "2E14DBAD40BFF1AD"
+			tasks: [
+				{
+					id: "4296B2F5A65FBDDE"
+					type: "item"
+					item: "create:framed_glass"
+					count: 9L
+				}
+				{
+					id: "4D2D6430A37DCD80"
+					type: "item"
+					item: "create:ornate_iron_window"
+					count: 9L
+				}
+				{
+					id: "4F18CE6450A6A4C0"
+					type: "item"
+					item: "create:oak_window"
+					count: 9L
+				}
+				{
+					id: "21E7BC2289774195"
+					type: "item"
+					item: "create:spruce_window"
+					count: 9L
+				}
+				{
+					id: "17DDF28D0238D604"
+					type: "item"
+					item: "create:birch_window"
+					count: 9L
+				}
+				{
+					id: "697D67091EC55331"
+					type: "item"
+					item: "create:jungle_window"
+					count: 9L
+				}
+				{
+					id: "2CC1BE7C6E405E60"
+					type: "item"
+					item: "create:acacia_window"
+					count: 9L
+				}
+				{
+					id: "2FC5F9B09D3E6D84"
+					type: "item"
+					item: "create:dark_oak_window"
+					count: 9L
+				}
+				{
+					id: "677E9E56686C3F4D"
+					type: "item"
+					item: "create:crimson_window"
+					count: 9L
+				}
+				{
+					id: "014AB88B75889CF8"
+					type: "item"
+					item: "create:warped_window"
+					count: 9L
 				}
 			]
 		}
