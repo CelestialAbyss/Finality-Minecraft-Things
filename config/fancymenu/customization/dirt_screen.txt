@@ -9,8 +9,9 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/assets/images/manu_bg.png
-  action = texturizebackground
+  restart_on_load = false
+  name = stellar_singularity
+  action = animatebackground
 }
 
 customization {

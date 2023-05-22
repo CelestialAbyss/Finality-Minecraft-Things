@@ -1,0 +1,166 @@
+{
+	id: "5E9C0645900862C1"
+	group: "3C9BBC0C470CAD02"
+	order_index: 4
+	filename: "alloyed"
+	title: "Alloyed"
+	icon: "alloyed:bronze_ingot"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Better than Iron: Steel"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Create: Alloyed is by mythrilbagels"
+			dependencies: ["4A691BB889286C89"]
+			id: "5BDC3E40C4A30E20"
+			tasks: [{
+				id: "2822BEDF631A6AB8"
+				type: "item"
+				item: "alloyed:steel_ingot"
+				count: 32L
+			}]
+		}
+		{
+			title: "Steel Weaponry and Tools"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5BDC3E40C4A30E20"]
+			id: "7A7F75840647E9A1"
+			tasks: [
+				{
+					id: "15A321D1D2FA525E"
+					type: "item"
+					item: {
+						id: "alloyed:steel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68A5CE781B33AB8F"
+					type: "item"
+					item: {
+						id: "alloyed:steel_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "293A20AA26CFA5C9"
+					type: "item"
+					item: {
+						id: "alloyed:steel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02CE593C75B16B52"
+					type: "item"
+					item: {
+						id: "alloyed:steel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2066739DDC75D57B"
+					type: "item"
+					item: {
+						id: "alloyed:steel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0734EC7EB508C494"
+					type: "item"
+					item: {
+						id: "alloyed:steel_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1567FC8BE9139A3A"
+					type: "item"
+					item: {
+						id: "alloyed:steel_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Steel Armory"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["5BDC3E40C4A30E20"]
+			id: "7E5B5C766EAC50F7"
+			tasks: [
+				{
+					id: "400DD62659CA209B"
+					type: "item"
+					item: {
+						id: "alloyed:steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "119ED21E367F6A3D"
+					type: "item"
+					item: {
+						id: "alloyed:steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D915D170785643F"
+					type: "item"
+					item: {
+						id: "alloyed:steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30C56D94FF4199E8"
+					type: "item"
+					item: {
+						id: "alloyed:steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

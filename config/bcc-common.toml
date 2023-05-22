@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 849711
 	#The name of the modpack
-	modpackName = "Singularity"
+	modpackName = "Finality"
 	#The version of the modpack
-	modpackVersion = "0.5.7b"
+	modpackVersion = "0.5.9b"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

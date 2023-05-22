@@ -213,11 +213,16 @@
 					only_from_crafting: true
 				}
 				{
-					id: "1C8990793067BA62"
-					type: "checkmark"
-					title: "What is this...?"
+					id: "23A2283ADCF520ED"
+					type: "item"
+					item: "minecraft:campfire"
 				}
 			]
+			rewards: [{
+				id: "6AECAF1DB1A11A84"
+				type: "item"
+				item: "minecraft:raw_iron_block"
+			}]
 		}
 		{
 			title: "Convenient Utilities Ch.2 - The Akashic Tome"

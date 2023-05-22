@@ -25,13 +25,13 @@
 	#Diamond and Emerald Apples enabled?
 	apples = true
 	#Watering Can enabled?
-	wateringCan = false
+	wateringCan = true
 	#Enable Meshes?
 	meshes = true
 	#Enable Magnet?
-	magnet = false
+	magnet = true
 	#Enable Night Vision Goggles?
-	nightVisionGoggles = false
+	nightVisionGoggles = true
 	#Enable Paxels?
 	paxels = true
 	#Enable Flint tools and armor?

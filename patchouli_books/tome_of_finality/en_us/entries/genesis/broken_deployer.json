@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "You claim a chunk, and notice that Create's Deployers are not working inside your claimed chunk. How do you fix this? Thankfully, it's a simple fix. $(br2)Open your inventory, then click the FTB Teams icon which is located on the top left corner, next to the FTB Quests book."
+            "text": "$(4)As of modpack version 0.5.9b this entry no longer applies.$() You claim a chunk, and notice that Create's Deployers are not working inside your claimed chunk. How do you fix this? Thankfully, it's a simple fix. $(br2)Open your inventory, then click the FTB Teams icon which is located on the top left corner, next to the FTB Quests book."
         },
         {
             "type": "patchouli:text",

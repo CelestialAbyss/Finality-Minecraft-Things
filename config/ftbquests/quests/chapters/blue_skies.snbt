@@ -1,0 +1,41 @@
+{
+	id: "5E7F667717AA0318"
+	group: "6855847200ADBE3A"
+	order_index: 12
+	filename: "blue_skies"
+	title: "Blue Skies"
+	icon: "blue_skies:everbright_portal"
+	subtitle: ["More dimensions."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Introduction to Blue Skies"
+		icon: "blue_skies:everbright_portal"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "This book actually explains everything for the most part."
+		dependencies: ["4A691BB889286C89"]
+		hide: true
+		id: "3D415066773DE68A"
+		tasks: [
+			{
+				id: "45FB10CBEED31638"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}
+			{
+				id: "276C8389A6A82261"
+				type: "item"
+				title: "Acquire the Zeal Lighter from the Gatekeeper"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+		]
+	}]
+	quest_links: [ ]
+}

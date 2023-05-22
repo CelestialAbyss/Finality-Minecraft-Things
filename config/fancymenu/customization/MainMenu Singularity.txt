@@ -9,13 +9,19 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/assets/images/menu_bg.png
-  action = texturizebackground
+  restart_on_load = false
+  name = stellar_singularity
+  action = animatebackground
 }
 
 customization {
   keepaspectratio = true
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
 }
 
 customization {
@@ -37,15 +43,15 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-left
-  x = 104
+  orientation = bottom-centered
+  x = 1
   action = movebutton
-  y = -10
+  y = -85
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 128
+  width = 90
   action = resizebutton
   height = 20
 }
@@ -61,10 +67,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = bottom-left
-  x = 245
+  orientation = element
+  orientation_element = 3d46971e-9005-41ee-8b4f-2ec8219a39d41682306825930
+  x = -167
   action = movebutton
-  y = -23
+  y = 0
 }
 
 customization {
@@ -85,6 +92,11 @@ customization {
 
 customization {
   identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
   orientation = mid-left
   x = 81
   action = movebutton
@@ -102,15 +114,16 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-left
-  x = 104
+  orientation = element
+  orientation_element = 3d46971e-9005-41ee-8b4f-2ec8219a39d41682306825930
+  x = 84
   action = movebutton
-  y = 14
+  y = 0
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 128
+  width = 78
   action = resizebutton
   height = 20
 }
@@ -132,10 +145,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = bottom-left
-  x = 2
+  orientation = element
+  orientation_element = 3d46971e-9005-41ee-8b4f-2ec8219a39d41682306825930
+  x = 164
   action = movebutton
-  y = -23
+  y = 0
 }
 
 customization {
@@ -156,10 +170,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = bottom-left
-  x = 168
+  orientation = element
+  orientation_element = 3d46971e-9005-41ee-8b4f-2ec8219a39d41682306825930
+  x = -77
   action = movebutton
-  y = -23
+  y = 0
 }
 
 customization {
@@ -180,15 +195,15 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-left
-  x = 104
+  orientation = bottom-centered
+  x = -91
   action = movebutton
-  y = -34
+  y = -85
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 128
+  width = 90
   action = resizebutton
   height = 20
 }
@@ -239,6 +254,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
   action = hidebutton
 }
 
@@ -328,18 +348,18 @@ customization {
 }
 
 customization {
-  orientation = mid-left
-  name = singularity_animation
-  x = 247
-  width = 719
-  actionid = 34440911-07cd-432f-8850-0643b3a406051681841922783
-  action = addanimation
-  y = -189
-  height = 401
+  path = config/fancymenu/assets/images/packtitle.png
+  orientation = top-centered
+  x = -120
+  width = 240
+  action = addtexture
+  actionid = b6ec5dfa-f7b7-4178-a1ad-19e3942797591681757973358
+  y = 60
+  height = 52
 }
 
 customization {
-  orientation = mid-left
+  orientation = top-centered
   basecolor = #b1a0ff
   shadow = true
   rotation = 0.0
@@ -347,28 +367,29 @@ customization {
   refresh = true
   bouncing = true
   vanilla-like = true
-  x = 140
+  x = -27
   actionid = 6933b74a-1382-4bf0-9292-fd7ae16d24201679852528355
   action = addsplash
-  y = -66
-  text = There's no stopping the Trollmaso
+  y = 108
+  text = Terrestrial!
 }
 
 customization {
-  orientation = bottom-left
+  orientation = element
   enable_scrolling = true
-  shadow = false
+  shadow = true
   scale = 1.0
   source = Menu Soundtrack Credits:%n%[menu1.ogg] Heart of the Wicked - Cjbeards%n%[menu2.ogg] From the Shadows - Cjbeards%n%[menu3.ogg] Cubeponk -  Cjbeards & Fayr%n%[menu4.ogg] Mirror Mirror - Cjbeards%n%%n%From the Cjbeards Music Usage spreadsheet: %n%All my music is royalty-free to use for YouTube and streaming, %n%and most of my music (See the "Credits & Free Use" sheet) is %n%also royalty-free to use for film, advertisements, video games, %n%etc. but you must give credit in the proper way and to the right %n%people.%n%%n%A note from the modpack author, CelestialAbyss:%n%All the songs listed above are Free to Use, but I will extensively %n%give credit where it is due. Links to the songs are attached on %n%the modpack's GitHub wiki page.
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 3
+  orientation_element = 0974a763-21a2-43f4-b2dd-98277087e3c61681331594374
+  x = 0
   width = 332
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c6a5ba67-5f26-4523-9582-c75375abd0ca1681318824420
-  y = -147
+  y = -87
   alignment = left
   base_color = #b1a0ff
   height = 83
@@ -407,17 +428,17 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 3
+  x = 1
   width = 176
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0974a763-21a2-43f4-b2dd-98277087e3c61681331594374
-  y = -55
+  y = -33
   alignment = left
   height = 32
 }
 
 customization {
-  orientation = mid-left
+  orientation = bottom-centered
   copy_client_player = true
   slim = false
   auto_skin = false
@@ -428,12 +449,12 @@ customization {
   showname = false
   crouching = false
   follow_mouse = true
-  x = 261
+  x = -12
   width = 24
   parrot_left_shoulder = false
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = a52cb86c-5c9f-41c7-a0c0-86dac0bb645d1681339856672
-  y = -39
+  y = -170
   playername = CelestialAbyss
   bodyrotationx = 0.0
   parrot = false
@@ -444,18 +465,7 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/assets/images/packtitle.png
-  orientation = mid-left
-  x = 45
-  width = 240
-  action = addtexture
-  actionid = b6ec5dfa-f7b7-4178-a1ad-19e3942797591681757973358
-  y = -115
-  height = 52
-}
-
-customization {
-  orientation = mid-left
+  orientation = bottom-centered
   enable_scrolling = false
   shadow = true
   scale = 1.0
@@ -464,18 +474,18 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 52
+  x = -117
   width = 234
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 88abab38-403c-4700-b0ed-10e869b812011682303817168
-  y = 42
+  y = -58
   alignment = centered
   base_color = #b1a0ff
   height = 15
 }
 
 customization {
-  orientation = mid-left
+  orientation = element
   enable_scrolling = false
   shadow = false
   scale = 1.0
@@ -484,24 +494,25 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 146
+  orientation_element = 88abab38-403c-4700-b0ed-10e869b812011682303817168
+  x = 94
   width = 83
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0f076eca-f45f-4e40-862c-a825f586f8311682305358516
-  y = 59
+  y = 17
   alignment = left
   base_color = #b1a0ff
   height = 15
 }
 
 customization {
-  orientation = bottom-left
+  orientation = bottom-centered
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki/Finality-1.18.2-Changelog%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/images/big_buttons_hover.png
   label = Changelog
   loopbackgroundanimations = true
-  x = 84
+  x = -41
   width = 82
   action = addbutton
   actionid = 3d46971e-9005-41ee-8b4f-2ec8219a39d41682306825930

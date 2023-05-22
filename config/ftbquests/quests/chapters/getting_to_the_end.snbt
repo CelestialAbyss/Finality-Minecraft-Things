@@ -21,7 +21,7 @@
 				"4E9DB5E5DA145FB7"
 			]
 			hide: true
-			size: 2.0d
+			size: 2.5d
 			id: "34BBD9B70AE0AAB1"
 			tasks: [{
 				id: "5098C9DA205BDE8A"
@@ -31,6 +31,7 @@
 			}]
 		}
 		{
+			title: "Acquire the Black Eye"
 			x: -3.0d
 			y: 3.0d
 			subtitle: "Find me in buried treasure."
@@ -50,8 +51,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 5.0d
+			x: -1.5d
+			y: 4.5d
 			subtitle: "Find me in igloos."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -69,8 +70,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
+			x: -1.0d
+			y: 0.5d
 			subtitle: "Find me where I stalk villagers."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -88,8 +89,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 7.0d
+			x: 1.0d
+			y: 0.5d
 			subtitle: "Find me in ancient mineshafts."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -108,7 +109,7 @@
 		}
 		{
 			x: 2.5d
-			y: 4.0d
+			y: 2.0d
 			subtitle: "Find me in the Nether Fortress."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -126,8 +127,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.5d
 			subtitle: "Find me in ancient desert temples."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -145,8 +146,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 7.0d
+			x: 2.5d
+			y: 4.0d
 			subtitle: "Find me in the temple that contains malicious redstone."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -183,8 +184,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 			subtitle: "Acquire me from a Master Cleric."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -221,8 +222,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			title: "Acquire the Magical Eye"
+			x: -1.5d
+			y: 1.5d
 			subtitle: "I am used by someone with ill intentions."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -240,6 +242,7 @@
 			}]
 		}
 		{
+			title: "Acquire the Wither Eye"
 			x: -2.5d
 			y: 2.0d
 			subtitle: "I bring destruction to the world."
@@ -260,7 +263,7 @@
 		}
 		{
 			x: -1.0d
-			y: 6.0d
+			y: 5.5d
 			subtitle: "I was once part of a master of potion brewing."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -280,7 +283,7 @@
 		}
 		{
 			x: 0.0d
-			y: 6.5d
+			y: 6.0d
 			subtitle: "I am made from the soul of a horse turned skeletal."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -299,7 +302,7 @@
 		}
 		{
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 			subtitle: "I can only be created from your aquatic adventures."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -319,7 +322,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.5d
+			y: 7.5d
 			subtitle: "Origins unkown, maybe from a tome of ancient knowledge?"
 			dependencies: ["4A691BB889286C89"]
 			hide: true

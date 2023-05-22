@@ -1,0 +1,378 @@
+{
+	id: "2AD3074639A9CD1F"
+	group: "668E3EA3A7A91B79"
+	order_index: 0
+	filename: "artifacts"
+	title: "Artifacts"
+	icon: "artifacts:mimic_spawn_egg"
+	subtitle: ["Collect them all!"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Crystal Vitality"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "More health, for days."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "134132D08F2351B9"
+			tasks: [{
+				id: "4FC6F95E7BE76F57"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+		}
+		{
+			title: "Luck of the Leprechaun"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Fortune that will never be found at the end of the rainbow."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "29714FA7C6C24B0C"
+			tasks: [
+				{
+					id: "1E5C0474933AC573"
+					type: "item"
+					item: "artifacts:superstitious_hat"
+				}
+				{
+					id: "3CCACCE194F9A2D2"
+					type: "item"
+					item: "artifacts:lucky_scarf"
+				}
+				{
+					id: "3B7A0CF35F9C5B1A"
+					type: "item"
+					item: "artifacts:golden_hook"
+				}
+			]
+		}
+		{
+			title: "The Cutest Slippers"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Sooo cute!"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "639EBE770F335AD5"
+			tasks: [
+				{
+					id: "6081B413C800CA36"
+					type: "item"
+					item: "artifacts:kitty_slippers"
+				}
+				{
+					id: "09252EED2C0F7B1E"
+					type: "item"
+					item: "artifacts:bunny_hoppers"
+				}
+			]
+		}
+		{
+			title: "Eternal BEEF"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "FOREVER BEEF"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3A56F181BF960F00"
+			tasks: [
+				{
+					id: "60D256BF979A6F23"
+					type: "item"
+					item: "artifacts:everlasting_beef"
+				}
+				{
+					id: "122C3125BD8C4196"
+					type: "item"
+					item: "artifacts:eternal_steak"
+				}
+			]
+		}
+		{
+			title: "Goofy Goober"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "I'm ready! Promotion!"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "3D38DD7900BDC0CD"
+			tasks: [
+				{
+					id: "56DA9B01685196FE"
+					type: "item"
+					item: "artifacts:plastic_drinking_hat"
+				}
+				{
+					id: "3ECF6D98F8494AB9"
+					type: "item"
+					item: "artifacts:novelty_drinking_hat"
+				}
+			]
+		}
+		{
+			title: "Become One with the Night"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "IT'S THE HASH SLINGING SLASHER"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "57B8D2900DEAABD3"
+			tasks: [
+				{
+					id: "500F43C87D637DBD"
+					type: "item"
+					item: "artifacts:night_vision_goggles"
+				}
+				{
+					id: "29C7A43A2984048A"
+					type: "item"
+					item: "artifacts:scarf_of_invisibility"
+				}
+			]
+		}
+		{
+			title: "Become the Penguin!"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "*insert lego batman penguin noises here*"
+			description: ["Unfortunately no, the umbrella can't shoot."]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "708C10840E44F31C"
+			tasks: [
+				{
+					id: "548A0B2F5D55F56C"
+					type: "item"
+					item: "artifacts:umbrella"
+				}
+				{
+					id: "2120AFBDC9444214"
+					type: "item"
+					item: "artifacts:flippers"
+				}
+				{
+					id: "20FA0911E4C0CCB1"
+					type: "item"
+					item: "artifacts:snorkel"
+				}
+			]
+		}
+		{
+			title: "The Necklaces"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Each of these are different, be sure to read what they do."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "30A29CE3FB50D11A"
+			tasks: [
+				{
+					id: "0133712D1ACB7883"
+					type: "item"
+					item: "artifacts:panic_necklace"
+				}
+				{
+					id: "6CBCF13BD76F45F2"
+					type: "item"
+					item: "artifacts:shock_pendant"
+				}
+				{
+					id: "6CC38EBE23D086FE"
+					type: "item"
+					item: "artifacts:flame_pendant"
+				}
+				{
+					id: "18B035FD30CE61ED"
+					type: "item"
+					item: "artifacts:thorn_pendant"
+				}
+				{
+					id: "1E44058B5B517DF7"
+					type: "item"
+					item: "artifacts:charm_of_sinking"
+				}
+				{
+					id: "1A6AB0C3935268B2"
+					type: "item"
+					item: "artifacts:cross_necklace"
+				}
+			]
+		}
+		{
+			title: "The Power Gloves"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "For all your offensive needs."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "16843D4A0FAE2266"
+			tasks: [
+				{
+					id: "4979281DD064A210"
+					type: "item"
+					item: "artifacts:power_glove"
+				}
+				{
+					id: "130B63768CEC40DD"
+					type: "item"
+					item: "artifacts:fire_gauntlet"
+				}
+				{
+					id: "21322A48DE7F2850"
+					type: "item"
+					item: "artifacts:pocket_piston"
+				}
+			]
+		}
+		{
+			title: "The Claws"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "For utility and the offensive."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "2B46A38DAD1371DD"
+			tasks: [
+				{
+					id: "5D7FEB7AF23346BD"
+					type: "item"
+					item: "artifacts:digging_claws"
+				}
+				{
+					id: "706CE1F72E904773"
+					type: "item"
+					item: "artifacts:feral_claws"
+				}
+			]
+		}
+		{
+			title: "Acquire the Knockback Immunity Boots"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Become one with the earth."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6464EA8843BF445D"
+			tasks: [{
+				id: "055DADFD0D4B7D79"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+		}
+		{
+			title: "ALUCAAARD!"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Hellsing Ultimate Abridged"
+			description: [
+				"Anything else?"
+				""
+				"A seventy inch plasma wide screen TV."
+				""
+				"Really?"
+				""
+				"With Netflix."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "43079D44FC265E21"
+			tasks: [{
+				id: "2EA33B3D2BCE2A95"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+		}
+		{
+			title: "...the Whoopee Cushion."
+			x: 0.0d
+			y: 7.0d
+			subtitle: "Do you really need this?"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "54A59D6E7B886CDB"
+			tasks: [{
+				id: "154FB4220ED13BE5"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			title: "Acquire the Villager Hat"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "*villager approval noises*"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "6AEDE569DFBB9B2B"
+			tasks: [{
+				id: "13046FE14D6D391D"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			title: "Acquire the Running Shoes"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Running up that hill..."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "27437880F4284297"
+			tasks: [{
+				id: "3CFB647214B670EF"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+		}
+		{
+			title: "Acquire the Aqua-Dashers"
+			x: 1.0d
+			y: 3.5d
+			subtitle: "Literally running on water."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "2ECA162542EF1647"
+			tasks: [{
+				id: "6123A921A8A1E1F5"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+		}
+		{
+			title: "Curious Trinkets"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Very interesting trinkets..."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "1C29BDB0E6AE43E2"
+			tasks: [
+				{
+					id: "2B23C8E272FC04C6"
+					type: "item"
+					icon: "artifacts:cloud_in_a_bottle"
+					item: "artifacts:helium_flamingo"
+				}
+				{
+					id: "65DA73BF2CA44B99"
+					type: "item"
+					item: "artifacts:antidote_vessel"
+				}
+				{
+					id: "05FEE0D300DC8C1F"
+					type: "item"
+					item: "artifacts:obsidian_skull"
+				}
+				{
+					id: "56D435617D019040"
+					type: "item"
+					item: "artifacts:universal_attractor"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

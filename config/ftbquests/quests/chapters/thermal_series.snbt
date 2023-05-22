@@ -1,7 +1,7 @@
 {
 	id: "74FFC2C0153CD042"
 	group: "668E3EA3A7A91B79"
-	order_index: 3
+	order_index: 4
 	filename: "thermal_series"
 	title: "Thermal Series"
 	icon: {
@@ -16,6 +16,7 @@
 			}
 		}
 	}
+	subtitle: ["Modern technology."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -24,7 +25,11 @@
 			x: 0.0d
 			y: 0.0d
 			subtitle: "Introduction to Thermal Series"
-			description: ["Thermal Series is more advanced than Create and has Fe / RF capabilties."]
+			description: [
+				"Thermal Series is more oriented towards modern technology than Create and has RF / FE capabilties."
+				""
+				"There are also additional food items, so enjoy them."
+			]
 			dependencies: ["4A691BB889286C89"]
 			hide: true
 			id: "298E31D4E4BAFBD2"
@@ -44,7 +49,7 @@
 			title: "Acquire the Stirling Dynamo"
 			x: 0.0d
 			y: 1.5d
-			subtitle: "Very easy to get a steady supply of RF."
+			subtitle: "Easily accessible and provides a steady supply of RF."
 			dependencies: ["298E31D4E4BAFBD2"]
 			id: "034E50C6F50FED72"
 			tasks: [{

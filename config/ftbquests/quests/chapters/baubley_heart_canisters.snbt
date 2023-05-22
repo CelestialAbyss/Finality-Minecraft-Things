@@ -1,0 +1,137 @@
+{
+	id: "698AD267A8F9AB1B"
+	group: "668E3EA3A7A91B79"
+	order_index: 1
+	filename: "baubley_heart_canisters"
+	title: "Heart Canisters"
+	icon: "bhc:red_heart_canister"
+	subtitle: ["You could probably be immortal."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft some Heart Canisters"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "You need something to store additional pieces of your soul."
+			dependencies: ["0EDA3F726D445492"]
+			id: "5B3FE69985D5895E"
+			tasks: [{
+				id: "71C8A76279FFD01A"
+				type: "item"
+				item: "bhc:canister"
+			}]
+		}
+		{
+			title: "Your First Love"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Ouch."
+			dependencies: ["5F0954BDC6CBA6F5"]
+			hide: false
+			id: "0EDA3F726D445492"
+			tasks: [{
+				id: "3ED74372F602BC88"
+				type: "item"
+				item: "bhc:red_heart"
+			}]
+			rewards: [{
+				id: "50CA0867E0B84B7E"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "Your First Heart Canister"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "The same process applies to the rest of the tiers."
+			dependencies: [
+				"5B3FE69985D5895E"
+				"749E99B2BD61D8E2"
+				"5B715E5E04EE7D46"
+			]
+			id: "2C2052B05312D003"
+			tasks: [{
+				id: "1542CE37A5417578"
+				type: "item"
+				item: "bhc:red_heart_canister"
+			}]
+		}
+		{
+			title: "Create the Relic Apple"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Eternal nutrition and an essential component."
+			dependencies: ["0EDA3F726D445492"]
+			id: "5B715E5E04EE7D46"
+			tasks: [{
+				id: "19E141AA958282A0"
+				type: "item"
+				item: "bhc:relic_apple"
+			}]
+		}
+		{
+			title: "Collect some Wither Bones"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "This is also needed."
+			dependencies: ["0EDA3F726D445492"]
+			id: "749E99B2BD61D8E2"
+			tasks: [{
+				id: "20B6FDD837EEE777"
+				type: "item"
+				item: "bhc:wither_bone"
+			}]
+		}
+		{
+			title: "Repairing your Heart"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Good luck!~"
+			dependencies: ["2C2052B05312D003"]
+			id: "56C41A8465F5F407"
+			tasks: [
+				{
+					id: "6F2F2C0BC53D9EBB"
+					type: "item"
+					item: "bhc:red_heart_canister"
+					count: 9L
+				}
+				{
+					id: "203CAFC2E16EE623"
+					type: "item"
+					item: "bhc:yellow_heart_canister"
+					count: 10L
+				}
+				{
+					id: "7610D268D6C28512"
+					type: "item"
+					item: "bhc:green_heart_canister"
+					count: 10L
+				}
+				{
+					id: "0D449ECE1BFFF503"
+					type: "item"
+					item: "bhc:blue_heart_canister"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "The Love Necklace"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You need something to store your soul. :3"
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "5F0954BDC6CBA6F5"
+			tasks: [{
+				id: "43474A762DF0A989"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

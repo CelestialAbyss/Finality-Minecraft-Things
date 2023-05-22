@@ -26,7 +26,7 @@ customization {
 }
 
 customization {
-  custom_color_hex = #000000
+  custom_color_hex = #2F1E33
   orientation = top-left
   hidden = false
   x = -1000000
@@ -81,18 +81,6 @@ customization {
 }
 
 customization {
-  orientation = element
-  orientation_element = d3feeb59-9ad4-4123-9983-1e265f5a906c1679498824256
-  name = singularity_animation
-  x = -48
-  width = 96
-  actionid = 6be14a62-c8e8-427b-90c0-ea53ca5f00d01681842602183
-  action = addanimation
-  y = 19
-  height = 53
-}
-
-customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
@@ -110,5 +98,17 @@ customization {
   alignment = centered
   base_color = #b1a0ff
   height = 40
+}
+
+customization {
+  path = config/fancymenu/assets/images/cube.png
+  orientation = element
+  orientation_element = d3feeb59-9ad4-4123-9983-1e265f5a906c1679498824256
+  x = -32
+  width = 64
+  action = addtexture
+  actionid = c163dd01-09ab-4ec2-a73e-93a859c5eb021684548047334
+  y = 24
+  height = 64
 }
 

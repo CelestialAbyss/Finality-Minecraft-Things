@@ -1,0 +1,30 @@
+{
+	id: "7C40AAEFB7113B93"
+	group: "6855847200ADBE3A"
+	order_index: 14
+	filename: "occultism"
+	title: "Occultism"
+	icon: "occultism:spirit_campfire"
+	subtitle: ["Work in progress."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["4A691BB889286C89"]
+		hide: true
+		id: "081760441BB7D4E7"
+		tasks: [{
+			id: "70A2573F27F588A3"
+			type: "item"
+			item: {
+				id: "occultism:dictionary_of_spirits"
+				Count: 1b
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -5,6 +5,7 @@
 	filename: "some_assembly_required"
 	title: "Some Assembly Required"
 	icon: "some_assembly_required:bread_slice"
+	subtitle: ["Make the ultimate sandwich."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

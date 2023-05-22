@@ -300,6 +300,26 @@
 				}
 			]
 		}
+		{
+			title: "Keeping Track of Time"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "You are running out of time. *distorted clock chime*"
+			dependencies: ["4A2CFDD09FF7A975"]
+			id: "37E684B79EB69A62"
+			tasks: [
+				{
+					id: "4DB29FB044FF9824"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+				{
+					id: "346CC917503ABEA1"
+					type: "item"
+					item: "create:cuckoo_clock"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }
