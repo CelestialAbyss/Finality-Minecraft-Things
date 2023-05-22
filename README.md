@@ -10,6 +10,8 @@
 
 <p align="center" dir="auto"><a href="https://www.curseforge.com/minecraft/modpacks/finality" title="https://www.curseforge.com/minecraft/modpacks/finality" rel="nofollow">You can download the Finality modpack on CurseForge here.</a></p>
 
+[Moved the 1.19.2 branch into its own repository. Click me to go there.](https://github.com/CelestialAbyss/Finality-Tau)
+
 ### License clarifications
 Finality is released on CurseForge only as **All Rights Reserved.**
 This covers the following files / folders.
