@@ -6,11 +6,10 @@
 
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available%20for-1.19.2%20%C2%A7%201.18.2-8450ff"></a> <a href="https://"><img alt="Discord" src="https://img.shields.io/discord/734146194397200424?color=%235865F2&label=Discord&logo=discord&logoColor=%23FFFFFF"></a>
 
-<p align="center" dir="auto"><a href="https://github.com/CelestialAbyss/Create-Customized" title="github.com/CelestialAbyss/Create-Customized" rel="nofollow">I have moved my Create custom recipes into the Create-Customized repository, click me if you are looking for those.</a></p>
-
-<p align="center" dir="auto"><a href="https://www.curseforge.com/minecraft/modpacks/finality" title="https://www.curseforge.com/minecraft/modpacks/finality" rel="nofollow">You can download the Finality modpack on CurseForge here.</a></p>
-
-[Moved the 1.19.2 branch into its own repository. Click me to go there.](https://github.com/CelestialAbyss/Finality-Tau)
+First things first...
+* [I have moved my Create custom recipes into the Create-Customized repository, click me if you are looking for those.](https://github.com/CelestialAbyss/Create-Customized)
+* [Moved the 1.19.2 branch into its own repository. Click me to go there.](https://github.com/CelestialAbyss/Finality-Tau)
+* [You can download the Finality modpack on CurseForge here.](https://www.curseforge.com/minecraft/modpacks/finality)
 
 ### License clarifications
 Finality is released on CurseForge only as **All Rights Reserved.**
