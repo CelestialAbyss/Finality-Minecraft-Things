@@ -22,7 +22,7 @@ This covers the following files / folders.
 * All FTB Quests, their Rewards and arrangement in `\instance\config\ftbquests\quests`
 * All custom KubeJS scripts and assets in `\instance\kubejs\`
   * This does not mean that you are not allowed to use the code as a reference on how to write things in KubeJS!
-* All custom Finality FancyMenu assets in `\instance\resources`
+* All custom Finality FancyMenu assets in `\instance\resources` and `\instance\config\fancymenu\`
   * This also applies to customizations made with DrippyLoadingScreen and FancyMenu
 * All customizations in `instance\resourcepacks\Finality Customizations\assets`
   * The custom menu music I have implemented in `Finality Customizations\assets\sounds\music\menu` is NOT ours, however. The terms for Cjbeards's work can be found here: https://docs.google.com/spreadsheets/d/1ZTM7nf4Uia19c-NQheqPnLAk1Bs6NS6XZiLt7Mk4Z1Q/edit#gid=0
