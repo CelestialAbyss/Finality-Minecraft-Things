@@ -1,11 +1,16 @@
-# <p align="center" dir="auto"><a href="https://"><img src="https://i.imgur.com/nMSU04Q.png"></a></p>
+<p align="center" dir="auto"><a href="https://"><img src="https://i.imgur.com/nMSU04Q.png"></a></p>
 
 ### <p align="center" dir="auto"> Hey! This is the 1.18.2 version. </p>
 ### <p align="center" dir="auto">𝌤 Pushing Create to its limits. 𝌤</p>
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/1.19.2%20Modpack%20variant%20status-In%20progress-EB459E"></a> <a href="https://"><img src="https://img.shields.io/badge/1.18.2%20Modpack%20variant%20status-Public%20Beta-8847ff"></a></p>
 
 <p align="center" dir="auto"><a href="https://"><img src="https://img.shields.io/badge/Available%20for-1.19.2%20%C2%A7%201.18.2-8450ff"></a> <a href="https://"><img alt="Discord" src="https://img.shields.io/discord/734146194397200424?color=%235865F2&label=Discord&logo=discord&logoColor=%23FFFFFF"></a>
-
+ 
+***
+ 
+<p align="center" dir="auto"> <img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg"> <img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg"> <img alt="discord-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"> </p>
+ 
+ 
 First things first...
 * [I have moved my Create custom recipes into the Create-Customized repository, click me if you are looking for those.](https://github.com/CelestialAbyss/Create-Customized)
 * [Moved the 1.19.2 branch into its own repository. Click me to go there.](https://github.com/CelestialAbyss/Finality-Tau)
