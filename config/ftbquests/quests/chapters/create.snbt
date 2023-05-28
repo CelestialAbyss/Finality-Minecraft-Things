@@ -1579,6 +1579,57 @@
 				item: "create:haunted_bell"
 			}]
 		}
+		{
+			title: "Gone diving!"
+			icon: {
+				id: "create:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 0.0d
+			subtitle: "For underwater exploration."
+			description: ["This is also a placeholder for Create 0.5.1."]
+			dependencies: ["0CD722C2B48DF862"]
+			id: "61624301D1511BB0"
+			tasks: [
+				{
+					id: "5CCDCE989856C5E8"
+					type: "item"
+					item: {
+						id: "create:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "252A5F4E6868400E"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+				{
+					id: "6A0F7E0635343EEF"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

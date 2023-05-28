@@ -5,6 +5,10 @@
     "pages": [
         {
             "type": "patchouli:text",
+            "text": "$(4)FTB Chunks has been removed. This entry remains here for archival purposes."
+        },
+        {
+            "type": "patchouli:text",
             "text": "This is a tutorial on how to force load chunks with FTB Chunks without the use of mods that add chunk loaders as a block. $(br2)To claim a chunk, press M to open the world map then look at the very top left corner. There should be a small map icon. Clicking this will open a smaller window."
         },
         {
