@@ -85,8 +85,10 @@ onEvent('recipes', event => {
         S: stone_essence,
         F: fire_essence
     }).id('finality:mysta_mechanical_tuff')
-
     event.remove({id: 'mysticalagriculture:essence/minecraft/flint'}) // fully removed, get flint the create way
+    // earth essence related
+    event.remove({id: 'mysticalagriculture:essence/minecraft/soul_soil'})
+    event.recipes.createMixing('16x minecraft:soul_soil', ['8x mysticalagriculture:nether_essence', 'mysticalagriculture:earth_essence']).id('finality:mysta_mixing_soul_soil')
 
     // stone essence
     event.remove({id: 'mysticalagriculture:essence/minecraft/cobblestone'}) // just use a cobble generator lol
@@ -221,6 +223,12 @@ onEvent('recipes', event => {
         L: 'mysticalagriculture:limestone_essence'
     }).id('finality:mysta_mechanical_limestone')
 
+    // diamond essence
+    event.remove({id: 'mysticalagriculture:essence/minecraft/diamond'})
+    event.recipes.createCompacting('minecraft:diamond', ['9x mysticalagriculture:diamond_essence']).id('finality:mysta_compacting_diamond')
+    event.remove({id: 'mysticalagriculture:minecraft/heart_of_the_sea'})
+    event.recipes.createMixing('minecraft:heart_of_the_sea', ['minecraft:nautilus_shell','4x mysticalagriculture:diamond_essence', '2x mysticalagriculture:prismarine_essence', '2x mysticalagriculture:squid_essence']).id('finality:mysta_mixing_sea_heart')
+    
     // machine frame related
     event.remove({id: 'mysticalagriculture:machine_frame'})
     event.remove({id: 'mysticalagriculture:soul_extractor'})

@@ -15,12 +15,12 @@ onEvent('item.registry', event => {
 	event.create('finality:incomplete_rosequartz_singularity_core').displayName('Incomplete Rose Quartz Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 	// incomplete singularity cores (alloys)
 	event.create('finality:incomplete_steel_singularity_core').displayName('Incomplete Steel Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
-	event.create('finality:incomplete_bronze_singularity_core').displayName().texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_bronze_singularity_core').displayName('Incomplete Bronze Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 	// incomplete singularity cores (concrete)
-	event.create('finality:incomplete_black_concrete_singularity_core').displayName().texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_black_concrete_singularity_core').displayName('Incomplete Black Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 
 	// activated singularity cores
-	event.create('finality:andesite_singularity_core').displayName('Andesite Singularity Core').texture().maxStackSize(8)
+	event.create('finality:andesite_singularity_core').displayName('Andesite Singularity Core').texture('finality:item/andesite_core').maxStackSize(8)
 
 	// tools
 	event.create('finality:final_pickaxe', 'pickaxe').tier('final_items').displayName('Particula Eversorem').texture('finality:item/final_pickaxe').maxStackSize(1).group('tools')
@@ -43,7 +43,7 @@ onEvent('block.registry', event => {
 
 // tiers
 onEvent('item.registry.tool_tiers', event => {
-	event.add('final_tools', tier => {
+	event.add('final_items', tier => {
 		tier.uses = -1 
 		tier.speed = 255.0
 		tier.attackDamageBonus = 65.0

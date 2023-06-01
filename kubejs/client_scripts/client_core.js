@@ -36,6 +36,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('waystones:attuned_shard')
 	event.hide('pickletweaks:watering_can')
 	event.hide('pickletweaks:reinforced_watering_can')
+	
 })
 
 onEvent('item.tooltip', event => {
