@@ -50,6 +50,7 @@ onEvent('item.tooltip', event => {
         }
     }))
 })
+
 onEvent('item.tooltip', tooltip => {
 	tooltip.add(['minecraft:campfire', 'minecraft:soul_campfire'], Text.gold('Can now regenerate health in close proximity.'))
 })

@@ -33,14 +33,30 @@
 			y: 4.0d
 			shape: "rsquare"
 			subtitle: "With the sound of the horn, Captain Cornelia appears."
-			description: ["Make sure you are prepared with the Terrible Sword. It is the only weapon that can defeat her."]
+			description: [
+				"Make sure you are prepared with the Terrible Sword. It is the only weapon that can defeat her."
+				""
+			]
 			dependencies: ["38C4D6D6DB7D9044"]
 			id: "67F927F7012EC595"
-			tasks: [{
-				id: "3716E42A1A7B92B4"
-				type: "item"
-				item: "aquamirae:shell_horn"
-			}]
+			tasks: [
+				{
+					id: "3716E42A1A7B92B4"
+					type: "item"
+					item: "aquamirae:shell_horn"
+				}
+				{
+					id: "50CBE19928088B7E"
+					type: "item"
+					item: {
+						id: "aquamirae:terrible_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "You feel vibrations under the ice..."

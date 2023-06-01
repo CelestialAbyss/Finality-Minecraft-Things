@@ -1,0 +1,74 @@
+{
+	id: "2F10D3143B415118"
+	group: "65124948534FAE42"
+	order_index: 1
+	filename: "draconic_revolution"
+	title: "Draconic Revolution"
+	icon: "draconicevolution:reactor_core"
+	subtitle: ["Where do I even begin..."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction to Draconic Revolution"
+			icon: "draconicevolution:info_tablet"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "For more thorough documentation, please use this item."
+			description: [
+				"Draconic Revolution is quite a complex mod to get into, even more so with all the modified recipes that have been implemented."
+				""
+				"Good luck, you will need it."
+			]
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "5145029FC3EC3714"
+			tasks: [
+				{
+					id: "110DC59AD124E7DD"
+					type: "item"
+					item: "draconicevolution:info_tablet"
+				}
+				{
+					id: "1021CF637341BFC8"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["5145029FC3EC3714"]
+			id: "2A9B9C33410BD360"
+			tasks: [{
+				id: "2CF38A705630EFA0"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["2A9B9C33410BD360"]
+			id: "6D09D6B7700D5A85"
+			tasks: [{
+				id: "1100E38A2FC1E2FF"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["2A9B9C33410BD360"]
+			id: "217BA0E4C0179A50"
+			tasks: [{
+				id: "584F143627AB3A4E"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

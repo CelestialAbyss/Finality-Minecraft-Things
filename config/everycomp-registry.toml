@@ -188,9 +188,6 @@
 		walnut = true
 		azalea = true
 
-	[wood_type.darkerdepths]
-		petrified = true
-
 	[wood_type.autumnity]
 		maple = true
 
