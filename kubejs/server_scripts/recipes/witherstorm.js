@@ -19,6 +19,7 @@ onEvent('recipes', event => {
     event.custom({
         "type": "extendedcrafting:combination",
         "powerCost": 5000000,
+        "powerRate": 4500000,
         "input": {
           "item": "extendedcrafting:ender_star"
         },
