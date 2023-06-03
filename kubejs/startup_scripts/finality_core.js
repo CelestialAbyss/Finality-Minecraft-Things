@@ -38,7 +38,21 @@ onEvent('item.registry', event => {
 
 onEvent('block.registry', event => {
 	// Register new blocks here
-	// event.create('example_block').maaterial('wood').hardness(1.0).displayName('Example Block')
+	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+	
+	// incomplete thermal machines
+	event.create('finality:incomplete_thermal_energy_cell').material('metal').hardness(50.0).displayName('Incomplete Thermal Energy Cell Frame').textureAll('finality:block/incomplete_energy_cell').requiresTool(true)
+	event.create('finality:incomplete_machine_furnace').material('metal').hardness(50.0).displayName('Incomplete Redstone Furnace').texture('front', 'texturepath').texture('side', 'texturepath')
+	/*
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	event.create('finality:incomplete_').material('metal').hardness(50.0).displayName('Incomplete ').texture('front', 'texturepath').texture('side', 'texturepath')
+	*/
 })
 
 // tiers

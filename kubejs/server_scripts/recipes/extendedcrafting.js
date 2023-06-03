@@ -68,6 +68,17 @@ onEvent('recipes', event => {
             item: 'minecraft:end_crystal'
         }
     }).id('finality:end_crystal')
+    // ender crafting
+    event.remove({id: 'extendedcrafting:ender_crafter'})
+    event.shaped('extendedcrafting:ender_crafter', [
+        'EEE',
+        'ICI',
+        'III'
+    ], {
+        E: 'minecraft:ender_eye',
+        I: 'extendedcrafting:ender_ingot',
+        C: 'extendedcrafting:crafting_core'
+    }).id('finality:extended/ender_crafter')
     // sequenced assembly singularities
     event.recipes.createSequencedAssembly([
         Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:blue_ice"}')
