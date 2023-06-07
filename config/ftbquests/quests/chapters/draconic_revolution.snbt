@@ -59,14 +59,25 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 			dependencies: ["2A9B9C33410BD360"]
 			id: "217BA0E4C0179A50"
 			tasks: [{
 				id: "584F143627AB3A4E"
 				type: "item"
 				item: "draconicevolution:wyvern_energy_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["6D09D6B7700D5A85"]
+			id: "04B1D863B9BB1AAF"
+			tasks: [{
+				id: "6D4193C8931CB601"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
 			}]
 		}
 	]

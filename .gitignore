@@ -1,0 +1,42 @@
+# Ignore meta files
+.curseclient
+enigmatic_persistence.dat
+hotbar.nbt
+servers.dat
+servers.dat_old
+servers.essential.dat
+
+# Ignore folders
+backups/
+crash-reports/
+debug/
+downloads/
+essential/
+fancymenu_data/
+fancymenu_instance_data/
+fancymenu_setups/
+lightspeed-cache/
+local/
+localconfigs/
+logs/
+mods/
+profileImage/
+resourcepacks/
+resources/
+saves/
+schematics/
+screenshots/
+XaeroWaypoints/
+XaeroWaypoints_BACKUP032021/
+XaeroWorldMap/
+
+# Ignore files
+usercache.json
+usernamecache.json
+whitelist.json
+
+# Ignore log files
+hs_err_pid24052.log
+hs_err_pid24512.log
+hs_err_pid29072.log
+

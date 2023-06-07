@@ -284,6 +284,17 @@
 				item: "mysticalagriculture:imperium_growth_accelerator"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 11.5d
+			dependencies: ["6366BD8019526248"]
+			id: "565247CBE2F92DFC"
+			tasks: [{
+				id: "51734AEB2D37913A"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

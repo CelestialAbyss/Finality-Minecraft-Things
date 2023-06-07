@@ -1,0 +1,109 @@
+{
+	id: "51D507E1A78EDAEC"
+	group: "752FBEF308759208"
+	order_index: 1
+	filename: "compact_machines"
+	title: "Mekanism"
+	icon: "mekanism:block_uranium"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Baby Steps into Mekanism"
+			x: 0.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "You might be on your own for the most part..."
+			description: ["I wish you luck! I personally am learning this mod myself."]
+			dependencies: [
+				"4A691BB889286C89"
+				"50B1C18D0482AB77"
+			]
+			hide: true
+			id: "735349C3AB22DD2F"
+			tasks: [
+				{
+					id: "10DE10C58BE249FE"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+				}
+				{
+					id: "1C7F8013450DB4AF"
+					type: "item"
+					item: "mekanism:osmium_compressor"
+				}
+				{
+					id: "508F4C82969C248C"
+					type: "item"
+					item: "mekanism:energized_smelter"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1A3F894104E0DA26"]
+			id: "50B1C18D0482AB77"
+			tasks: [{
+				id: "46B0074EDCEC3664"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["1A3F894104E0DA26"]
+			id: "7E4FDCC99D1399C8"
+			tasks: [{
+				id: "6B60470F9C83C78B"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "1A3F894104E0DA26"
+			tasks: [{
+				id: "64FF36631F76836F"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["3F6E4C984545DFB1"]
+			id: "0B6FDBDD2A237E23"
+			tasks: [{
+				id: "2E9569FC832E36B6"
+				type: "item"
+				item: "mekanism:atomic_disassembler"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["7E4FDCC99D1399C8"]
+			id: "68092AE8A8E46A1D"
+			tasks: [{
+				id: "0EBC969735ED877B"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["68092AE8A8E46A1D"]
+			id: "3F6E4C984545DFB1"
+			tasks: [{
+				id: "480B2321CD964D77"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

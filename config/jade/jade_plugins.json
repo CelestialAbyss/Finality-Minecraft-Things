@@ -38,12 +38,13 @@
     "redstone": true,
     "fe": true
   },
-  "create": {
-    "contraption_inv": true,
-    "blaze_burner": true,
-    "crafting_blueprint": true,
-    "exact_block": true,
-    "placard": true
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true
   },
   "jade": {
     "block_states": false,
