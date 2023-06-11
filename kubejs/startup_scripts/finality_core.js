@@ -5,8 +5,14 @@ console.info('Hello, World! (You will only see this line once in console, during
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
+
 	// minecraft core
 
+	event.create('finality:dormant_singularity_core').texture('finality:item/dormant_core').maxStackSize(16)
+	/*
+	INCOMPLETE SINGULARITY CORES SECTION
+	follow format .displayName().texture().maxStackSize(1)
+	*/
 	// incomplete singularity cores (create related)
 	event.create('finality:incomplete_andesite_singularity_core').displayName('Incomplete Andesite Singularity Core').texture('finality:item/incomplete_andesite_core').maxStackSize(1)
 	event.create('finality:incomplete_copper_singularity_core').displayName('Incomplete Copper Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
@@ -17,8 +23,27 @@ onEvent('item.registry', event => {
 	event.create('finality:incomplete_steel_singularity_core').displayName('Incomplete Steel Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 	event.create('finality:incomplete_bronze_singularity_core').displayName('Incomplete Bronze Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 	// incomplete singularity cores (concrete)
-	event.create('finality:incomplete_black_concrete_singularity_core').displayName('Incomplete Black Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_black_singularity_core').displayName('Incomplete Black Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_white_singularity_core').displayName('Incomplete White Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_pink_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_orange_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_red_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_gray_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_brown_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_cyan_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_green_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_light_gray_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_light_blue_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_lime_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_yellow_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_blue_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_magenta_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
+	event.create('finality:incomplete_concrete_purple_singularity_core').displayName('Incomplete color Concrete Singularity Core').texture('finality:item/incomplete').maxStackSize(1)
 
+	/*
+	ACTIVATED SINGULARITY CORES
+	follow format .displayName().texture().maxStackSize(1)
+	*/
 	// activated singularity cores
 	event.create('finality:andesite_singularity_core').displayName('Andesite Singularity Core').texture('finality:item/andesite_core').maxStackSize(8)
 

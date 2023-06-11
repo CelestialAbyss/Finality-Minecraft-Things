@@ -7,6 +7,7 @@ onEvent('recipes', event => {
         'CEC'
     ], {
         C: evil,
+        E: essence,
         N: 'minecraft:netherrack'
     }).id('finality:tainted_flesh_block')
     event.shaped('witherstormmod:tainted_glass', [
@@ -15,6 +16,7 @@ onEvent('recipes', event => {
         'CEC'
     ], {
         C: evil,
+        E: essence,
         G: '#forge:glass/colorless'
     }).id('finality:tainted_glass')
     event.custom({
