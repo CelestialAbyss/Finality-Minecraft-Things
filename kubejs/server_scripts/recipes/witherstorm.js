@@ -1,17 +1,18 @@
 let evil = 'graveyard:corruption'
+let essence = 'mysticalagradditions:insanium_essence'
 onEvent('recipes', event => {
     event.shaped('witherstormmod:tainted_flesh_block', [
-        'CCC',
-        'CNC',
-        'CCC'
+        'CEC',
+        'ENE',
+        'CEC'
     ], {
         C: evil,
         N: 'minecraft:netherrack'
     }).id('finality:tainted_flesh_block')
     event.shaped('witherstormmod:tainted_glass', [
-        'CCC',
-        'CGC',
-        'CCC'
+        'CEC',
+        'EGE',
+        'CEC'
     ], {
         C: evil,
         G: '#forge:glass/colorless'
@@ -28,7 +29,19 @@ onEvent('recipes', event => {
             "item": "graveyard:corruption"
           },
           {
+            "item": "mysticalagradditions:insanium_essence"
+          },
+          {
             "item": "graveyard:corruption"
+          },
+          {
+            "item": "mysticalagradditions:insanium_essence"
+          },
+          {
+            "item": "graveyard:corruption"
+          },
+          {
+            "item": "mysticalagradditions:insanium_essence"
           },
           {
             "item": "graveyard:corruption"
@@ -37,37 +50,25 @@ onEvent('recipes', event => {
             "item": "graveyard:corruption"
           },
           {
-            "item": "graveyard:corruption"
+            "item": "mysticalagradditions:insanium_essence"
           },
           {
             "item": "graveyard:corruption"
           },
           {
-            "item": "graveyard:corruption"
+            "item": "mysticalagradditions:insanium_essence"
           },
           {
             "item": "graveyard:corruption"
           },
           {
-            "item": "graveyard:corruption"
+            "item": "mysticalagradditions:insanium_essence"
           },
           {
             "item": "graveyard:corruption"
           },
           {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "graveyard:corruption"
+            "item": "mysticalagradditions:insanium_essence"
           },
           {
             "item": "graveyard:corruption"
