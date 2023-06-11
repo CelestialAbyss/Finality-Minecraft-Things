@@ -34,6 +34,10 @@ XaeroWorldMap/
 usercache.json
 usernamecache.json
 whitelist.json
+minecraftinstance.json
+imgui.ini
+ops.json
+patchouli_data.json
 
 # Ignore log files
 hs_err_pid24052.log
