@@ -399,6 +399,12 @@
 		{
 			x: -1.0d
 			y: -5.5d
+			subtitle: "Far more flexible than Mechanical Belts in terms of relaying kinetic energy."
+			description: [
+				"Unlike Mechanical Belts which can't rotate mid-way or at the endpoints, Encased Chain Drives do just that."
+				""
+				"They are also not limited by the default 20 block range that Mechanical Belts do."
+			]
 			dependencies: ["6D8C28D34ABF7636"]
 			id: "1DBC16B691A15476"
 			tasks: [{
@@ -852,6 +858,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
+			subtitle: "Refinement on a small scale."
 			dependencies: ["6D8C28D34ABF7636"]
 			id: "79F980EE4DAB682D"
 			tasks: [{
@@ -1147,6 +1154,12 @@
 		{
 			x: 0.0d
 			y: -6.0d
+			subtitle: "Very versatile in mining blocks and highly dependent on rotation speed."
+			description: [
+				"This can break mostly everything, including wood and cactus blocks."
+				""
+				"Just make sure you are using Mechanical Saws instead for automating a tree farm as they are unique in their full tree harvest mechanic."
+			]
 			dependencies: ["6D8C28D34ABF7636"]
 			id: "10ADF400E8F057F1"
 			tasks: [{
@@ -1341,6 +1354,8 @@
 		{
 			x: 1.5d
 			y: -4.5d
+			subtitle: "Flex on your friends who still use vanilla pistons!"
+			description: ["It just does not get any smoother than this."]
 			dependencies: [
 				"6D8C28D34ABF7636"
 				"1FD38190A8A47E9C"
