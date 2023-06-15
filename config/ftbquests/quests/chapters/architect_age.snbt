@@ -135,6 +135,34 @@
 				}
 			]
 		}
+		{
+			title: "Introducing Copycat Blocks!"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Introduced with Create 0.5.1"
+			description: [
+				"They have connecting textures too, isn't that cool?"
+				""
+				"They are a bit finnicky to properly place the way you want them too, however."
+			]
+			dependencies: [
+				"0823CEAA341364B2"
+				"515DBB49AEF66282"
+			]
+			id: "1234AE5932AAC08B"
+			tasks: [
+				{
+					id: "7FBE486D6B761548"
+					type: "item"
+					item: "create:copycat_panel"
+				}
+				{
+					id: "049B76F9BD88FBF9"
+					type: "item"
+					item: "create:copycat_step"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }
