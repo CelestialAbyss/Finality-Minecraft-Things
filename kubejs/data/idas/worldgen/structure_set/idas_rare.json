@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 1
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 1
+    },
+    {
+      "structure": "idas:iceandfire/dread_citadel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480678,
+    "spacing": 55,
+    "separation": 35,
+    "type": "minecraft:random_spread"
+  }
+}

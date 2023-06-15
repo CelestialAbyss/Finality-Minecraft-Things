@@ -52,7 +52,7 @@ onEvent('recipes', event => {
         'II II',
         'O C O',
         'II II',
-        ' IOI'
+        ' IOI '
     ], {
         I: 'draconicevolution:awakened_draconium_ingot',
         O: 'draconicevolution:wyvern_energy_core',

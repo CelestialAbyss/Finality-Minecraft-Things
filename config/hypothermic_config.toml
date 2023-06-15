@@ -1,9 +1,0 @@
-
-[Config]
-	#If player goes into water below this temperature, they will begin to get cold.
-	"Hypothermia Temperature" = 0.5
-	#How fast the player freezes in ticks
-	"Freezing Speed" = 4.0
-	#Amount of extra freezing that an entity can build up in ticks
-	"Freeze Limit" = 1200.0
-

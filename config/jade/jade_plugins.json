@@ -7,12 +7,12 @@
     "horse_inventory": true,
     "total_ench_power": true,
     "chicken_egg": true,
-    "jukebox": true,
     "horse_stat": true,
+    "jukebox": true,
     "brewing_stand": true,
     "animal_owner": true,
-    "note_block": true,
     "inventory": true,
+    "note_block": true,
     "beehive": true,
     "player_head": true,
     "lectern": true,
@@ -45,6 +45,13 @@
     "fluid": true,
     "slurry": true,
     "energy": true
+  },
+  "create": {
+    "contraption_inv": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "placard": true
   },
   "jade": {
     "block_states": false,

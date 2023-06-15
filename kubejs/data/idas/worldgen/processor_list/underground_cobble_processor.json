@@ -1,0 +1,34 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:close_off_fluid_sources_processor",
+      "weighted_list_of_replacement_blocks": [
+        {
+          "block" : "minecraft:cobblestone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "create:andesite_casing"
+          },
+          "input_predicate": {
+            "block": "quark:crate",
+            "probability": 1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    }
+  ]
+}

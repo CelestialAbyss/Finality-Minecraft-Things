@@ -1,0 +1,29 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "create:andesite_casing"
+          },
+          "input_predicate": {
+            "block": "quark:crate",
+            "probability": 1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "processor_type": "integrated_api:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:tinkers_workshop"
+    }
+  ]
+}

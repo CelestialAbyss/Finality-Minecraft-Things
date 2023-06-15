@@ -1,0 +1,8 @@
+{
+  "processors": [
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:ruins_of_the_deep_bottom"
+    }
+  ]
+}

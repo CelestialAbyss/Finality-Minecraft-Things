@@ -132,7 +132,7 @@ onEvent('recipes', event => {
     event.recipes.createMechanicalCrafting('16x minecraft:dripstone_block', [
         ' S ',
         'SWS',
-        ' S'
+        ' S '
     ], {
         S: stone_essence,
         W: water_essence
@@ -232,7 +232,8 @@ onEvent('recipes', event => {
     ], {
         D: 'mysticalagriculture:diamond_essence',
         S: 'mysticalagriculture:squid_essence',
-        P: 'mysticalagriculture:prismarine_essence'
+        P: 'mysticalagriculture:prismarine_essence',
+        N: 'minecraft:nautilus_shell'
     })
     
     // machine frame related

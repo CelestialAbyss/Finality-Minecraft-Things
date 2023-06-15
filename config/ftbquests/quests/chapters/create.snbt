@@ -1582,7 +1582,7 @@
 		{
 			title: "Gone diving!"
 			icon: {
-				id: "create:diving_helmet"
+				id: "create:copper_diving_helmet"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -1599,7 +1599,7 @@
 					id: "5CCDCE989856C5E8"
 					type: "item"
 					item: {
-						id: "create:diving_helmet"
+						id: "create:copper_diving_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1621,7 +1621,7 @@
 					id: "6A0F7E0635343EEF"
 					type: "item"
 					item: {
-						id: "create:diving_boots"
+						id: "create:copper_diving_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
