@@ -100,6 +100,11 @@
 					item: "create:andesite_alloy"
 					count: 64
 				}
+				{
+					id: "71A30507FED7D236"
+					type: "item"
+					item: "create:clipboard"
+				}
 			]
 		}
 		{
@@ -172,7 +177,7 @@
 		{
 			title: "The Mixer"
 			x: 6.0d
-			y: -4.0d
+			y: -6.5d
 			shape: "rsquare"
 			subtitle: "Automated mixing, highly multi-purpose!"
 			dependencies: [
@@ -199,7 +204,7 @@
 		}
 		{
 			x: 4.5d
-			y: -10.0d
+			y: -9.5d
 			dependencies: ["76DE1DB31C32A913"]
 			id: "3FF3FB9AC560FD61"
 			tasks: [{
@@ -211,11 +216,11 @@
 		{
 			icon: "create:water_wheel"
 			x: 2.5d
-			y: -10.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "An easy but weak source of rotational power."
 			description: ["They can provide up to a maximum of 320 Su at 20 RPM given if you have soul sand placed at the back or place the water wheel flat on the ground. Just make sure to always have ONE corner block left behind in both the vertical and horizontal positions."]
-			dependencies: ["3FF3FB9AC560FD61"]
+			dependencies: ["249F8A4FAEB5CDDE"]
 			id: "7D464E248ADF8C04"
 			tasks: [{
 				id: "269222C04CEA8B71"
@@ -397,7 +402,7 @@
 		}
 		{
 			x: 20.5d
-			y: 3.5d
+			y: 4.5d
 			dependencies: ["0194851298AADB65"]
 			id: "1006DEF6267D3741"
 			tasks: [{
@@ -410,7 +415,7 @@
 			title: "The Smart Hand"
 			icon: "create:deployer"
 			x: 21.0d
-			y: 2.5d
+			y: 3.5d
 			subtitle: "Create the Deployer"
 			dependencies: ["0194851298AADB65"]
 			id: "3B9B30853E26E4D5"
@@ -458,7 +463,7 @@
 		{
 			title: "The Smart and Precise Gearshift"
 			x: 20.5d
-			y: 1.5d
+			y: 2.5d
 			subtitle: "Create the Sequenced Gearshift"
 			dependencies: ["0194851298AADB65"]
 			id: "7EE9C850EF4C9BDC"
@@ -698,7 +703,7 @@
 		}
 		{
 			x: 14.0d
-			y: -0.5d
+			y: 1.5d
 			subtitle: "Unlocking the Logistics Age"
 			dependencies: [
 				"16FA2F3F79C9F5B3"
@@ -736,8 +741,8 @@
 		}
 		{
 			title: "Create the Crushing Wheels"
-			x: 15.5d
-			y: -1.0d
+			x: 16.0d
+			y: -1.5d
 			subtitle: "A pair of giants."
 			description: [
 				"You can use two gearboxes with a shaft in between to make them rotate opposite directions to be able to crush stuff."
@@ -773,8 +778,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 1.0d
+			x: 16.0d
+			y: 1.5d
 			dependencies: [
 				"5526AF6D60A35374"
 				"4EBF56E85BA4465B"
@@ -789,7 +794,7 @@
 		}
 		{
 			x: 12.0d
-			y: 0.5d
+			y: 2.5d
 			dependencies: ["1E0CDA1ED53FACEE"]
 			id: "383978292CA1C392"
 			tasks: [{
@@ -800,7 +805,7 @@
 		}
 		{
 			x: 11.5d
-			y: -0.5d
+			y: 1.5d
 			dependencies: ["1E0CDA1ED53FACEE"]
 			id: "0D86C2F010562CE2"
 			tasks: [{
@@ -898,7 +903,7 @@
 		{
 			title: "Electron Tube - Part 1"
 			x: 15.5d
-			y: 4.0d
+			y: 5.0d
 			dependencies: ["4196F75FB2342B67"]
 			id: "4946DBA60513DCE3"
 			tasks: [{
@@ -910,7 +915,7 @@
 		{
 			title: "Electron Tube - Part 2"
 			x: 17.0d
-			y: 4.0d
+			y: 5.0d
 			subtitle: "Time to get to polishing!"
 			dependencies: ["4946DBA60513DCE3"]
 			id: "2A56BEC8A6D0E102"
@@ -922,8 +927,8 @@
 		}
 		{
 			title: "Craft some Sandpaper"
-			x: 15.5d
-			y: 5.5d
+			x: 14.0d
+			y: 5.0d
 			subtitle: "The first step in making Electron Tubes."
 			dependencies: ["2BDE2710088B452C"]
 			hide: true
@@ -956,7 +961,7 @@
 		{
 			title: "Create an Electron Tube"
 			x: 17.0d
-			y: 2.5d
+			y: 3.5d
 			subtitle: "Computers took up entire buildings previously."
 			dependencies: [
 				"2A56BEC8A6D0E102"
@@ -1086,7 +1091,7 @@
 		{
 			title: "Windmill Basics"
 			x: 3.5d
-			y: -5.0d
+			y: -5.5d
 			shape: "hexagon"
 			subtitle: "A single windmill can provide a maximum of 8192 Su which is quite a lot."
 			dependencies: ["249F8A4FAEB5CDDE"]
@@ -1106,7 +1111,7 @@
 		{
 			title: "The Strongest Breeze"
 			x: 3.5d
-			y: -6.5d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "The amount of Sail Frames required for a maximum strength Windmill..."
 			dependencies: ["076DA8BCE27D0E11"]
@@ -1250,7 +1255,7 @@
 		}
 		{
 			x: 20.0d
-			y: 0.5d
+			y: 1.5d
 			subtitle: "The mechanical eye that reveals the soul."
 			dependencies: ["0194851298AADB65"]
 			id: "1D75F7EBD23D3988"
@@ -1262,7 +1267,7 @@
 		}
 		{
 			x: 20.0d
-			y: -1.0d
+			y: 0.0d
 			subtitle: "The mechanical eye that monitors for emptiness or fullness."
 			dependencies: ["1D75F7EBD23D3988"]
 			id: "050F508C5A4EA99E"
@@ -1286,7 +1291,7 @@
 		{
 			title: "Big Ben"
 			x: 19.0d
-			y: 0.0d
+			y: 1.0d
 			subtitle: "Create the Clockwork Bearing"
 			dependencies: ["0194851298AADB65"]
 			id: "3F6B316FDB524F86"
@@ -1416,7 +1421,7 @@
 		}
 		{
 			title: "Take a Seat!"
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
 			subtitle: "Make a seat."
 			dependencies: ["187E2B3FDE19DD4D"]
@@ -1429,7 +1434,7 @@
 		}
 		{
 			x: 12.0d
-			y: -1.5d
+			y: 0.5d
 			subtitle: "A seat fit for a conductor."
 			dependencies: ["1E0CDA1ED53FACEE"]
 			id: "0075BAE1BFBAA36D"
@@ -1454,8 +1459,8 @@
 		}
 		{
 			title: "Craft the Powered Toggle Latch"
-			x: 2.5d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
 			subtitle: "It is a very useful redstone component."
 			dependencies: ["187E2B3FDE19DD4D"]
 			id: "24D7FAA4E3EFAD39"
@@ -1469,7 +1474,7 @@
 			title: "Behold! The mighty Display Board!"
 			icon: "create:display_board"
 			x: 19.0d
-			y: 5.0d
+			y: 6.0d
 			subtitle: "Very useful for displaying information."
 			dependencies: ["0194851298AADB65"]
 			id: "11F16BF2C56756F3"
@@ -1489,7 +1494,7 @@
 		{
 			icon: "create:nixie_tube"
 			x: 20.0d
-			y: 4.5d
+			y: 5.5d
 			dependencies: ["0194851298AADB65"]
 			id: "47A446DFCD646B2B"
 			tasks: [
@@ -1629,6 +1634,89 @@
 					}
 				}
 			]
+		}
+		{
+			icon: {
+				id: "create:netherite_diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["61624301D1511BB0"]
+			id: "41753F371DB962BC"
+			tasks: [
+				{
+					id: "571271BC7D901D0A"
+					type: "item"
+					item: {
+						id: "create:netherite_diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74EB887FB5B3ED52"
+					type: "item"
+					item: {
+						id: "create:netherite_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+				{
+					id: "77A05EED1E75FCDD"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0239A1EACF2F157E"
+					type: "item"
+					item: {
+						id: "create:netherite_diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			shape: "hexagon"
+			dependencies: ["7D464E248ADF8C04"]
+			id: "4EDF41B3F8B25734"
+			tasks: [{
+				id: "4B8FB2A1A25071A9"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			subtitle: "Elevators made easy."
+			dependencies: ["054BC637EF86609C"]
+			id: "73F456AE957F4002"
+			tasks: [{
+				id: "5510DE2F5AC3C19F"
+				type: "item"
+				item: "create:elevator_pulley"
+			}]
 		}
 	]
 	quest_links: [ ]
