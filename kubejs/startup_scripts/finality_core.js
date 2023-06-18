@@ -1,18 +1,55 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
+console.info('Registering Finality items...')
 
-// modpackid shortcut
-let FIN = (id) => `finality:${id}`
+// thank ChiefArug
+const MODID = modid => (one, two, three, four, five, six) => { // this first arrow defies the outside function. that returns the inside function, which is what the second arrow is
+    let out = modid + ':' // this is the string that will be used to construct the id. start it with the modid and a colon
+    let args = [one, two, three, four, five, six]; // this is a list of the input parameters for ease of looping
+    for (let arg in args) { // loop through each parameter
+      let current = args[arg] // current parameter in the loop
+      let next = arg == args.length - 1 ? undefined : args[arg + 1] // the next one, or if we are at the end, undefined
+      if (current != undefined) out += current // if the current arg is defined as something, add it to the id
+      if (next != undefined) out += '_' // if the next arg is undefined, then add an underscore to seperate them
+    }
+    return out // return the completed itd
+}
+  // components
+  // modid shortcuts 1
+	const CR = MODID('create') // CR gets set to the function that MODID returns, so (one,two,three,four,five,six) => { ... }
+	const FIN = MODID('finality')
+  // state components 2
+  const INC = 'incomplete'
+  const DRMT = 'dormant'
+  const AWK = 'awakened'
+  // material 3
+  const CR_BRS = 'brass'
+  // color 4
+  const BLCK = 'black'
+  const GRAY = 'gray'
+  const LGRAY = 'light_gray'
+  const WHTE = 'white'
+  const BRWN = 'brown'
+  const PINK = 'pink'
+  const CYN = 'cyan'
+  const BLU = 'blue'
+  const LIM = 'lime'
+  const GRN = 'green'
+  const YLLW = 'yellow'
+  const PPRL = 'purple'
+  const MGNT = 'magenta'
+  const ORNG = 'orange'
+  const RD = 'red'
+  const LBLU = 'light_blue'
+  console.log(CR(INC, YLLW, 'flower'))
+  // outputs create:incomplete_yellow_flower
+  // supports up to 6 args
+// thank ChiefArug
 
 // concrete
-let concr_col = ['black', 'gray', 'light_gray', 'white', 'brown', 'pink', 'light_blue', '']
-
+// let concr_col = ['black', 'gray', 'light_gray', 'white', 'brown', 'pink', 'cyan', 'blue', 'lime', 'green', 'yellow', 'purple', 'magenta', 'orange', 'red', 'light_blue']
 // nature
-let nature = ['blue_ice', 'coarse_dirt', 'sand']
-
-// concrete singularity shortcuts
-
+//let nature = ['blue_ice', 'coarse_dirt', 'sand']
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
