@@ -14,86 +14,106 @@ const MODID = modid => (one, two, three, four, five, six) => { // this first arr
     }
     return out // return the completed itd
 }
-  // components
-  // modid shortcuts 1
-	const CR = MODID('create') // CR gets set to the function that MODID returns, so (one,two,three,four,five,six) => { ... }
-	const FIN = MODID('finality')
-  // state components 2
-  const INC = 'incomplete'
-  const DRMT = 'dormant'
-  const AWK = 'awakened'
-  // material 3
-  const CR_BRS = 'brass'
-  // color 4
-  const BLCK = 'black'
-  const GRAY = 'gray'
-  const LGRAY = 'light_gray'
-  const WHTE = 'white'
-  const BRWN = 'brown'
-  const PINK = 'pink'
-  const CYN = 'cyan'
-  const BLU = 'blue'
-  const LIM = 'lime'
-  const GRN = 'green'
-  const YLLW = 'yellow'
-  const PPRL = 'purple'
-  const MGNT = 'magenta'
-  const ORNG = 'orange'
-  const RD = 'red'
-  const LBLU = 'light_blue'
-  console.log(CR(INC, YLLW, 'flower'))
-  // outputs create:incomplete_yellow_flower
-  // supports up to 6 args
+// components
+// modid shortcuts 1
+const FIN = MODID('finality')
+const CR = MODID('create') // CR gets set to the function that MODID returns, so (one,two,three,four,five,six) => { ... }
+// state components 2
+const INC = 'incomplete'
+const DRMT = 'dormant'
+const AWK = 'awakened'
+// materials 3
+const CONC = 'concrete'
+// minecraft materials
+const COBBL = 'cobblestone'
+const CRSDT = 'coarse_dirt'
+// nature materials
+const SND = 'sand'
+const BLU_ICE = 'blue_ice'
+// create materials
+const ANDT = 'andesite'
+const ZI = 'zinc'
+const CU = 'copper'
+const BRSS = 'brass'
+const RQRTZ = 'rose_quartz'
+const F_GLSS = 'framed_glass'
+const PRECISION = 'precision_mechanism'
+const STURDY = 'sturdy_sheet'
+// color 4
+const BLCK = 'black'
+const GRAY = 'gray'
+const LGRY = 'light_gray'
+const WHTE = 'white'
+const BRWN = 'brown'
+const PINK = 'pink'
+const CYAN = 'cyan'
+const BLUE = 'blue'
+const LIME = 'lime'
+const GREN = 'green'
+const YLLW = 'yellow'
+const PPRL = 'purple'
+const MGNT = 'magenta'
+const ORNG = 'orange'
+const RED = 'red'
+const LBLU = 'light_blue'
+// item type 4
+
+// console.log(CR(INC, YLLW, 'flower'))
+// outputs create:incomplete_yellow_flower
+// supports up to 6 args
 // thank ChiefArug
 
 // concrete
 // let concr_col = ['black', 'gray', 'light_gray', 'white', 'brown', 'pink', 'cyan', 'blue', 'lime', 'green', 'yellow', 'purple', 'magenta', 'orange', 'red', 'light_blue']
 // nature
 //let nature = ['blue_ice', 'coarse_dirt', 'sand']
-onEvent('item.registry', event => {
-	// Register new items here
-	// event.create('example_item').displayName('Example Item')
+onEvent('item.registry', event => { // Register new items here event.create('example_item').displayName('Example Item')
 	// minecraft core forgot what was supposed to be here
 	// singularity related
 	event.create('finality:dormant_singularity_core').texture('finality:item/dormant_singularity_core').maxStackSize(16)
 	/*
-	INCOMPLETE SINGULARITY CORES SECTION
+	INCOMPLETE SINGULARITY CORES
+	*/
+	event.create(FIN(INC, BLU_ICE, 'singularity_core'))
+	/*
+	INCOMPLETE SINGULARITIES SECTION
+	for use for making a singularity. dormant core to incomplete core to singularity
 	follow format .displayName().texture().maxStackSize(1)
 	*/
 	// incomplete minecraft singularity cores
-	event.create(FIN('incomplete_blue_ice_singularity')).texture('finality:item/incomplete_nature/incomplete_blue_ice').maxStackSize(1)
-	event.create(FIN('incomplete_coarse_dirt_singularity')).texture('finality:item/incomplete_nature/incomplete_coarse_dirt').maxStackSize(1)
-	event.create(FIN('incomplete_sand_singularity')).texture('finality:item/incomplete_nature/incomplete_sand').maxStackSize(1)
-	event.create(FIN('incomplete_cobblestone_singularity')).texture('finality:item/incomplete_nature/incomplete_cobblestone').maxStackSize(1)
+	event.create(FIN(INC, BLU_ICE, 'singularity')).texture('finality:item/incomplete_nature/incomplete_blue_ice').maxStackSize(1)
+	event.create(FIN(INC, CRSDT, 'singularity')).texture('finality:item/incomplete_nature/incomplete_coarse_dirt').maxStackSize(1)
+	event.create(FIN(INC, SND, 'singularity')).texture('finality:item/incomplete_nature/incomplete_sand').maxStackSize(1)
+	event.create(FIN(INC, COBBL, 'singularity')).texture('finality:item/incomplete_nature/incomplete_cobblestone').maxStackSize(1)
 	// incomplete create singularity cores
-	event.create(FIN('incomplete_andesite_singularity')).displayName('Incomplete Andesite Singularity Core').texture('finality:item/incomplete_andesite_core').maxStackSize(1)
-	event.create(FIN('incomplete_copper_singularity')).displayName('Incomplete Copper Singularity Core').texture('finality:item/incomplete_copper_core').maxStackSize(1)
-	event.create(FIN('incomplete_zinc_singularity')).displayName('Incomplete Zinc Singularity Core').texture('finality:item/incomplete_zinc_core').maxStackSize(1)
-	event.create(FIN('incomplete_brass_singularity')).displayName('Incomplete Brass Singularity Core').texture('finality:item/incomplete_brass_core').maxStackSize(1)
-	event.create(FIN('incomplete_rosequartz_singularity')).displayName('Incomplete Rose Quartz Singularity Core').texture('finality:item/incomplete_roseq_core').maxStackSize(1)
-	event.create(FIN('incomplete_framed_glass_singularity')).displayName('Incomplete Framed Glass Singularity').maxStackSize(1)
-	event.create(FIN('incomplete_precision_mechanism_singularity')).displayName('').maxStackSize(1)
-	event.create(FIN('incomplete_sturdy_sheet_singularity')).displayName('').maxStackSize(1)
+	event.create(FIN(INC, ANDT, 'singularity')).texture('finality:item/incomplete_andesite_core').maxStackSize(1)
+	event.create(FIN(INC, CU, 'singularity')).texture('finality:item/incomplete_copper_core').maxStackSize(1)
+	event.create(FIN(INC, ZI, 'singularity')).texture('finality:item/incomplete_zinc_core').maxStackSize(1)
+	event.create(FIN(INC, BRSS, 'singularity')).texture('finality:item/incomplete_brass_core').maxStackSize(1)
+	event.create(FIN(INC, RQRTZ, 'singularity')).texture('finality:item/incomplete_roseq_core').maxStackSize(1)
+	event.create(FIN(INC, F_GLSS, 'singularity')).texture('finality:item/incomplete_framed_glass').maxStackSize(1)
+	event.create(FIN(INC, PRECISION, 'singularity')).texture().maxStackSize(1)
+	event.create(FIN(INC, STURDY, 'singularity')).texture().maxStackSize(1)
 	// incomplete alloy singularity cores
-	event.create(FIN('incomplete_steel_singularity')).displayName('Incomplete Steel Singularity Core').texture('finality:item/incomplete_steel_core').maxStackSize(1)
-	event.create(FIN('incomplete_bronze_singularity')).displayName('Incomplete Bronze Singularity Core').texture('finality:item/incomplete_bronze_core').maxStackSize(1)
+	event.create(FIN('incomplete_steel_singularity')).texture('finality:item/incomplete_steel_core').maxStackSize(1)
+	event.create(FIN('incomplete_bronze_singularity')).texture('finality:item/incomplete_bronze_core').maxStackSize(1)
 	// incomplete concrete singularity cores
-	event.create(FIN('incomplete_concrete_black_singularity')).displayName('Incomplete Black Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_black').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_white_singularity')).displayName('Incomplete White Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_white').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_pink_singularity')).displayName('Incomplete Pink Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_pink').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_orange_singularity')).displayName('Incomplete Orange Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_orange').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_red_singularity')).displayName('Incomplete Red Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_red').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_gray_singularity')).displayName('Incomplete Gray Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_gray').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_brown_singularity')).displayName('Incomplete Brown Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_brown').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_cyan_singularity')).displayName('Incomplete Cyan Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_cyan').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_green_singularity')).displayName('Incomplete Green Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_green').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_light_gray_singularity')).displayName('Incomplete Light Gray Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_light_gray').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_light_blue_singularity')).displayName('Incomplete Light Blue Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_light_blue').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_lime_singularity')).displayName('Incomplete Lime Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_lime').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_yellow_singularity')).displayName('Incomplete Yellow Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_yellow').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_blue_singularity')).displayName('Incomplete Blue Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_blue').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_magenta_singularity')).displayName('Incomplete Magenta Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_magenta').maxStackSize(1)
-	event.create(FIN('incomplete_concrete_purple_singularity')).displayName('Incomplete Purple Concrete Singularity Core').texture('finality:item/incomplete_concrete/incomplete_concrete_purple').maxStackSize(1)
+	event.create(FIN(INC, CONC, BLCK, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_black').maxStackSize(1)
+	event.create(FIN(INC, CONC, WHTE, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_white').maxStackSize(1)
+	event.create(FIN(INC, CONC, PINK, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_pink').maxStackSize(1)
+	event.create(FIN(INC, CONC, ORNG, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_orange').maxStackSize(1)
+	event.create(FIN(INC, CONC, RED, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_red').maxStackSize(1)
+	event.create(FIN(INC, CONC, GRAY, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_gray').maxStackSize(1)
+	event.create(FIN(INC, CONC, BRWN, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_brown').maxStackSize(1)
+	event.create(FIN(INC, CONC, CYAN, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_cyan').maxStackSize(1)
+	event.create(FIN(INC, CONC, GREN, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_green').maxStackSize(1)
+	event.create(FIN(INC, CONC, LGRY, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_light_gray').maxStackSize(1)
+	event.create(FIN(INC, CONC, LBLU, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_light_blue').maxStackSize(1)
+	event.create(FIN(INC, CONC, LIME, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_lime').maxStackSize(1)
+	event.create(FIN(INC, CONC, YLLW, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_yellow').maxStackSize(1)
+	event.create(FIN(INC, CONC, BLUE, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_blue').maxStackSize(1)
+	event.create(FIN(INC, CONC, MGNT, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_magenta').maxStackSize(1)
+	event.create(FIN(INC, CONC, PPRL, 'singularity')).texture('finality:item/incomplete_concrete/incomplete_concrete_purple').maxStackSize(1)
 	/*
 	ACTIVATED SINGULARITY CORES
 	follow format .displayName().texture().maxStackSize(1)
@@ -114,10 +134,7 @@ onEvent('item.registry', event => {
 	event.create('finality:final_boots', 'boots').tier('final_armor').displayName('Gravitas Anchoram').texture('finality:item/final_boots').maxStackSize(1).group('combat')
 })
 
-onEvent('block.registry', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
-	
+onEvent('block.registry', event => { // Register new blocks here event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 	// incomplete thermal machines
 	event.create('finality:incomplete_thermal_energy_cell').material('metal').hardness(50.0).displayName('Incomplete Thermal Energy Cell Frame').textureAll('finality:block/incomplete_energy_cell').requiresTool(true)
 	event.create('finality:incomplete_machine_furnace').material('metal').hardness(50.0).displayName('Incomplete Redstone Furnace').texture('front', 'texturepath').texture('side', 'texturepath')
@@ -148,11 +165,11 @@ onEvent('item.registry.tool_tiers', event => {
 })
 onEvent('item.registry.armor_tiers', event => {
 	event.add('final_armor', tier => {
-	  tier.durabilityMultiplier = -1 // Each slot will be multiplied with [13, 15, 16, 11]
-	  tier.slotProtections = [8, 24, 16, 8] // Slot indicies are [FEET, LEGS, BODY, HEAD]
-	  tier.enchantmentValue = 30
-	  tier.equipSound = 'minecraft:item.armor.equip_netherite'
-	  tier.toughness = 5.0 // diamond has 2.0, netherite 3.0
-	  tier.knockbackResistance = 3.0
+	  	tier.durabilityMultiplier = -1 // Each slot will be multiplied with [13, 15, 16, 11]
+	  	tier.slotProtections = [8, 24, 16, 8] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+	  	tier.enchantmentValue = 30
+	  	tier.equipSound = 'minecraft:item.armor.equip_netherite'
+	  	tier.toughness = 5.0 // diamond has 2.0, netherite 3.0
+	  	tier.knockbackResistance = 3.0
 	})
 })
