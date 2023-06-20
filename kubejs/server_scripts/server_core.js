@@ -1,4 +1,15 @@
+// priority: 0
+
+settings.logAddedRecipes = true
+settings.logRemovedRecipes = true
+settings.logSkippedRecipes = false
+settings.logErroringRecipes = true
+
 onEvent('recipes', event => {
+    event.remove({id: 'minecraft:redstone_from_smelting_redstone_ore'}) // cursed recipe
+    event.remove({id: 'minecraft:redstone_from_smelting_deepslate_redstone_ore'}) // cursed recipe
+    event.remove({id: 'minecraft:redstone_from_blasting_redstone_ore'}) // cursed recipe
+    event.remove({id: 'minecraft:redstone_from_blasting_deepslate_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:coarse_dirt'})
     event.remove({output: 'mysticalagriculture:inferium_furnace'})
     event.remove({output: 'mysticalagriculture:prudentium_furnace'})

@@ -2,7 +2,6 @@
 let FIN = (id) => `finality:${id}`
 let EXT = (id) => `extendedcrafting:${id}`
 let C = (id) => `create:${id}`
-let MC = (id) => `minecraft:${id}`
 
 // concrete colors
 
@@ -113,11 +112,11 @@ onEvent('recipes', event => {
     event.recipes.createSequencedAssembly([
         Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:andesite_alloy"}')
     ], 'finality:dormant_singularity_core', [
-        event.recipes.createFilling(FIN('incomplete_andesite_singularity'), [FIN('incomplete_andesite_singularity'), Fluid.of('finality:condensed_universal_entropy', 250)]),
-        event.recipes.createDeploying(FIN('incomplete_andesite_singularity'), [FIN('incomplete_andesite_singularity'), 'create:andesite_alloy_block']),
-        event.recipes.createPressing(FIN('incomplete_andesite_singularity'), [FIN('incomplete_andesite_singularity')]),
-        event.recipes.createDeploying(FIN('incomplete_andesite_singularity'), [FIN('incomplete_andesite_singularity'), 'create:andesite_alloy_block']),
-        event.recipes.createPressing(FIN('incomplete_andesite_singularity'), [FIN('incomplete_andesite_singularity')])
+        event.recipes.createFilling([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), Fluid.of('finality:condensed_universal_entropy', 250)]),
+        event.recipes.createDeploying([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), 'create:andesite_alloy_block']),
+        event.recipes.createPressing([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity')]),
+        event.recipes.createDeploying([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), 'create:andesite_alloy_block']),
+        event.recipes.createPressing([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity')])
     ]).transitionalItem(FIN('incomplete_andesite_singularity')).loops(64).id('finality:andesite_alloy_singularity')
     // sequenced assembly singularities
     event.recipes.createSequencedAssembly([

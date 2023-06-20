@@ -1,59 +1,81 @@
-let dirt_essence = 'mysticalagriculture:dirt_essence'
-let stone_essence = 'mysticalagriculture:stone_essence'
-
-let amethyst_essence = 'mysticalagriculture:amethyst_essence'
-let copper_essence = 'mysticalagriculture:copper_essence'
-let iron_essence = 'mysticalagriculture:iron_essence'
-let zinc_essence = 'mysticalagriculture:zinc_essence'
-let gold_essence = 'mysticalagriculture:gold_essence'
-let diamond_essence = 'mysticalagriculture:diamond_essence'
-let nether_quartz = 'mysticalagriculture:nether_quartz_essence'
-
-let nether_essence = 'mysticalagriculture:nether_essence'
-let fire_essence = 'mysticalagriculture:fire_essence'
-let water_essence = 'mysticalagriculture:water_essence'
-
+// modid shortcuts
+let MC = (id) => `minecraft:${id}`
+let C = (id) => `create:${id}`
+let MYST = (id) => `mysticalagriculture:${id}`
+// minecraft materials
+const COBBL = 'cobblestone'
+const CRSDT = 'coarse_dirt'
+const DIRT = 'dirt'
+const SND = 'sand'
+const STN = 'stone'
+const BLU_ICE = 'blue_ice'
+const FE = 'iron'
+const AU = 'gold'
+const RE = 'redstone'
+const DMD = 'diamond'
+const AMHST = 'amethyst'
+const NTHR = 'nether'
+const QRTZ = 'quartz'
+// create materials
+const ANDT = 'andesite'
+const ZI = 'zinc'
+const CU = 'copper'
+const BRSS = 'brass'
+const RQRTZ = 'rose_quartz'
+const F_GLSS = 'framed_glass'
+const PRECISION = 'precision_mechanism'
+const STURDY = 'sturdy_sheet'
+// mysta basics
+const ESS = 'essence'
+const PROSP = 'prosperity'
+const GEM = 'gemstone'
+const SHRD = 'shard'
+const INFCRYSTAL = 'infusion_crystal'
+const MASTERCRYS = 'master_infusion_crystal'
+// mysta tier essence
+const INFRM = 'inferium'
+const PDNTM = 'prudentium'
+const TERTM = 'tertium'
+const IMPRM = 'inperium'
+const SUPRM = 'supremium'
+// elements
+const FIRE = 'fire'
+const H20 = 'water'
 // requires kubejs create and mysticalagriculture
 onEvent('recipes', event => {
     // infusion crystals
     event.remove({id: 'mysticalagriculture:infusion_crystal'})
     event.remove({id: 'mysticalagriculture:master_infusion_crystal'})
-    event.recipes.createMixing('mysticalagriculture:infusion_crystal', ['4x mysticalagriculture:inferium_essence', '4x mysticalagriculture:prosperity_shard', 'minecraft:diamond']).id('finality:mysta_infusion_crystal')
-    event.recipes.createMixing('mysticalagriculture:master_infusion_crystal', ['4x mysticalagriculture:supremium_essence', '4x mysticalagriculture:prosperity_shard', 'mysticalagriculture:supremium_gemstone']).id('finality:mysta_master_infusion_crystal')
-
+    event.recipes.createMixing(MYST(INFCRYSTAL), [Item.of(MYST('inferium_essence'), 4), Item.of(MYST('prosperity_shard'), 4), Item.of(MC('diamond'))]).id('finality:mysta_infusion_crystal')
+    event.recipes.createMixing(MYST(MASTERCRYS), ['4x mysticalagriculture:supremium_essence', '4x mysticalagriculture:prosperity_shard', 'mysticalagriculture:supremium_gemstone']).id('finality:mysta_master_infusion_crystal')
     // renewable prosperity shards
-    event.recipes.createCrushing([
-        Item.of('mysticalagriculture:prosperity_shard').withChance(0.25),
-        Item.of('mysticalagriculture:prosperity_seed_base').withChance(0.0009765625)
-    ], 'minecraft:coarse_dirt').processingTime(250).id('finality:renew_prosperity')
-
+    event.recipes.createCrushing([Item.of(MYST('prosperity_shard')).withChance(0.25), Item.of(MYST('prosperity_seed_base')).withChance(0.0009765625)], MC(CRSDT)).processingTime(250).id('finality:renew_prosperity')
     // redstone
     event.remove({id: 'mysticalagriculture:essence/minecraft/redstone'})
-    event.recipes.createMixing('16x minecraft:redstone', ['8x mysticalagriculture:redstone_essence', 'create:cinder_flour']).id('finality:mysta_mixing_redstone')
-    event.recipes.createMechanicalCrafting('16x minecraft:redstone', [
+    event.recipes.createMixing([Item.of(MC('redstone'), 16)], [Item.of(MYST('redstone_essence'), 8), C('cinder_flour')]).id('finality:mysta_mixing_redstone')
+    event.recipes.createMechanicalCrafting(Item.of(MC('redstone'), 16), [
         'RRR',
         'RFR',
         'RRR'
     ], {
-        R: 'mysticalagriculture:redstone_essence',
-        F: 'create:cinder_flour'
+        R: MYST('redstone_essence'),
+        F: C('cinder_flour')
     }).id('finality:mysta_mechanical_redstone')
 
     // fire essences
     event.remove({id: 'mysticalagriculture:essence/minecraft/red_sand'}) // converted to mixing and mechanical crafting recipe exclusive
-    event.recipes.createMixing('16x minecraft:red_sand', ['2x mysticalagriculture:dirt_essence', '2x mysticalagriculture:fire_essence', 'minecraft:gold_nugget']).id('finality:mysta_mix_red_sand')
-    event.recipes.createMechanicalCrafting('16x minecraft:red_sand', [
+    event.recipes.createMixing([Item.of(MC('red_sand'), 16)], [Item.of(MYST('dirt_essence'), 2), Item.of(MYST('fire_essence'), 2), MC('gold_nugget')]).id('finality:mysta_mix_red_sand')
+    event.recipes.createMechanicalCrafting(Item.of(MC('red_sand'), 16), [
         'DF',
         'FG'
     ], {
-        D: dirt_essence,
-        F: fire_essence,
-        G: 'minecraft:gold_nugget'
+        D: MYST('dirt_essence'),
+        F: MYST('fire_essence'),
+        G: MC('gold_nugget')
     }).id('finality:mysta_mechanical_red_sand')
-
     event.remove({id: 'mysticalagriculture:essence/minecraft/sand'}) // converted to mixing and mechanical crafting recipe exclusive
-    event.recipes.createMixing('16x minecraft:sand', ['2x mysticalagriculture:dirt_essence', '2x mysticalagriculture:fire_essence']).id('finality:mysta_mix_sand')
-    event.recipes.createMechanicalCrafting('16x minecraft:sand', [
+    event.recipes.createMixing(Item.of(MC('sand'), 16), [Item.of(MYST('dirt_essence'), 2), Item.of(MYST('fire_essence'), 2)]).id('finality:mysta_mix_sand')
+    event.recipes.createMechanicalCrafting(Item.of(MC('sand'), 16), [
         'DF',
         'FD'
     ], {
@@ -62,8 +84,8 @@ onEvent('recipes', event => {
     }).id('finality:mysta_mechanical_sand')
 
     event.remove({id: 'mysticalagriculture:essence/minecraft/soul_sand'}) // converted to mixing and mechanical crafting recipe exclusive
-    event.recipes.createMixing('16x minecraft:soul_sand', ['8x mysticalagriculture:nether_essence', 'mysticalagriculture:fire_essence']).id('finality:mysta_mix_soul_sand')
-    event.recipes.createMechanicalCrafting('16x minecraft:soul_sand', [
+    event.recipes.createMixing(Item.of(MC('soul_sand'), 16), [Item.of(MYST('nether_essence'), 8), MYST('fire_essence')]).id('finality:mysta_mix_soul_sand')
+    event.recipes.createMechanicalCrafting(Item.of(MC('soul_sand'), 16), [
         'NNN',
         'NFN',
         'NNN'
