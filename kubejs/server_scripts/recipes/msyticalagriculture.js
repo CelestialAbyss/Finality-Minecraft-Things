@@ -125,7 +125,7 @@ onEvent('recipes', event => {
         ' Q '
     ], {
         S: MYST('stone_essence'),
-        Q: MYST('nether_quartz')
+        Q: MYST('nether_quartz_essence')
     }).id('finality:mysta_mechanical_andesite')
     event.remove({id: 'mysticalagriculture:essence/minecraft/diorite'}) // diorite compacting and mechanical crafting exclusive
     event.recipes.createCompacting(Item.of(MC('diorite'), 16), [Item.of(MYST('stone_essence'), 3), Item.of(MYST('nether_quartz_essence'), 3)]).id('finality:mysta_compacting_diorite')
@@ -135,7 +135,7 @@ onEvent('recipes', event => {
         ' QQ'
     ], {
         S: MYST('stone_essence'),
-        Q: MYST('nether_quartz')
+        Q: MYST('nether_quartz_essence')
     }).id('finality:mysta_mechanical_diorite')
 
     event.remove({id: 'mysticalagriculture:essence/minecraft/granite'}) // granite compacting and mechanical crafting exclusive
@@ -146,7 +146,7 @@ onEvent('recipes', event => {
         ' Q '
     ], {
         S: MYST('stone_essence'),
-        Q: MYST('nether_quartz')
+        Q: MYST('nether_quartz_essence')
     }).id('finality:mysta_mechanical_granite')
 
     event.remove({id: 'mysticalagriculture:essence/minecraft/dripstone'}) // dripstone compacting and mechanical crafting exclusive
@@ -196,8 +196,8 @@ onEvent('recipes', event => {
         'SZS',
         'SSS'
     ], {
-        S: MY('stone_essence'),
-        Z: MY('zinc_essence')
+        S: MYST('stone_essence'),
+        Z: MYST('zinc_essence')
     }).id('finality:mysta_mechanical_asurine')
     event.remove({id: 'mysticalagriculture:essence/create/crimsite'}) // crimsite compacting and mechanical crafting exclusive
     event.recipes.createCompacting(Item.of(C('crimsite'), 16), [Item.of(MYST('stone_essence'), 8), MYST('iron_essence')]).id('finality:mysta_compacting_crimsite')
@@ -304,7 +304,7 @@ onEvent('recipes', event => {
     // miscellaneous
     event.remove({id: 'mysticalagriculture:mystical_fertilizer'})
     event.remove({id: 'mysticalagriculture:mystical_fertilizer_better'})
-    event.recipes.createMixing(Item.of(MYST('mysticalagriculture:mystical_fertilizer'), 4), [Item.of(MYST('inferium_essence'), 4), Item.of(MC('bone_meal'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer')
-    event.recipes.createMixing(Item.of(MYST('mysticalagriculture:mystical_fertilizer'), 8), [Item.of(MYST('inferium_essence'), 4), Item.of(MYST('fertilized_essence'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer_better_eff')
+    event.recipes.createMixing(Item.of(MYST('mystical_fertilizer'), 4), [Item.of(MYST('inferium_essence'), 4), Item.of(MC('bone_meal'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer')
+    event.recipes.createMixing(Item.of(MYST('mystical_fertilizer'), 8), [Item.of(MYST('inferium_essence'), 4), Item.of(MYST('fertilized_essence'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer_better_eff')
 
 })

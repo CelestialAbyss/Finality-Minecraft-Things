@@ -24,19 +24,11 @@ onEvent('jei.hide.items', event => {
 	event.hide('avaritia:amethyst_singularity')
 	event.hide('avaritia:compressor')
 	event.hide('avaritia:neutron_collector')
-	event.hide('projecte:dm_furnace')
-	event.hide('projecte:rm_furnace')
-	event.hide('mysticalagriculture:inferium_furnace')
-	event.hide('mysticalagriculture:prudentium_furnace')
-	event.hide('mysticalagriculture:tertium_furnace')
-	event.hide('mysticalagriculture:imperium_furnace')
-	event.hide('mysticalagriculture:supremium_furnace')
 	event.hide('waystones:warp_plate')
 	event.hide('waystones:warp_dust')
 	event.hide('waystones:attuned_shard')
 	event.hide('pickletweaks:watering_can')
 	event.hide('pickletweaks:reinforced_watering_can')
-	
 })
 
 onEvent('item.tooltip', event => {
@@ -50,8 +42,5 @@ onEvent('item.tooltip', event => {
 			text.add(Component.lightPurple("- Overseers of Finality"))
         }
     }))
-})
-
-onEvent('item.tooltip', tooltip => {
-	tooltip.add(['minecraft:campfire', 'minecraft:soul_campfire'], Text.gold('Can now regenerate health in close proximity.'))
+	event.add(['minecraft:campfire', 'minecraft:soul_campfire'], Text.gold('Can now regenerate health in close proximity.'))
 })

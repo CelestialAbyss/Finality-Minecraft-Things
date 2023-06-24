@@ -1,3 +1,5 @@
+let PRE = (id) => `projecte:${id}`
+let EXT = (id) => `extendedcrafting:${id}`
 onEvent('recipes', event => {
   event.remove({output: 'projecte:philosophers_stone'})
   event.shaped('projecte:philosophers_stone', [
@@ -5,18 +7,18 @@ onEvent('recipes', event => {
     'BCB',
     'ABA'
   ], {
-    A: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:glowstone"}'),
-    B: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:redstone"}'),
-    C: Item.of('extendedcrafting:singularity','{Id:"extendedcrafting:diamond"}')
+    A: Item.of(EXT('singularity'), '{Id:"extendedcrafting:glowstone"}').weakNBT(),
+    B: Item.of(EXT('singularity'), '{Id:"extendedcrafting:redstone"}').weakNBT(),
+    C: Item.of(EXT('singularity'), '{Id:"extendedcrafting:diamond"}').weakNBT()
   }).id('finality:ext_philosophers_stone')
   event.shaped('projecte:philosophers_stone', [
     'BAB',
     'ACA',
     'BAB'
   ], {
-    A: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:glowstone"}'),
-    B: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:redstone"}'),
-    C: Item.of('extendedcrafting:singularity','{Id:"extendedcrafting:diamond"}')
+    A: Item.of(EXT('singularity'), '{Id:"extendedcrafting:glowstone"}').weakNBT(),
+    B: Item.of(EXT('singularity'), '{Id:"extendedcrafting:redstone"}').weakNBT(),
+    C: Item.of(EXT('singularity'), '{Id:"extendedcrafting:diamond"}').weakNBT()
   }).id('finality:ext_philosophers_stone_alt')
   // transmutation stations
   event.remove({id: 'projecte:transmutation_table'})
@@ -25,7 +27,7 @@ onEvent('recipes', event => {
     'ESE',
     'DED'
   ], {
-    D: 'projecte:dark_matter',
+    D: PRE('dark_matter'),
     E: 'extendedcrafting:elite_catalyst',
     S: 'projecte:philosophers_stone'
   }).id('finality:projecte_transmutation_table')

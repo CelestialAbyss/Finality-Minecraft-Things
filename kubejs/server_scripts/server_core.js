@@ -6,11 +6,13 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 onEvent('recipes', event => {
+    event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:tome_of_finality"}'), ['#forge:rods/wooden','#forge:rods/wooden']).id('finality:documentation_book')
     event.remove({id: 'minecraft:redstone_from_smelting_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:redstone_from_smelting_deepslate_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:redstone_from_blasting_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:redstone_from_blasting_deepslate_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:coarse_dirt'})
+    event.remove({id: 'create_sa:hydraulic_engine_recipe'})
     event.remove({output: 'waystones:warp_plate'})
     event.remove({output: 'waystones:attuned_shard'})
     event.remove({output: 'waystones:warp_dust'})
@@ -18,6 +20,6 @@ onEvent('recipes', event => {
     event.remove({id: 'iceandfire:copper_block'})
 })
 
-onEvent('recipes', event => {
-    event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:tome_of_finality"}'),['#forge:rods/wooden','#forge:rods/wooden']).id('finality:documentation_book')
+onEvent('player.inventory.changed', event => {
+    
 })

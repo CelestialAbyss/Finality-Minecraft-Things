@@ -3,9 +3,29 @@
 console.info('Registering Finality items...')
 
 let FIN = (id) => `finality:${id}`
+let C = (id) => `create:${id}`
 let NATR = ['blue_ice', 'sand', 'coarse_dirt', 'cobblestone']
 let CMAT = ['andesite_alloy', 'zinc', 'copper', 'brass', 'rose_quartz', 'framed_glass', 'precision_mechanism', 'sturdy_sheet']
-let DYE = ['white', 'orange', 'magenta', 'light_blue', 'lime', 'pink', 'purple', 'light_gray', 'gray', 'cyan', 'brown', 'green', 'blue', 'red', 'black', 'yellow']
+// let DYE = ['white', 'orange', 'magenta', 'light_blue', 'lime', 'pink', 'purple', 'light_gray', 'gray', 'cyan', 'brown', 'green', 'blue', 'red', 'black', 'yellow']
+// let DISPLAY_COLOR = ['White', 'Orange', 'Magenta', 'Light Blue', 'Lime', 'Pink', 'Purple', 'Light Gray', 'Gray', 'Cyan', 'Brown', 'Green', 'Blue', 'Red', 'Black', 'Yellow']
+let DYE = {
+	black: 'Black',
+	gray: 'Gray',
+	light_gray: 'Light Gray',
+	white: 'White',
+	pink: 'Pink',
+	light_blue: 'Light Blue',
+	brown: 'Brown',
+	red: 'Red',
+	orange: 'Orange',
+	yellow: 'Yellow',
+	lime: 'Lime',
+	green: 'Green',
+	cyan: 'Cyan',
+	blue: 'Blue',
+	purple: 'Purple',
+	magenta: 'Magenta'
+}
 onEvent('item.registry', event => { // Register new items here event.create('example_item').displayName('Example Item')
 	// minecraft core forgot what was supposed to be here
 	// singularity related
@@ -13,11 +33,13 @@ onEvent('item.registry', event => { // Register new items here event.create('exa
 	/*
 	INCOMPLETE SINGULARITIES
 	for use for making a singularity. dormant core to incomplete core to singularity
-	follow format .displayName().texture().maxStackSize(1)
+	follow format .create(FIN(), C(sequenced_assembly)).displayName().texture().maxStackSize(1)
 	*/
-	NATR.forEach(insert => event.create(FIN(`incomplete_${insert}_singularity`)).texture(`finality:item/incomplete_singularities/nature/incomplete_${insert}`).maxStackSize(1))
-	CMAT.forEach(MTRL => event.create(FIN(`incomplete_${MTRL}_singularity`)).texture(`finality:item/incomplete_singularities/incomplete_${MTRL}`).maxStackSize(1))
-	Color.DYE.forEach(color => event.create(FIN(`incomplete_concrete_${color}_singularity`)).texture(`finality:item/incomplete_singularities/concrete/incomplete_concrete_${color}`).maxStackSize(1))
+	NATR.forEach(insert => event.create(FIN(`incomplete_${insert}_singularity`), C('sequenced_assembly')).texture(`finality:item/incomplete_singularities/nature/incomplete_${insert}`).maxStackSize(1))
+	CMAT.forEach(MTRL => event.create(FIN(`incomplete_${MTRL}_singularity`), C('sequenced_assembly')).texture(`finality:item/incomplete_singularities/incomplete_${MTRL}`).maxStackSize(1))
+	Object.keys(DYE).forEach(color => { // replace with Color.DYE.forEach() on 1902+ as the Colors automatically has all 16 MC colors
+		event.create(FIN(`incomplete_concrete_${color}_singularity`), C('sequenced_assembly')).displayName(`§dIncomplete ${DYE[color]} Concrete Singularity`).texture(`finality:item/incomplete_singularities/concrete/incomplete_concrete_${color}`).maxStackSize(1)
+	})
 	/*
 	ACTIVATED SINGULARITY CORES
 	follow format .displayName().texture().maxStackSize(1)
