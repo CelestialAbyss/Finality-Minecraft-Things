@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "As always, please refer to the Ponder viewer for a more thorough explanation and more complete index. $(br2)This entry focuses on some of the most useful Kinetic Appliances such as the following: $(li)Mechanical Press  $(li)Mechanical Mixer $(li)Mechanical Saw "
+            "text": "As always, please refer to the Ponder viewer by hovering your cursor on the items on the page for a more thorough explanation and more complete index. $(br2)The tooltip should appear and have the $(3)Hold [W] to Ponder$() prompt."
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Mechanical Piston $(li)Mechanical Drill $(li)Mechanical Pump $(li)Encased Fan $(li)Deployer $(li)Millstone $(li)Crushing Wheels $(li)Mechanical Crafter $(br)...and more!"
+            "text": "This entry focuses on some of the most useful Kinetic Appliances such as the following: $(li)Mechanical Press  $(li)Mechanical Mixer $(li)Mechanical Saw $(li)Mechanical Piston $(li)Mechanical Drill $(li)Mechanical Pump $(li)Encased Fan $(li)Deployer $(li)Millstone $(li)Crushing Wheels $(li)Mechanical Crafter $(br)...and more!"
         },
         {
             "type": "patchouli:spotlight",
