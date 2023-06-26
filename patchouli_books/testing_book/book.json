@@ -1,0 +1,10 @@
+{
+    "name": "Tome of Testing",
+    "book_texture": "patchouli:textures/gui/book_gray.png",
+    "landing_text": "Welcome to Finality,$(br)$(playername). $(br2)This book serves to guide you through the modpack. $(br2)Notice: The modpack is a work in progress, please frequently check the website for updates.",
+    "model": "patchouli:book_gray",
+    "version": 0,
+    "nameplate_color": "FF55FF",
+    "subtitle": "§kabc§r Edition",
+    "show_progress": false
+}

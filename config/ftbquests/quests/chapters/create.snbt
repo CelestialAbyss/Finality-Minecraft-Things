@@ -62,6 +62,7 @@
 			y: -2.5d
 			shape: "rsquare"
 			subtitle: "Convenient for holding items so they don't despawn."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: [
 				"57A69334C4D4299A"
 				"654CC532C1F17209"
@@ -120,6 +121,7 @@
 			y: -4.0d
 			shape: "rsquare"
 			subtitle: "The Mechanical Press is very useful."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["157C4AD3062BC31A"]
 			id: "62D55614D95E7356"
 			tasks: [
@@ -271,6 +273,7 @@
 		{
 			x: -8.5d
 			y: -7.5d
+			subtitle: "A useful ingredient for logic components and more."
 			dependencies: ["62D55614D95E7356"]
 			id: "00DA4B8905FE3CAF"
 			tasks: [{
@@ -282,6 +285,7 @@
 		{
 			x: -5.0d
 			y: -8.0d
+			subtitle: "A very useful ingredient."
 			dependencies: ["62D55614D95E7356"]
 			id: "75E673394451C2F4"
 			tasks: [{
@@ -295,7 +299,11 @@
 			x: 0.0d
 			y: 4.0d
 			subtitle: "Mechanical Belts are very useful."
-			description: ["Conveyor belts are essential if you want to transport items or want a cheaper alternative to Chain Drives for transferring rotational power (Su) over long distances."]
+			description: [
+				"Conveyor belts are essential if you want to transport items or want a cheaper alternative to Chain Drives for transferring rotational power (Su) over long distances."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["0044994A32BC5631"]
 			id: "3E68ADF888E6E99E"
 			tasks: [{
@@ -337,6 +345,8 @@
 				"Step 3: Right click either the Blaze spawner or a Blaze with an Empty Blaze Burner."
 				""
 				"Step 4: Enjoy your sentient fireplace! Did I mention that they can drive Create's trains too?"
+				""
+				"Hold [w] to Ponder to learn more!"
 			]
 			dependencies: [
 				"78AB1F02F29D15E3"
@@ -355,6 +365,11 @@
 			y: -1.0d
 			shape: "hexagon"
 			subtitle: "You will need more for other purposes."
+			description: [
+				"Blaze Burners are a very reliable heat source."
+				""
+				"Click on the recipe then Hold [w] while hovering on the Blaze Burner to Ponder to learn more."
+			]
 			dependencies: ["031AE396FB6DDD76"]
 			id: "1565E97748B8B342"
 			tasks: [{
@@ -449,6 +464,7 @@
 			x: 1.0d
 			y: 3.5d
 			subtitle: "Splitting items intelligently."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: [
 				"0044994A32BC5631"
 				"5FFC63500CF7754D"
@@ -521,6 +537,7 @@
 			x: 1.5d
 			y: 2.5d
 			subtitle: "Managing items intelligently."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: [
 				"0044994A32BC5631"
 				"5FFC63500CF7754D"
@@ -539,9 +556,11 @@
 			y: -6.5d
 			subtitle: "The smarter Chute."
 			description: [
-				"Smart Chutes have an inventory size of 64 and have the ability to filter items, just not in specific kuantities."
+				"Smart Chutes have an inventory size of 64 and have the ability to filter items, just not in specific quantities."
 				""
 				"Chutes below a connected Smart Chute at the top will also accept a stack size of 64, as long as the items are received through a Smart Chute at the top."
+				""
+				"If you saw kuantities previously, my Q key was broken."
 			]
 			dependencies: [
 				"5CC08ACE604AFED8"
@@ -560,6 +579,7 @@
 		{
 			x: -9.5d
 			y: -5.0d
+			subtitle: "Vertical item transportation!"
 			dependencies: ["770AD4193CC23EA3"]
 			id: "7D7D96030BC1CDC1"
 			tasks: [{
@@ -619,6 +639,11 @@
 			x: -6.5d
 			y: -8.0d
 			subtitle: "Don't stand on it, seriously."
+			description: [
+				"By default, has a maximum range of 32 blocks."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["75E673394451C2F4"]
 			id: "3ED7372ADB1D3FE7"
 			tasks: [{
@@ -677,6 +702,8 @@
 		{
 			x: -8.5d
 			y: -9.0d
+			subtitle: "Achievement unlocked: Busy Hands"
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: [
 				"00DA4B8905FE3CAF"
 				"1406D000426425FC"
@@ -693,6 +720,8 @@
 		{
 			x: -9.5d
 			y: -8.5d
+			subtitle: "A very handy component!"
+			description: ["Used in making the Deployer and Extendo Grip in base Create."]
 			dependencies: ["00DA4B8905FE3CAF"]
 			id: "5DD3DEBA65F73267"
 			tasks: [{
@@ -706,6 +735,11 @@
 			x: -3.5d
 			y: -1.0d
 			subtitle: "Automated pouring!"
+			description: [
+				"You can fully automate potions after being brewed with a Mechanical Mixer."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["0CD722C2B48DF862"]
 			id: "16B642E5E7DBE75D"
 			tasks: [{
@@ -765,6 +799,8 @@
 				"You can use two gearboxes with a shaft in between to make them rotate opposite directions to be able to crush stuff."
 				""
 				"Also, you can place them horizontally to be able to be used in a production line."
+				""
+				"Hold [w] to Ponder to learn more!"
 			]
 			dependencies: ["2FF7795C03DDC67B"]
 			size: 1.5d
@@ -829,6 +865,12 @@
 		{
 			x: 11.5d
 			y: 2.5d
+			subtitle: "Well, what did you expect? You need controls!"
+			description: [
+				"You will also need TWO of them for bi-directionality on your trains. One oriented forwards and one oriented backwards."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["1E0CDA1ED53FACEE"]
 			id: "0D86C2F010562CE2"
 			tasks: [{
@@ -903,6 +945,12 @@
 		{
 			x: -11.5d
 			y: -4.0d
+			subtitle: "I believe I can fly!"
+			description: [
+				"Encased Fans are very useful for a lot of things."
+				""
+				"Hold [w] to Ponder and see how to use them."
+			]
 			dependencies: ["26D176C88B664911"]
 			id: "38E2EE3F3F2C2E6C"
 			tasks: [{
@@ -928,6 +976,8 @@
 			title: "Electron Tube - Part 1"
 			x: 8.0d
 			y: 4.5d
+			subtitle: "Looks like it needs to be polished first before it can be used..."
+			description: ["Time to get to polishing with your Sand Paper!"]
 			dependencies: [
 				"4196F75FB2342B67"
 				"0B28CEE35831A75F"
@@ -944,7 +994,7 @@
 			title: "Electron Tube - Part 2"
 			x: 9.5d
 			y: 4.5d
-			subtitle: "Time to get to polishing!"
+			subtitle: "An important component for smarter things."
 			dependencies: ["4946DBA60513DCE3"]
 			id: "2A56BEC8A6D0E102"
 			tasks: [{
@@ -958,6 +1008,7 @@
 			x: 6.5d
 			y: 4.5d
 			subtitle: "The first step in making Electron Tubes."
+			description: ["Hold [Shift] for a summary on how to use."]
 			dependencies: ["2BDE2710088B452C"]
 			hide: true
 			id: "4196F75FB2342B67"
@@ -1014,6 +1065,8 @@
 		{
 			x: -11.0d
 			y: -5.0d
+			subtitle: "Contraption fluid inventory output and input."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["7D7D96030BC1CDC1"]
 			id: "2A1F1209201F3019"
 			tasks: [{
@@ -1025,6 +1078,8 @@
 		{
 			x: -10.5d
 			y: -6.0d
+			subtitle: "Contraption item inventory output and input."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["7D7D96030BC1CDC1"]
 			id: "6BCDDC8851A0617E"
 			tasks: [{
@@ -1037,6 +1092,7 @@
 			x: -1.5d
 			y: 2.5d
 			subtitle: "The basic funnel with no filtering capabilities. Can only manage 1 item at a time."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["0044994A32BC5631"]
 			id: "5DB5C71834CFBC1D"
 			tasks: [{
@@ -1050,6 +1106,7 @@
 			x: -1.0d
 			y: 3.5d
 			subtitle: "Takes a stack of items and splits off exactly 1 item into an adjacent Mechanical Belt."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["0044994A32BC5631"]
 			id: "280A50D0712F4D78"
 			tasks: [{
@@ -1062,6 +1119,7 @@
 		{
 			x: -7.5d
 			y: -3.0d
+			subtitle: "This is what holds multiple minecarts together."
 			dependencies: ["770AD4193CC23EA3"]
 			id: "4F6A720B7612E455"
 			tasks: [{
@@ -1073,6 +1131,7 @@
 		{
 			x: -8.5d
 			y: -2.5d
+			subtitle: "A required component for the Mechanical Mixer."
 			dependencies: ["770AD4193CC23EA3"]
 			id: "224178669A9DC1DA"
 			tasks: [{
@@ -1084,6 +1143,7 @@
 		{
 			x: -10.0d
 			y: -4.0d
+			subtitle: "How am I supposed to create wind?"
 			dependencies: ["770AD4193CC23EA3"]
 			id: "26D176C88B664911"
 			tasks: [{
@@ -1173,6 +1233,11 @@
 			y: -8.0d
 			shape: "octagon"
 			subtitle: "An engineer's best friend."
+			description: [
+				"Used for rotation and adjustment of certain blocks. Also allows direct inventory pickup on Shift + Right click while looking at a Create related block."
+				""
+				"Hold [Shift] for a summary on how to use."
+			]
 			dependencies: [
 				"76DE1DB31C32A913"
 				"75E673394451C2F4"
@@ -1196,6 +1261,8 @@
 				"I highly recommend fully watching the Ponder tutorials for every item to increase your understanding."
 				""
 				"Hopefully you find yourself enlightened with how much you can do with Create, despite how \"inefficient\" it is compared to other tech mods."
+				""
+				"Remember to Hold [w] to Ponder!"
 			]
 			dependencies: ["4A691BB889286C89"]
 			hide: true
@@ -1211,6 +1278,7 @@
 			x: 1.0d
 			y: -3.5d
 			subtitle: "The Mechanical Piston can't extend without this."
+			description: ["Hold [w] to Ponder for more info."]
 			dependencies: ["57A69334C4D4299A"]
 			id: "1FD38190A8A47E9C"
 			tasks: [{
@@ -1251,7 +1319,7 @@
 		}
 		{
 			title: "The Copper Age"
-			icon: "minecraft:copper_ingot"
+			icon: "create:copper_casing"
 			x: -2.5d
 			y: 0.0d
 			subtitle: "Acquire some basic Copper Age materials."
@@ -1410,6 +1478,11 @@
 			y: -1.0d
 			shape: "hexagon"
 			subtitle: "It has valuables, but you're looking for a Blaze spawner."
+			description: [
+				"Please do not break the first blaze spawner you see!"
+				""
+				"You can make an unlimited amount of Blaze Burners from a single blaze spawner."
+			]
 			dependencies: ["7ED3366AD5222F93"]
 			id: "05A06882A2170564"
 			tasks: [{
@@ -1452,6 +1525,14 @@
 		{
 			x: -4.0d
 			y: -9.0d
+			subtitle: "Magically accessible without direct access!"
+			description: [
+				"Has a default maximum range of 10 blocks."
+				""
+				"Hold Alt to open the Toolbox interface and move your mouse to change selection."
+				""
+				"Hold [Shift] for a summary on how to use."
+			]
 			dependencies: ["75E673394451C2F4"]
 			id: "57D6D3AF17AE4DD1"
 			tasks: [{
@@ -1497,6 +1578,7 @@
 			x: -3.5d
 			y: 1.0d
 			subtitle: "Useful if you want to drain buckets from a milk farm, lava farm and more."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["0CD722C2B48DF862"]
 			id: "60839EAF324E7086"
 			tasks: [{
@@ -1510,6 +1592,7 @@
 			x: 1.5d
 			y: -1.5d
 			subtitle: "It is a very useful redstone component."
+			description: ["Hold [w] to Ponder to learn more!"]
 			dependencies: ["187E2B3FDE19DD4D"]
 			id: "24D7FAA4E3EFAD39"
 			tasks: [{
@@ -1779,7 +1862,11 @@
 			y: 1.0d
 			shape: "rsquare"
 			subtitle: "Need to clear the way?"
-			description: ["Mechanical Rollers are extremely useful when it comes to clearing the way for your new train network."]
+			description: [
+				"Mechanical Rollers are extremely useful when it comes to clearing the way for your new train network."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["2E4CFF3F7A4508AB"]
 			id: "6E890DBBA3FFA4B3"
 			tasks: [{
@@ -1792,7 +1879,11 @@
 			x: 3.0d
 			y: -1.5d
 			subtitle: "This has many uses, trust me."
-			description: ["They can also be used with the Elevator Pulley to designate floors."]
+			description: [
+				"They can also be used with the Elevator Pulley to designate floors."
+				""
+				"Hold [w] to Ponder to learn more!"
+			]
 			dependencies: ["24D7FAA4E3EFAD39"]
 			id: "205BAFFFECA72D1E"
 			tasks: [{

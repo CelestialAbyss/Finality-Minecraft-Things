@@ -1,7 +1,7 @@
 {
-    "name": "Advice for Players",
+    "name": "Advice for Noobs",
     "icon": "minecraft:writable_book",
-    "category": "patchouli:genesis",
+    "category": "patchouli:genesis/introduction",
     "priority": true,
     "sortnum": 2,
     "pages": [

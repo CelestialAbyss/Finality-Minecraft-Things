@@ -162,6 +162,33 @@
 				}
 			]
 		}
+		{
+			title: "Acquire Bronze!"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Mostly used for decorative purposes."
+			dependencies: ["4A691BB889286C89"]
+			hide: true
+			id: "07808A8663E25A0B"
+			tasks: [{
+				id: "136D0DAA0FCC4B79"
+				type: "item"
+				item: "alloyed:bronze_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Mostly for decorative purposes, but can be used to create sounds as well."
+			description: ["Hold [w] to Ponder for more information."]
+			dependencies: ["07808A8663E25A0B"]
+			id: "7B87B6570AF58335"
+			tasks: [{
+				id: "15D08FE7C04C2D5A"
+				type: "item"
+				item: "alloyed:bronze_bell"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -1,7 +1,7 @@
 {
     "name": "Create Deployer Fix",
     "icon": "create:deployer",
-    "category": "patchouli:genesis",
+    "category": "patchouli:genesis/tips",
     "pages": [
         {
             "type": "patchouli:text",

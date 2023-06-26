@@ -1,0 +1,35 @@
+{
+    "name": "Overworld",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:adventure/cataclysm",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Notice:  $(br2)Contains information on the following:$(li)Harbinger $(li)Leviathan"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Go to the next page. I am trying to keep the formatting consistent here..."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:wither",
+            "scale": 0.75,
+            "text": "This is MC 1.18.2, which unfortunately means you won't be able to battle the Harbinger."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "High DPS output. It also doesn't help when the laser beam of death ignores most of your armor!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:elder_guardian",
+            "scale": 0.75,
+            "text": "This is MC 1.18.2, which unfortunately means you won't be able to battle the Leviathan."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "L_Ender is currently working on this boss but has extensively released teasers. Good luck on the underwater boss battle!"
+        }
+    ]
+}

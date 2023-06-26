@@ -1,7 +1,7 @@
 {
     "name": "Known Issues",
     "icon": "botania:cosmetic_questgiver_mark",
-    "category": "patchouli:genesis",
+    "category": "patchouli:genesis/introduction",
     "priority": true,
     "sortnum": 4,
     "pages": [

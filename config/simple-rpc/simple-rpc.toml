@@ -38,7 +38,7 @@
 
 	[[init.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Main Menu event
 [main_menu]
@@ -64,7 +64,7 @@
 
 	[[main_menu.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Server List event
 [server_list]
@@ -90,7 +90,7 @@
 
 	[[server_list.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Realms Screen event
 [realms_list]
@@ -116,7 +116,7 @@
 
 	[[realms_list.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Join Game Event
 [join_game]
@@ -142,7 +142,7 @@
 
 	[[join_game.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Single Player Event
 [single_player]
@@ -168,7 +168,7 @@
 
 	[[single_player.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Multi Player Event
 [multi_player]
@@ -194,7 +194,7 @@
 
 	[[multi_player.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #The Realms Game Event
 [realms]
@@ -220,7 +220,7 @@
 
 	[[realms.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #Fallback event for disabled events
 [generic]
@@ -244,7 +244,7 @@
 
 	[[generic.buttons]]
 		label = "Modpack Wiki"
-		url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+		url = "https://project-vyre.github.io/finality-wiki/"
 
 #Custom Config Variables that you can use
 [custom]
@@ -282,7 +282,7 @@
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Modpack Wiki"
-			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+			url = "https://project-vyre.github.io/finality-wiki/"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -307,7 +307,7 @@
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Modpack Wiki"
-			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+			url = "https://project-vyre.github.io/finality-wiki/"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -332,5 +332,5 @@
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Modpack Wiki"
-			url = "https://github.com/CelestialAbyss/Finality-Minecraft-Things/wiki"
+			url = "https://project-vyre.github.io/finality-wiki/"
 

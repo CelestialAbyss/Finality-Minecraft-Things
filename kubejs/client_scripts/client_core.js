@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
+console.info('Loading Finality client scripts...')
 
 onEvent('jei.hide.items', event => {
 	// Hide items in JEI here
@@ -30,7 +30,26 @@ onEvent('jei.hide.items', event => {
 	event.hide('pickletweaks:watering_can')
 	event.hide('pickletweaks:reinforced_watering_can')
 })
-
+onEvent('jei.information', event => {
+	event.add('mysticalagriculture:fertilized_essence', ['Can only be acquired from Mystical Agriculture crops upon harvesting.', 'Not a guaranteed drop!'])
+	event.add('minecraft:ender_eye', ['There is a certain eye that can only be acquired from enchanting.', 'It is very rare, however.'])
+	event.add('endrem:black_eye', ['Can be found in lost treasure chests.'])
+	event.add('endrem:cold_eye', ['Found in igloos.'])
+	event.add('endrem:corrupted_eye', ['Found in Pillager Outposts.'])
+	event.add('endrem:lost_eye', ['Usually found in Mineshafts.'])
+	event.add('endrem:nether_eye', ['Found in Nether Fortresses.'])
+	event.add('endrem:old_eye', ['Found in Desert Pyramids.'])
+	event.add('endrem:rogue_eye', ['Usually found in Jungle Temples.'])
+	event.add('endrem:cursed_eye', ['Usually found in Bastions.'])
+	event.add('endrem:evil_eye', ['Usually acquired from a Master Cleric.'])
+	event.add('endrem:guardian_eye', ['Usually acquired from slaying Elder Guardians.'])
+	event.add('endrem:magical_eye', ['Acquired from slaying Evokers.'])
+	event.add('endrem:wither_eye', ['Obviously only drops from the Wither.'])
+	event.add('endrem:witch_eye', ['Requires a Witch Pupil to craft.'])
+	event.add('endrem:undead_eye', ['Requires a skeleton horse to be slain in order to acquire the Undead Soul.'])
+	event.add('endrem:undead_soul', ['Acquired from slaying a skeleton horse.'])
+	event.add('endrem:exotic_eye', ['Created by combining multiple exotic ingredients using a Crafting Core.'])
+})
 onEvent('item.tooltip', event => {
 	// Fix provided by Reveter#1305 on latvian.dev
     event.addAdvanced('patchouli:guide_book', ((item, advanced, text) => {

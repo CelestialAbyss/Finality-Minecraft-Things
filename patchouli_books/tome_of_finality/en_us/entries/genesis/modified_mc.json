@@ -1,7 +1,7 @@
 {
     "name": "Modified MC Recipes",
     "icon": "extendedcrafting:basic_table",
-    "category": "patchouli:genesis",
+    "category": "patchouli:genesis/introduction",
     "pages": [
         {
             "type": "patchouli:text",
