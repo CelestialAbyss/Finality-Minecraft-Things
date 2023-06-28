@@ -1,0 +1,6 @@
+{
+    "name": "Sub Category Test",
+    "description": "For all your Patchouli sub-category testing needs.",
+    "icon": "minecraft:obsidian",
+    "parent": "patchouli:test_parent/test_parent"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Connected Glass",
+    "icon": "connectedglass:clear_glass",
+    "category": "patchouli:decoration/glass",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This entry contains a sample of glass blocks from Connected Glass that might better suit your desire for better windows."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "connectedglass:clear_glass",
+            "text": "Flawless and clear. Just don't blame me if you accidentally run into them and break your nose though."
+        }
+    ]
+}

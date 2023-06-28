@@ -23,61 +23,25 @@ onEvent('recipes', event => {
         "type": "extendedcrafting:combination",
         "powerCost": 5000000,
         "powerRate": 4500000,
-        "input": {
-          "item": "extendedcrafting:ender_star"
-        },
+        "input": { "item": "extendedcrafting:ender_star" },
         "ingredients": [
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          },
-          {
-            "item": "mysticalagradditions:insanium_essence"
-          },
-          {
-            "item": "graveyard:corruption"
-          }
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" },
+            { "item": "mysticalagradditions:insanium_essence" },
+            { "item": "graveyard:corruption" }
         ],
-        "result": {
-          "item": "witherstormmod:withered_nether_star"
-        }
+        "result": { "item": "witherstormmod:withered_nether_star" }
     }).id('finality:withered_nether_star')
 })

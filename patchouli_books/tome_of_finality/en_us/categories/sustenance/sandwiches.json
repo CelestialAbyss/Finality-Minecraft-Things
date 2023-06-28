@@ -1,0 +1,6 @@
+{
+    "name": "Sandwich Making",
+    "description": "Everything food related from Create.",
+    "icon": "create:honeyed_apple",
+    "parent": "patchouli:sustenance/sustenance"
+}

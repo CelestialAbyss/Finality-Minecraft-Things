@@ -1,7 +1,7 @@
 {
     "name": "Introduction to Energy",
     "icon": "thermal:energy_cell",
-    "category": "patchouli:technology",
+    "category": "patchouli:technology/energy_intro",
     "pages": [
         {
             "type": "patchouli:text",

@@ -1,0 +1,7 @@
+{
+    "name": "Energy from Thermal",
+    "description": "All things related to energy generation from Thermal Series.",
+    "icon": "minecraft:structure_block",
+    "parent": "patchouli:technology/technology",
+    "sortnum": 2
+}

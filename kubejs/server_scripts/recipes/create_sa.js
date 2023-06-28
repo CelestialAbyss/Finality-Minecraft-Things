@@ -1,6 +1,19 @@
 // A few things I noticed while looking through the JSON recipe, there were multiple instances of minecraft:copper_nugget even though that does not exist.
 // Create crushed ore also does not exist.
+let CS = (id) => `create_sa:${id}`
 onEvent('recipes', event => {
+    event.recipes.createSequencedAssembly([
+        Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:andesite_alloy"}')
+    ], 'finality:dormant_singularity_core', [
+        event.recipes.createFilling([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), Fluid.of('finality:condensed_universal_entropy', 250)]),
+        event.recipes.createDeploying([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), 'create:andesite_alloy_block']),
+        event.recipes.createPressing([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity')]),
+        event.recipes.createDeploying([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity'), 'create:andesite_alloy_block']),
+        event.recipes.createPressing([FIN('incomplete_andesite_alloy_singularity')], [FIN('incomplete_andesite_alloy_singularity')])
+    ]).transitionalItem(CS('incomplete_heat_engine')).loops(3).id('finality:create_sa/heat_engine')
+})
+
+/*
     event.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
@@ -299,8 +312,7 @@ onEvent('recipes', event => {
         ],
         "loops": 3
       }).id('finality:create_sa_steam_engine')
-})
-
+*/
 /* Old JSON recipes directly from create-stuff-additions1.18.2_v2.0.2c.jar
 {
   "type": "create:sequenced_assembly",

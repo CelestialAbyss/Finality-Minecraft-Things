@@ -1,7 +1,7 @@
 {
     "name": "Create: Central Kitchen",
     "icon": "create_central_kitchen:cooking_guide",
-    "category": "patchouli:sustenance",
+    "category": "patchouli:sustenance/create_food",
     "pages": [
         {
             "type": "patchouli:text",
