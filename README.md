@@ -1,4 +1,4 @@
-<p align="center" dir="auto"><a href="https://"><img src="https://i.imgur.com/nMSU04Q.png"></a></p>
+<p align="center" dir="auto"><a href="https://"><img src="https://i.imgur.com/p8ppMcu.png"></a></p>
 
 ### <p align="center" dir="auto"> Hey! This is the 1.18.2 version. </p>
 ### <p align="center" dir="auto">𝌤 Pushing Create to its limits. 𝌤</p>
