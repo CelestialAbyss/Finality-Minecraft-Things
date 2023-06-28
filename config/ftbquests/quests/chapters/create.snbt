@@ -251,6 +251,7 @@
 		{
 			x: -8.5d
 			y: -4.0d
+			subtitle: "A foundational ingredient."
 			dependencies: ["62D55614D95E7356"]
 			id: "770AD4193CC23EA3"
 			tasks: [{
@@ -262,6 +263,7 @@
 		{
 			x: -8.5d
 			y: -0.5d
+			subtitle: "A foundational ingredient."
 			dependencies: ["62D55614D95E7356"]
 			id: "2E386081E5302CF5"
 			tasks: [{
@@ -1778,6 +1780,7 @@
 			x: -5.5d
 			y: 0.0d
 			subtitle: "Gone swimming in the lava oceans of the Nether."
+			description: ["The Netherite Diving gear can only grant full lava immunity when your backtank is filled with SOME pressurized air."]
 			dependencies: ["61624301D1511BB0"]
 			id: "41753F371DB962BC"
 			tasks: [

@@ -200,7 +200,6 @@ onEvent('recipes', event => {
         event.recipes.createPressing(FIN(`incomplete_concrete_${color}_singularity`), FIN(`incomplete_concrete_${color}_singularity`)),
         event.recipes.createPressing(FIN(`incomplete_concrete_${color}_singularity`), FIN(`incomplete_concrete_${color}_singularity`))
     ]).transitionalItem(FIN(`incomplete_concrete_${color}_singularity`)).loops(128).id(`finality:${color}_concrete_singularity`))
-
     // mechanical crafting singularities
     event.recipes.createMechanicalCrafting(Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:amethyst"}'), [
         ' LLLLLLL ',

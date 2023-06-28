@@ -12,7 +12,6 @@ onEvent('recipes', event => {
     event.remove({id: 'minecraft:redstone_from_blasting_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:redstone_from_blasting_deepslate_redstone_ore'}) // cursed recipe
     event.remove({id: 'minecraft:coarse_dirt'})
-    event.remove({id: 'create_sa:hydraulic_engine_recipe'})
     event.remove({output: 'waystones:warp_plate'})
     event.remove({output: 'waystones:attuned_shard'})
     event.remove({output: 'waystones:warp_dust'})
