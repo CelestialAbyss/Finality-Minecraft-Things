@@ -29,7 +29,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Begin to rethink your life choices."
-			description: ["Compress 77 Coal Blocks into a single Coal Singularity."]
+			description: ["Compress some Coal Blocks into a single Coal Singularity."]
 			dependencies: ["71CA0C6C865E6D6B"]
 			id: "21705F9601862862"
 			tasks: [{

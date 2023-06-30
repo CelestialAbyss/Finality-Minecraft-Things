@@ -618,6 +618,7 @@
 		{
 			x: -6.0d
 			y: -9.0d
+			subtitle: "Quite an important component."
 			dependencies: ["75E673394451C2F4"]
 			id: "18B37484A6C7F37E"
 			tasks: [{
@@ -629,6 +630,7 @@
 		{
 			x: -5.0d
 			y: -9.5d
+			subtitle: "It really helps you see Create related info at all times!"
 			dependencies: ["75E673394451C2F4"]
 			id: "328DCAF24F6DF4C5"
 			tasks: [{
@@ -903,6 +905,11 @@
 			x: -1.5d
 			y: -4.5d
 			subtitle: "Refinement on a small scale."
+			description: [
+				"Create's Millstones are very good at refining things."
+				""
+				"You can even get 2-3 sugar for each sugar cane processed!"
+			]
 			dependencies: ["6D8C28D34ABF7636"]
 			id: "79F980EE4DAB682D"
 			tasks: [{
@@ -910,12 +917,20 @@
 				type: "item"
 				item: "create:millstone"
 			}]
-			rewards: [{
-				id: "31D5846AD6B0A65F"
-				type: "item"
-				item: "minecraft:wheat_seeds"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "31D5846AD6B0A65F"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 16
+				}
+				{
+					id: "7BA745B69BC8065A"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Wheat Refinement"
