@@ -168,7 +168,7 @@ onEvent('recipes', event => {
     ]).transitionalItem(FIN('incomplete_framed_glass_singularity')).loops(32).id('finality:framed_glass_singularity')
     event.recipes.createSequencedAssembly([
         Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:precision_mechanism"}').withChance(75.0),
-        Item.of('create:crushed_gold_ore', 16).withChance(25.0),
+        Item.of('create:crushed_raw_gold', 16).withChance(25.0),
         Item.of('create:cogwheel', 32).withChance(25.0),
         Item.of('create:large_cogwheel', 8).withChance(25.0),
         '32x create:precision_mechanism'

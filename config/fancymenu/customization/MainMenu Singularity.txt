@@ -348,17 +348,6 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/assets/images/packtitle.png
-  orientation = top-centered
-  x = -120
-  width = 240
-  action = addtexture
-  actionid = b6ec5dfa-f7b7-4178-a1ad-19e3942797591681757973358
-  y = 60
-  height = 52
-}
-
-customization {
   orientation = top-centered
   basecolor = #b1a0ff
   shadow = true
@@ -371,7 +360,7 @@ customization {
   actionid = 6933b74a-1382-4bf0-9292-fd7ae16d24201679852528355
   action = addsplash
   y = 108
-  text = Now you are thinking with pistons!
+  text = Scientific!
 }
 
 customization {
@@ -379,7 +368,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = https://raw.githubusercontent.com/Project-Vyre/finality-fm-live/main/index.txt
+  source = https://raw.githubusercontent.com/Project-Vyre/finality-fm-live/main/finality.txt
   text_border = 0
   case_mode = normal
   source_mode = web
@@ -519,5 +508,16 @@ customization {
   y = -23
   backgroundnormal = config/fancymenu/assets/images/big_buttons.png
   height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/images/packtitle.png
+  orientation = top-centered
+  x = -203
+  width = 406
+  action = addtexture
+  actionid = 64f8e9cb-85aa-401b-b1dd-432b4c92bfef1688272544204
+  y = 1
+  height = 100
 }
 
