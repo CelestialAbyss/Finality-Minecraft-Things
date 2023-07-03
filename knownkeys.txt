@@ -293,3 +293,13 @@ key.drawMahoujin
 key.changeMysticCode
 key.settingsGUI
 key.selectiveDisplacement
+key.mekanism.mode
+key.mekanism.head_mode
+key.mekanism.chest_mode
+key.mekanism.legs_mode
+key.mekanism.feet_mode
+key.mekanism.details
+key.mekanism.description
+key.mekanism.module_tweaker
+key.mekanism.key_boost
+key.mekanism.key_hud
