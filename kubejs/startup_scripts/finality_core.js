@@ -66,6 +66,8 @@ onEvent('block.registry', event => { // Register new blocks here event.create('e
 })
 onEvent('fluid.registry', event => {
 	event.create('finality:condensed_universal_entropy').thickTexture(0x7800FF).noBucket() // work in progress .stillTexture('finality:block/still_entropy').flowingTexture('finality:block/flowing_entropy')
+	event.create('inferior_infusion_essence').thickTexture(0xACCF00).noBucket()
+	event.create('supreme_infusion_essence').thickTexture(0xFC0000).noBucket()
 })
 // tiers
 onEvent('item.registry.tool_tiers', event => {

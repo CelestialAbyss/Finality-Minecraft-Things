@@ -46,8 +46,18 @@ onEvent('recipes', event => {
     // infusion crystals
     event.remove({id: 'mysticalagriculture:infusion_crystal'})
     event.remove({id: 'mysticalagriculture:master_infusion_crystal'})
-    event.recipes.createMixing(MYST(INFCRYSTAL), [Item.of(MYST('inferium_essence'), 4), Item.of(MYST('prosperity_shard'), 4), MC('diamond')]).id('finality:mysta_infusion_crystal')
-    event.recipes.createMixing(MYST(MASTERCRYS), [Item.of(MYST('supremium_essence'), 4), Item.of(MYST('prosperity_shard'), 4), MYST('supremium_gemstone')]).id('finality:mysta_master_infusion_crystal')
+    event.recipes.createFilling(MYST(INFCRYSTAL), ['diamond', Fluid.of('kubejs:inferior_infusion_essence')]).id('finality:mysta/infusion_crystal')
+    event.recipes.createMixing([Fluid.of('kubejs:inferior_infusion_essence')], [
+        Item.of(MYST('inferium_essence'), 4), 
+        Item.of(MYST('prosperity_shard'), 4), 
+        MC('diamond')
+    ]).id('finality:mysta/infusion_essence')
+    event.recipes.createFilling(MYST(MASTERCRYS), [MYST('supremium_gemstone'), Fluid.of('kubejs:supreme_infusion_essence')]).id('finality:mysta/master_infusion_crystal')
+    event.recipes.createMixing([Fluid.of('kubejs:supreme_infusion_essence', 250)], [
+        Item.of(MYST('supremium_essence'), 4), 
+        Item.of(MYST('prosperity_shard'), 4), 
+        MYST('supremium_gemstone')
+    ]).id('finality:mysta_master_infusion_crystal')
     // renewable prosperity shards
     event.recipes.createCrushing([Item.of(MYST('prosperity_shard')).withChance(0.25), Item.of(MYST('prosperity_seed_base')).withChance(0.0009765625)], MC(CRSDT)).processingTime(250).id('finality:renew_prosperity')
     // redstone
