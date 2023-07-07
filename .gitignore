@@ -39,9 +39,11 @@ minecraftinstance.json
 imgui.ini
 ops.json
 patchouli_data.json
+*.log
 
 # Ignore log files
 hs_err_pid24052.log
 hs_err_pid24512.log
 hs_err_pid29072.log
 
+config/spark/activity.json

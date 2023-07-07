@@ -37,18 +37,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/iGChrUsGEs"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "CelestialAbyss",
-      "uniqueId": "9f1a1123-452e-442f-8741-4b2434abaf74"
-    },
-    "time": 1683512718285,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/JA7zVIWd7L"
-    }
   }
 ]
