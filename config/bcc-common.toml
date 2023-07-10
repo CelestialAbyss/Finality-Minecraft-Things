@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Finality"
 	#The version of the modpack
-	modpackVersion = "06a1f"
+	modpackVersion = "06a2"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
