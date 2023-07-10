@@ -19,22 +19,17 @@
 				"Draconic Revolution is quite a complex mod to get into, even more so with all the modified recipes that have been implemented."
 				""
 				"Good luck, you will need it."
+				""
+				"Unfortunately, the mod's documentation is not currently accessible on 1.18.2 for the time being."
 			]
 			dependencies: ["4A691BB889286C89"]
 			hide: true
 			id: "5145029FC3EC3714"
-			tasks: [
-				{
-					id: "110DC59AD124E7DD"
-					type: "item"
-					item: "draconicevolution:info_tablet"
-				}
-				{
-					id: "1021CF637341BFC8"
-					type: "item"
-					item: "draconicevolution:draconium_dust"
-				}
-			]
+			tasks: [{
+				id: "1021CF637341BFC8"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
 		}
 		{
 			x: 0.0d
@@ -49,7 +44,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["2A9B9C33410BD360"]
 			id: "6D09D6B7700D5A85"
 			tasks: [{
@@ -59,7 +54,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 2.0d
 			dependencies: ["2A9B9C33410BD360"]
 			id: "217BA0E4C0179A50"
@@ -71,7 +66,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.0d
+			y: 6.0d
 			dependencies: ["6D09D6B7700D5A85"]
 			id: "04B1D863B9BB1AAF"
 			tasks: [{

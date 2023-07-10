@@ -38,7 +38,7 @@
 			x: -2.5d
 			y: 1.0d
 			shape: "octagon"
-			subtitle: "Fire into source."
+			subtitle: "Consumes fuel like wood and turns it into source."
 			dependencies: ["0A65D0229666E8DF"]
 			id: "5EAF613F4BA61EBE"
 			tasks: [{
@@ -51,7 +51,7 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "Nature into source."
+			subtitle: "Converts nature into source."
 			dependencies: ["0A65D0229666E8DF"]
 			id: "5882E15A49FBB8FF"
 			tasks: [{
@@ -64,6 +64,7 @@
 			x: -1.5d
 			y: -1.5d
 			shape: "octagon"
+			subtitle: "Converts potions into source."
 			dependencies: ["0A65D0229666E8DF"]
 			id: "0FC81AA4BB68B029"
 			tasks: [{
@@ -76,6 +77,7 @@
 			x: -2.5d
 			y: -1.0d
 			shape: "octagon"
+			subtitle: "Turns life and death of others into source."
 			dependencies: ["0A65D0229666E8DF"]
 			id: "32E55B81059F0729"
 			tasks: [{
@@ -88,6 +90,7 @@
 			x: -1.5d
 			y: 1.5d
 			shape: "octagon"
+			subtitle: "Creates Source from Mushroom related things."
 			dependencies: ["0A65D0229666E8DF"]
 			id: "5BB4178DE5EC747F"
 			tasks: [{

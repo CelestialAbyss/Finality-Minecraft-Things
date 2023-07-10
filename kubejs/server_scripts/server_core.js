@@ -5,6 +5,9 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
+let STONEPLATES = ['stone','polished_blackstone']
+let WOODPLATES = ['oak','spruce','birch','jungle','acacia','dark_oak','crimson','warped']
+
 onEvent('recipes', event => {
     event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:tome_of_finality"}'), [
         '#forge:rods/wooden',
@@ -54,6 +57,26 @@ onEvent('recipes', event => {
         F: 'create:iron_sheet',
         C: '#forge:chests/wooden'
     }).id('finality:hopper')
+    STONEPLATES.forEach(stone => {
+		event.recipes.create.cutting([`${stone}_pressure_plate`, `${stone}_slab`], `${stone}`).id(`minecraft:${stone}_pressure_plate`)
+	})
+	WOODPLATES.forEach(wood => {
+		event.recipes.create.cutting([`${wood}_pressure_plate`, `${wood}_slab`], `${wood}_planks`).id(`minecraft:${wood}_pressure_plate`)
+	})
+	event.shaped('light_weighted_pressure_plate', [
+		'G',
+		'R'
+	], {
+		G: 'create:golden_sheet',
+		R: 'redstone'
+	}).id('minecraft:light_weighted_pressure_plate')
+	event.shaped('heavy_weighted_pressure_plate', [
+		'G',
+		'R'
+	], {
+		G: 'create:iron_sheet',
+		R: 'redstone'
+	}).id('minecraft:heavy_weighted_pressure_plate')
 })
 /* Work in progress.
 onEvent('player.inventory.changed', event => {

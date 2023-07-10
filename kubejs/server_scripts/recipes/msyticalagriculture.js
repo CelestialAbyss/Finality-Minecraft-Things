@@ -126,7 +126,6 @@ onEvent('recipes', event => {
     event.remove({id: 'mysticalagriculture:essence/minecraft/cobblestone'}) // just use a cobble generator lol
     event.remove({id: 'mysticalagriculture:essence/minecraft/stone'}) // compacting exclusive
     event.recipes.createCompacting(Item.of(MC('stone'), 24), [Item.of(MYST('stone_essence'), 9)]).id('finality:mysta_compacting_stone')
-
     event.remove({id: 'mysticalagriculture:essence/minecraft/andesite'}) // andesite compacting and mechanical crafting exclusive
     event.recipes.createCompacting(Item.of(MC('andesite'), 16), [Item.of(MYST('stone_essence'), 4), MYST('nether_quartz_essence')]).id('finality:mysta_compacting_andesite')
     event.recipes.createMechanicalCrafting('16x minecraft:andesite', [
@@ -147,7 +146,6 @@ onEvent('recipes', event => {
         S: MYST('stone_essence'),
         Q: MYST('nether_quartz_essence')
     }).id('finality:mysta_mechanical_diorite')
-
     event.remove({id: 'mysticalagriculture:essence/minecraft/granite'}) // granite compacting and mechanical crafting exclusive
     event.recipes.createCompacting(Item.of(MC('granite'), 16), [Item.of(MYST('stone_essence'), 4), Item.of(MYST('nether_quartz_essence'), 2)]).id('finality:mysta_compacting_granite')
     event.recipes.createMechanicalCrafting('16x minecraft:granite', [
@@ -158,7 +156,6 @@ onEvent('recipes', event => {
         S: MYST('stone_essence'),
         Q: MYST('nether_quartz_essence')
     }).id('finality:mysta_mechanical_granite')
-
     event.remove({id: 'mysticalagriculture:essence/minecraft/dripstone'}) // dripstone compacting and mechanical crafting exclusive
     event.recipes.createCompacting(Item.of(MC('dripstone_block'), 16), [Item.of(MYST('stone_essence'), 4), MYST('water_essence')])
     event.recipes.createMechanicalCrafting(Item.of(MC('dripstone_block'), 16), [
@@ -266,7 +263,7 @@ onEvent('recipes', event => {
         P: MYST('prismarine_essence'),
         N: MC('nautilus_shell')
     })
-    
+    event.recipes.createCompacting('6x iron_ingot', [Item.of(MYST('iron_essence'), 9)])
     // machine frame related
     event.remove({id: 'mysticalagriculture:machine_frame'})
     event.remove({id: 'mysticalagriculture:soul_extractor'})
@@ -316,5 +313,4 @@ onEvent('recipes', event => {
     event.remove({id: 'mysticalagriculture:mystical_fertilizer_better'})
     event.recipes.createMixing(Item.of(MYST('mystical_fertilizer'), 4), [Item.of(MYST('inferium_essence'), 4), Item.of(MC('bone_meal'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer')
     event.recipes.createMixing(Item.of(MYST('mystical_fertilizer'), 8), [Item.of(MYST('inferium_essence'), 4), Item.of(MYST('fertilized_essence'), 4), MC('diamond')]).id('finality:mysta_mystical_fertilizer_better_eff')
-
 })

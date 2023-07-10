@@ -6,6 +6,7 @@ let FIN = (id) => `finality:${id}`
 let C = (id) => `create:${id}`
 let NATR = ['blue_ice', 'sand', 'coarse_dirt', 'cobblestone']
 let CMAT = ['andesite_alloy', 'zinc', 'copper', 'brass', 'rose_quartz', 'framed_glass', 'precision_mechanism', 'sturdy_sheet']
+let MEKCTRLCIRCUITS = ['advanced_control_circuit','elite_control_circuit','ultimate_control_circuit']
 // let DYE = ['white', 'orange', 'magenta', 'light_blue', 'lime', 'pink', 'purple', 'light_gray', 'gray', 'cyan', 'brown', 'green', 'blue', 'red', 'black', 'yellow']
 // let DISPLAY_COLOR = ['White', 'Orange', 'Magenta', 'Light Blue', 'Lime', 'Pink', 'Purple', 'Light Gray', 'Gray', 'Cyan', 'Brown', 'Green', 'Blue', 'Red', 'Black', 'Yellow']
 let DYE = {
@@ -35,11 +36,12 @@ onEvent('item.registry', event => { // Register new items here event.create('exa
 	for use for making a singularity. dormant core to incomplete core to singularity
 	follow format .create(FIN(), C(sequenced_assembly)).displayName().texture().maxStackSize(1)
 	*/
-	NATR.forEach(insert => event.create(FIN(`incomplete_${insert}_singularity`), C('sequenced_assembly')).texture(`finality:item/incomplete_singularities/nature/incomplete_${insert}`).maxStackSize(1))
-	CMAT.forEach(MTRL => event.create(FIN(`incomplete_${MTRL}_singularity`), C('sequenced_assembly')).texture(`finality:item/incomplete_singularities/incomplete_${MTRL}`).maxStackSize(1))
+	NATR.forEach(insert => event.create(`finality:incomplete_${insert}_singularity`, 'create:sequenced_assembly').texture(`kubejs:item/incomplete_singularities/nature/incomplete_${insert}`).maxStackSize(1))
+	CMAT.forEach(MTRL => event.create(`finality:incomplete_${MTRL}_singularity`, 'create:sequenced_assembly').texture(`kubejs:item/incomplete_singularities/incomplete_${MTRL}`).maxStackSize(1))
 	Object.keys(DYE).forEach(color => { // replace with Color.DYE.forEach() on 1902+ as the Colors automatically has all 16 MC colors
-		event.create(FIN(`incomplete_concrete_${color}_singularity`), C('sequenced_assembly')).displayName(`§dIncomplete ${DYE[color]} Concrete Singularity`).texture(`finality:item/incomplete_singularities/concrete/incomplete_concrete_${color}`).maxStackSize(1)
+		event.create(FIN(`incomplete_concrete_${color}_singularity`), C('sequenced_assembly')).displayName(`§dIncomplete ${DYE[color]} Concrete Singularity`).texture(`kubejs:item/incomplete_singularities/concrete/incomplete_concrete_${color}`).maxStackSize(1)
 	})
+	MEKCTRLCIRCUITS.forEach(circuit => event.create(`incomplete_${circuit}`, 'create:sequenced_assembly').texture(`kubejs:item/mekanism_related/incomplete_${circuit}`).maxStackSize(1))
 	/*
 	ACTIVATED SINGULARITY CORES
 	follow format .displayName().texture().maxStackSize(1)

@@ -303,3 +303,4 @@ key.mekanism.description
 key.mekanism.module_tweaker
 key.mekanism.key_boost
 key.mekanism.key_hud
+key.modernfix.config

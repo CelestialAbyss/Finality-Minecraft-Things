@@ -8,6 +8,7 @@ onEvent('recipes', event => {
     event.remove({id: 'create_sa:hydraulic_engine_recipe'})
     event.remove({id: 'create_sa:heat_engine_recipe'})
     event.remove({id: 'create_sa:steam_engine_recipe'})
+    event.remove({id: 'create_sa:book_and_quill_haunting'})
     event.recipes.createSequencedAssembly([
         Item.of(CS('heat_engine')).withChance(180.0),
         Item.of(C('copper_sheet')).withChance(8.0),

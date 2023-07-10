@@ -62,8 +62,10 @@
 			}]
 		}
 		{
+			title: "Craft the Metallurgic Infuser"
 			x: 0.0d
 			y: 1.5d
+			subtitle: "An entry."
 			dependencies: ["4A691BB889286C89"]
 			hide: true
 			id: "1A3F894104E0DA26"
@@ -104,6 +106,39 @@
 				id: "480B2321CD964D77"
 				type: "item"
 				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["735349C3AB22DD2F"]
+			id: "548C57B69E1B5E9D"
+			tasks: [{
+				id: "0B4DE6E1D3BBDD40"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["548C57B69E1B5E9D"]
+			id: "1952C55877A0C46A"
+			tasks: [{
+				id: "65C64C1168437088"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["1952C55877A0C46A"]
+			id: "6BA7B1236EB8152A"
+			tasks: [{
+				id: "504CF636BCAB27EC"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
 			}]
 		}
 	]

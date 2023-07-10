@@ -202,7 +202,7 @@
 			description: [
 				"So if you wish for the fight against the Wither Storm to have ANY value, play on the 1.18.2 variant of this modpack."
 				""
-				"The Withered Beacon will only exist on 1.19.3 and 1.18.2 from what can be concluded. - CelestialAbyss"
+				"The Withered Beacon will only exist on 1.19.3, 1.18.2 and newer versions from what can be concluded. - CelestialAbyss"
 			]
 			dependencies: ["4A691BB889286C89"]
 			hide: true

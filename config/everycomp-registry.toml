@@ -151,9 +151,6 @@
 		umbran = true
 		hellbark = true
 
-	[wood_type.enlightened_end]
-		congealed = true
-
 	[wood_type.tconstruct]
 		greenheart = true
 		skyroot = true

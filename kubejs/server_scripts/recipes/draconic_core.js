@@ -87,8 +87,44 @@ onEvent('recipes', event => {
         E: 'draconicevolution:draconic_energy_core',
         C: 'draconicevolution:awakened_core'
     }).id('finality:draconicevo/chaotic_energy_core')
+    event.remove({id: 'draconicevolution:reactor_prt_stab_frame'})
+    event.recipes.create.mechanicalCrafting('draconicevolution:reactor_prt_stab_frame', [
+        'IIIII',
+        'I    ',
+        'CA   ',
+        'I    ',
+        'IIIII'
+    ], {
+        A: 'draconicevolution:awakened_draconium_ingot',
+        C: 'draconicevolution:wyvern_core',
+        I: 'create:industrial_iron_block'
+    }).id('finality:draconicevo/reactor_stabilizer_frame')
+    event.remove({id: 'draconicevolution:reactor_prt_rotor_full'})
+    event.recipes.create.mechanicalCrafting('draconicevolution:reactor_prt_rotor_full', [
+        ' OOOO',
+        'DIIII',
+        'CD   ',
+        'DIIII',
+        ' OOOO'
+    ], {
+        C: 'draconicevolution:wyvern_core',
+        D: 'draconicevolution:draconium_ingot',
+        I: 'draconicevolution:reactor_prt_in_rotor',
+        O: 'draconicevolution:reactor_prt_out_rotor'
+    }).id('finality:draconicevo/reactor_stabilizer_rotor_assembly')
+    event.recipes.create.mechanicalCrafting('draconicevolution:reactor_prt_rotor_full', [
+        ' DCD ',
+        'OIDIO',
+        'OI IO',
+        'OI IO',
+        'OI IO'
+    ], {
+        C: 'draconicevolution:wyvern_core',
+        D: 'draconicevolution:draconium_ingot',
+        I: 'draconicevolution:reactor_prt_in_rotor',
+        O: 'draconicevolution:reactor_prt_out_rotor'
+    }).id('finality:draconicevo/reactor_stabilizer_rotor_assembly_vertical')
     // mystical agriculture modifications
     event.remove({id: 'mysticalagriculture:essence/draconicevolution/draconium_ingot'})
     event.recipes.createCompacting('draconicevolution:draconium_ingot', ['9x mysticalagriculture:draconium_essence']).id('finality:draconicevo/draconium_ingot')
-
 })
