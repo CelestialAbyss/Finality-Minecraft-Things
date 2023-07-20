@@ -56,12 +56,18 @@ onEvent('recipes', event => {
     ],{
         F: 'create:iron_sheet',
         C: '#forge:chests/wooden'
-    }).id('finality:hopper')
-    STONEPLATES.forEach(stone => {
-		event.recipes.create.cutting([`${stone}_pressure_plate`, `${stone}_slab`], `${stone}`).id(`minecraft:${stone}_pressure_plate`)
+    }).id('minecraft:hopper')
+	STONEPLATES.forEach(stone => {
+		event.stonecutting(`${stone}_pressure_plate`, `${stone}_slab`).id(`minecraft:${stone}_pressure_plate`)
 	})
 	WOODPLATES.forEach(wood => {
-		event.recipes.create.cutting([`${wood}_pressure_plate`, `${wood}_slab`], `${wood}_planks`).id(`minecraft:${wood}_pressure_plate`)
+		event.stonecutting(`${wood}_pressure_plate`, `${wood}_slab`).id(`minecraft:${wood}_pressure_plate`)
+	})
+	STONEPLATES.forEach(stone => {
+		event.recipes.create.cutting([`${stone}_pressure_plate`, `${stone}_slab`], `${stone}`).id(`finality:${stone}_pressure_plate`)
+	})
+	WOODPLATES.forEach(wood => {
+		event.recipes.create.cutting([`${wood}_pressure_plate`, `${wood}_slab`], `${wood}_planks`).id(`finality:${wood}_pressure_plate`)
 	})
 	event.shaped('light_weighted_pressure_plate', [
 		'G',
